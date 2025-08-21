@@ -1,0 +1,102 @@
+[
+  {
+    "rank": 1,
+    "score": 22.7546,
+    "r7": "A",
+    "r8": "T",
+    "r20": "I",
+    "keystream_27": "YYGCKAZATMUYKLGKORNAIBLZCDC",
+    "berlin_clock_window": "IOFIBERLINCLOCKOFSLXU",
+    "plaintext": "QDEPKOYONVANRHIBUOOBOEASTNORTHEASTOAKZSIYKIENXZRVPUHHJWFCYMIOFIBERLINCLOCKOFSLXURLEXGWKVHBOAGARUH"
+  },
+  {
+    "rank": 2,
+    "score": 22.7546,
+    "r7": "A",
+    "r8": "G",
+    "r20": "I",
+    "keystream_27": "YYGCKAZAGMUYKLGKORNAIBLZCDC",
+    "berlin_clock_window": "IOFVBERLINCLOCKOFSLXU",
+    "plaintext": "QDEPKOYOAVANRHIBUOOBEEASTNORTHEASTONKZSIYKIENXZRVPUHHJWFCYMIOFVBERLINCLOCKOFSLXURLEXGWKVHOOAGARUH"
+  },
+  {
+    "rank": 3,
+    "score": 22.7546,
+    "r7": "A",
+    "r8": "B",
+    "r20": "I",
+    "keystream_27": "YYGCKAZABMUYKLGKORNAIBLZCDC",
+    "berlin_clock_window": "IOFABERLINCLOCKOFSLXU",
+    "plaintext": "QDEPKOYOFVANRHIBUOOBUEASTNORTHEASTOSKZSIYKIENXZRVPUHHJWFCYMIOFABERLINCLOCKOFSLXURLEXGWKVHTOAGARUH"
+  },
+  {
+    "rank": 4,
+    "score": 22.5485,
+    "r7": "A",
+    "r8": "O",
+    "r20": "I",
+    "keystream_27": "YYGCKAZAOMUYKLGKORNAIBLZCDC",
+    "berlin_clock_window": "IOFNBERLINCLOCKOFSLXU",
+    "plaintext": "QDEPKOYOSVANRHIBUOOBEEASTNORTHEASTOFKZSIYKIENXZRVPUHHJWFCYMIOFNBERLINCLOCKOFSLXURLEXGWKVHGOAGARUH"
+  },
+  {
+    "rank": 5,
+    "score": 20.9546,
+    "r7": "A",
+    "r8": "T",
+    "r20": "F",
+    "keystream_27": "YYGCKAZATMUYKLGKORNAFBLZCDC",
+    "berlin_clock_window": "IOFIBERLINCLOCKRFSLXU",
+    "plaintext": "QDEPKOYONVANRHIBUOOBOEASTNORTHEASTOAKZSIYKIENXZUVPUHHJWFCYMIOFIBERLINCLOCKRFSLXURLEXGWKVHBOAGARUH"
+  },
+  {
+    "rank": 6,
+    "score": 20.9546,
+    "r7": "A",
+    "r8": "G",
+    "r20": "F",
+    "keystream_27": "YYGCKAZAGMUYKLGKORNAFBLZCDC",
+    "berlin_clock_window": "IOFVBERLINCLOCKRFSLXU",
+    "plaintext": "QDEPKOYOAVANRHIBUOOBEEASTNORTHEASTONKZSIYKIENXZUVPUHHJWFCYMIOFVBERLINCLOCKRFSLXURLEXGWKVHOOAGARUH"
+  },
+  {
+    "rank": 7,
+    "score": 20.9546,
+    "r7": "A",
+    "r8": "B",
+    "r20": "F",
+    "keystream_27": "YYGCKAZABMUYKLGKORNAFBLZCDC",
+    "berlin_clock_window": "IOFABERLINCLOCKRFSLXU",
+    "plaintext": "QDEPKOYOFVANRHIBUOOBUEASTNORTHEASTOSKZSIYKIENXZUVPUHHJWFCYMIOFABERLINCLOCKRFSLXURLEXGWKVHTOAGARUH"
+  },
+  {
+    "rank": 8,
+    "score": 20.9485,
+    "r7": "A",
+    "r8": "T",
+    "r20": "P",
+    "keystream_27": "YYGCKAZATMUYKLGKORNAPBLZCDC",
+    "berlin_clock_window": "IOFIBERLINCLOCKHFSLXU",
+    "plaintext": "QDEPKOYONVANRHIBUOOBOEASTNORTHEASTOAKZSIYKIENXZKVPUHHJWFCYMIOFIBERLINCLOCKHFSLXURLEXGWKVHBOAGARUH"
+  },
+  {
+    "rank": 9,
+    "score": 20.9485,
+    "r7": "A",
+    "r8": "G",
+    "r20": "P",
+    "keystream_27": "YYGCKAZAGMUYKLGKORNAPBLZCDC",
+    "berlin_clock_window": "IOFVBERLINCLOCKHFSLXU",
+    "plaintext": "QDEPKOYOAVANRHIBUOOBHEASTNORTHEASTONKZSIYKIENXZKVPUHHJWFCYMIOFVBERLINCLOCKHFSLXURLEXGWKVHOOAGARUH"
+  },
+  {
+    "rank": 10,
+    "score": 20.9485,
+    "r7": "A",
+    "r8": "B",
+    "r20": "P",
+    "keystream_27": "YYGCKAZABMUYKLGKORNAPBLZCDC",
+    "berlin_clock_window": "IOFABERLINCLOCKHFSLXU",
+    "plaintext": "QDEPKOYOFVANRHIBUOOBHEASTNORTHEASTOSKZSIYKIENXZKVPUHHJWFCYMIOFABERLINCLOCKHFSLXURLEXGWKVHTOAGARUH"
+  }
+]
