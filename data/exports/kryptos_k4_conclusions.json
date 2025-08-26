@@ -1,0 +1,18 @@
+{
+  "status": "period-27 supported",
+  "unknown_residues": [
+    "r7",
+    "r8",
+    "r20"
+  ],
+  "eliminated": [
+    "clock lamp-count mapping",
+    "tableau pointer walk",
+    "periods 2-26"
+  ],
+  "still_open": [
+    "period 28/29",
+    "route-transposition layer",
+    "YAR/extra-L as cadence cues"
+  ]
+}
