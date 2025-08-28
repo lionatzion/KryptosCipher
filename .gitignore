@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment
+.env
+.venv
+env/
+venv/
+ENV/
+VENV/
+
+# Output files
+out/
+*.csv
+*.json
+*.txt
+!/k4_ciphertext.txt
+!/README.md
+!/README_K4_exports.md
+!/README_K4_exports.txt
+!/README_KryptosK4.md
+!/RUN_GUIDE.md
+!/Top_5_K4_candidates_with_highlighted_phrases.csv
+!/analysis.md
+!/hypothesis.md
+!/k4_top100_candidates_light.csv
+!/k4_top10_summary.json
+!/kryptos_k4_top100_period27_quadgram_composite.csv
+!/kryptos_k4_top50_period27.csv
+!/manifest.csv
+!/data/exports/DEAD_ENDS.md
+!/data/exports/NOTES_README.md
+!/data/exports/k4_top100_candidates_light.csv
+!/data/exports/k4_top10_summary.json
+!/data/exports/kryptos_k4_conclusions.json
+!/notebooks/README.md
