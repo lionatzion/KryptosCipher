@@ -1,0 +1,18 @@
+test_all_affine_systems_roundtrip_and_tamper (test_astra_research.ExactArithmeticTests.test_all_affine_systems_roundtrip_and_tamper) ... ok
+test_canonical_inputs (test_astra_research.ExactArithmeticTests.test_canonical_inputs) ... ok
+test_crt_solver_matches_bruteforce_nonunit_matrix (test_astra_research.ExactArithmeticTests.test_crt_solver_matches_bruteforce_nonunit_matrix) ... ok
+test_feedback_synthetic_controls_all_signs_and_alphabets (test_astra_research.ExactArithmeticTests.test_feedback_synthetic_controls_all_signs_and_alphabets) ... ok
+test_p27_fit_is_vacuous_for_any_observations (test_astra_research.ExactArithmeticTests.test_p27_fit_is_vacuous_for_any_observations) ... ok
+test_phase_is_relabeling_in_existing_code (test_astra_research.ExactArithmeticTests.test_phase_is_relabeling_in_existing_code) ... ok
+test_phased_cli_records_reproducible_phase (test_astra_research.ExactArithmeticTests.test_phased_cli_records_reproducible_phase) ... ok
+test_progressive_positive_control (test_astra_research.ExactArithmeticTests.test_progressive_positive_control) ... ok
+test_recurrence_cap_does_not_claim_elimination (test_astra_research.ExactArithmeticTests.test_recurrence_cap_does_not_claim_elimination) ... ok
+test_recurrence_recovers_hidden_control (test_astra_research.ExactArithmeticTests.test_recurrence_recovers_hidden_control) ... ok
+test_scoring_does_not_reward_cribs_or_windows_touching_them (test_astra_research.ExactArithmeticTests.test_scoring_does_not_reward_cribs_or_windows_touching_them) ... ok
+test_sculpture_streams_and_known_key_positive_controls (test_astra_research.ExactArithmeticTests.test_sculpture_streams_and_known_key_positive_controls) ... ok
+test_short_period_conflict_and_long_period_collision_gap (test_astra_research.ExactArithmeticTests.test_short_period_conflict_and_long_period_collision_gap) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.030s
+
+OK

@@ -1,4 +1,27 @@
-# KryptosCipher — K4 period‑27 baseline workspace
+# KryptosCipher — K4 research workspace
+
+**2026-10-07 Astra audit:** K4 remains unsolved in this repository. The period-27
+scaffold below is a historical hypothesis, not an established cipher structure:
+its 24 known letters constrain 24 different residues and perform zero independent
+repeat checks. Phase changes do not constitute transposition experiments.
+
+Read [the evidence report](docs/ASTRA_K4_REPORT_2026-10-07.md) for corrected findings,
+bounded new experiments, exact scopes, and remaining uncertainties. Reproduce the
+new work using standard-library Python, without installing dependencies:
+
+```bash
+python3 -m unittest discover -s tests -v
+python3 -m research.run_astra
+```
+
+The [next research steps](docs/NEXT_STEPS.md) explain what the archive sale changes,
+why the old period-27 track should be deprioritized, and which new hypotheses can
+be tested without fitting a desired plaintext.
+
+The older exports and notes below are retained for provenance. Their claims are
+superseded where the audit identifies unsupported conclusions.
+
+## Historical period-27 baseline
 
 This repository tracks a **constraint‑driven** search for a period‑27 Vigenère‑style keystream on Kryptos K4, with reproducible scripts, notebooks, and exports.
 
