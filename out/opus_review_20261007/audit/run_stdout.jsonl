@@ -1,0 +1,16 @@
+{"task": "inputs", "seconds": 0.0, "output": "out/opus_review_20261007/audit/inputs.json"}
+{"task": "period27", "seconds": 0.0, "output": "out/opus_review_20261007/audit/period27.json"}
+{"task": "legacy_exports", "seconds": 0.08, "output": "out/opus_review_20261007/audit/legacy_exports.json"}
+{"task": "period_ladder", "seconds": 0.01, "output": "out/opus_review_20261007/audit/period_ladder.json"}
+{"task": "progressive", "seconds": 0.93, "output": "out/opus_review_20261007/audit/progressive.json"}
+{"task": "feedback", "seconds": 0.25, "output": "out/opus_review_20261007/audit/feedback.json"}
+{"task": "recurrence", "seconds": 9.07, "output": "out/opus_review_20261007/audit/recurrence.json"}
+{"task": "running_key", "seconds": 2.83, "output": "out/opus_review_20261007/audit/running_key.json"}
+{"task": "planted", "seconds": 13.73, "output": "out/opus_review_20261007/audit/planted.json"}
+{"task": "identifiability", "seconds": 4.31, "output": "out/opus_review_20261007/audit/identifiability.json"}
+{"task": "gromark_bean", "seconds": 0.68, "output": "out/opus_review_20261007/audit/gromark_bean.json"}
+{"task": "transcription_shift", "seconds": 16.36, "output": "out/opus_review_20261007/audit/transcription_shift.json"}
+{"task": "english_running_key", "seconds": 0.39, "output": "out/opus_review_20261007/audit/english_running_key.json"}
+{"task": "ic_period", "seconds": 1.88, "output": "out/opus_review_20261007/audit/ic_period.json"}
+{"task": "english_running_key", "seconds": 0.4, "output": "out/opus_review_20261007/audit/english_running_key.json"}
+{"task": "width_bigrams", "seconds": 1.17, "output": "out/opus_review_20261007/audit/width_bigrams.json"}

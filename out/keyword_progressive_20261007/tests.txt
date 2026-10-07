@@ -1,0 +1,34 @@
+test_all_affine_systems_roundtrip_and_tamper (test_astra_research.ExactArithmeticTests.test_all_affine_systems_roundtrip_and_tamper) ... ok
+test_canonical_inputs (test_astra_research.ExactArithmeticTests.test_canonical_inputs) ... ok
+test_crt_solver_matches_bruteforce_nonunit_matrix (test_astra_research.ExactArithmeticTests.test_crt_solver_matches_bruteforce_nonunit_matrix) ... ok
+test_feedback_synthetic_controls_all_signs_and_alphabets (test_astra_research.ExactArithmeticTests.test_feedback_synthetic_controls_all_signs_and_alphabets) ... ok
+test_p27_fit_is_vacuous_for_any_observations (test_astra_research.ExactArithmeticTests.test_p27_fit_is_vacuous_for_any_observations) ... ok
+test_phase_is_relabeling_in_existing_code (test_astra_research.ExactArithmeticTests.test_phase_is_relabeling_in_existing_code) ... ok
+test_phased_cli_records_reproducible_phase (test_astra_research.ExactArithmeticTests.test_phased_cli_records_reproducible_phase) ... ok
+test_progressive_positive_control (test_astra_research.ExactArithmeticTests.test_progressive_positive_control) ... ok
+test_recurrence_cap_does_not_claim_elimination (test_astra_research.ExactArithmeticTests.test_recurrence_cap_does_not_claim_elimination) ... ok
+test_recurrence_recovers_hidden_control (test_astra_research.ExactArithmeticTests.test_recurrence_recovers_hidden_control) ... ok
+test_scoring_does_not_reward_cribs_or_windows_touching_them (test_astra_research.ExactArithmeticTests.test_scoring_does_not_reward_cribs_or_windows_touching_them) ... ok
+test_sculpture_streams_and_known_key_positive_controls (test_astra_research.ExactArithmeticTests.test_sculpture_streams_and_known_key_positive_controls) ... ok
+test_short_period_conflict_and_long_period_collision_gap (test_astra_research.ExactArithmeticTests.test_short_period_conflict_and_long_period_collision_gap) ... ok
+test_filter_matches_all_drift_scalar_enumeration (test_keyword_progressive.ProgressiveKeywordTests.test_filter_matches_all_drift_scalar_enumeration) ... ok
+test_phase_changes_are_absorbed_in_free_base (test_keyword_progressive.ProgressiveKeywordTests.test_phase_changes_are_absorbed_in_free_base) ... ok
+test_tampering_rejects_original_parameters (test_keyword_progressive.ProgressiveKeywordTests.test_tampering_rejects_original_parameters) ... ok
+test_bean_relations (test_opus_review.CoreTests.test_bean_relations) ... ok
+test_gromark_counts_match_bean_2021 (test_opus_review.CoreTests.test_gromark_counts_match_bean_2021) ... ok
+test_inputs_match_astra (test_opus_review.CoreTests.test_inputs_match_astra) ... ok
+test_keyword_alphabets (test_opus_review.CoreTests.test_keyword_alphabets) ... ok
+test_period_ladder_examples (test_opus_review.CoreTests.test_period_ladder_examples) ... ok
+test_quagmire_solver_accepts_fixed_tableaux_and_beaufort (test_opus_review.CoreTests.test_quagmire_solver_accepts_fixed_tableaux_and_beaufort) ... ok
+test_quagmire_solver_never_rejects_a_planted_instance (test_opus_review.CoreTests.test_quagmire_solver_never_rejects_a_planted_instance) ... ok
+test_recurrence_brute_force_finds_planted (test_opus_review.CoreTests.test_recurrence_brute_force_finds_planted) ... ok
+test_sculpture_texts (test_opus_review.CoreTests.test_sculpture_texts) ... ok
+test_gromark_full_key_inverts_recurrence (test_opus_review.KeywordTableauTests.test_gromark_full_key_inverts_recurrence) ... ok
+test_planted_periodic_and_gromark (test_opus_review.KeywordTableauTests.test_planted_periodic_and_gromark) ... ok
+test_real_k1_k2_controls (test_opus_review.KeywordTableauTests.test_real_k1_k2_controls) ... ok
+test_round_trip_all_signs (test_opus_review.KeywordTableauTests.test_round_trip_all_signs) ... ok
+
+----------------------------------------------------------------------
+Ran 29 tests in 9.411s
+
+OK

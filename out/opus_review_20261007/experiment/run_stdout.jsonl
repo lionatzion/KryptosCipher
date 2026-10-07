@@ -1,0 +1,6 @@
+{"experiment": "keyword_tableau", "stage": "real positive controls"}
+{"experiment": "keyword_tableau", "stage": "planted controls"}
+{"experiment": "keyword_tableau", "stage": "K4 run"}
+{"experiment": "keyword_tableau", "stage": "shuffled-ciphertext nulls"}
+{"task": "experiment", "seconds": 534.8, "output": "out/opus_review_20261007/experiment/keyword_tableau.json"}
+python_exit=0

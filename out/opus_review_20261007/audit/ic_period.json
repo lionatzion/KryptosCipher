@@ -1,0 +1,115 @@
+{
+  "by_period": {
+    "1": {
+      "mean_ic": 0.06865,
+      "p_ic_le_k4": 0.0
+    },
+    "2": {
+      "mean_ic": 0.05337,
+      "p_ic_le_k4": 0.0001
+    },
+    "3": {
+      "mean_ic": 0.04837,
+      "p_ic_le_k4": 0.0015
+    },
+    "4": {
+      "mean_ic": 0.04585,
+      "p_ic_le_k4": 0.0063
+    },
+    "5": {
+      "mean_ic": 0.04423,
+      "p_ic_le_k4": 0.0141
+    },
+    "6": {
+      "mean_ic": 0.04319,
+      "p_ic_le_k4": 0.0231
+    },
+    "7": {
+      "mean_ic": 0.04255,
+      "p_ic_le_k4": 0.0328
+    },
+    "8": {
+      "mean_ic": 0.04197,
+      "p_ic_le_k4": 0.0439
+    },
+    "9": {
+      "mean_ic": 0.04154,
+      "p_ic_le_k4": 0.0522
+    },
+    "10": {
+      "mean_ic": 0.0412,
+      "p_ic_le_k4": 0.0632
+    },
+    "11": {
+      "mean_ic": 0.04093,
+      "p_ic_le_k4": 0.0701
+    },
+    "12": {
+      "mean_ic": 0.04067,
+      "p_ic_le_k4": 0.0761
+    },
+    "13": {
+      "mean_ic": 0.04046,
+      "p_ic_le_k4": 0.0884
+    },
+    "14": {
+      "mean_ic": 0.04035,
+      "p_ic_le_k4": 0.0916
+    },
+    "15": {
+      "mean_ic": 0.0402,
+      "p_ic_le_k4": 0.0987
+    },
+    "16": {
+      "mean_ic": 0.04008,
+      "p_ic_le_k4": 0.1032
+    },
+    "17": {
+      "mean_ic": 0.03995,
+      "p_ic_le_k4": 0.1105
+    },
+    "18": {
+      "mean_ic": 0.03982,
+      "p_ic_le_k4": 0.1141
+    },
+    "19": {
+      "mean_ic": 0.03977,
+      "p_ic_le_k4": 0.1216
+    },
+    "20": {
+      "mean_ic": 0.03969,
+      "p_ic_le_k4": 0.1245
+    },
+    "21": {
+      "mean_ic": 0.03961,
+      "p_ic_le_k4": 0.1268
+    },
+    "22": {
+      "mean_ic": 0.03956,
+      "p_ic_le_k4": 0.1356
+    },
+    "23": {
+      "mean_ic": 0.03951,
+      "p_ic_le_k4": 0.1333
+    },
+    "24": {
+      "mean_ic": 0.03946,
+      "p_ic_le_k4": 0.1403
+    },
+    "25": {
+      "mean_ic": 0.03939,
+      "p_ic_le_k4": 0.1397
+    },
+    "26": {
+      "mean_ic": 0.03934,
+      "p_ic_le_k4": 0.149
+    },
+    "97": {
+      "mean_ic": 0.03847,
+      "p_ic_le_k4": 0.217
+    }
+  },
+  "k4_ic": 0.03608,
+  "model": "i.i.d. letters with corpus frequencies; random shifts per residue; 97 = no repetition",
+  "status": "weak evidence only; real text is burstier than i.i.d. letters"
+}

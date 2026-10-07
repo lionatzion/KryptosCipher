@@ -31,62 +31,46 @@ period-26 survivors belong to broader mixed-alphabet affine/progressive models o
 feedback models; their compatibility is not a breakthrough. See the
 [full report](ASTRA_K4_REPORT_2026-10-07.md) for the precise distinction.
 
-## Priority 1: reconstruct historical inputs before inventing key rules
+## Completed since the Astra report
 
-Obtain dated, public photographs or records of the World Clock's city labels,
-time-zone assignments, and ordering as they existed before Kryptos was completed.
-Keep uncertain letters or orientations marked as uncertain. Do not silently use
-a modern transcription.
+The [Opus review](OPUS_K4_REVIEW.md) reproduced Astra's arithmetic and added exact
+alphabet-free constraints, earlier-section running-key checks and a registered
+keyword-periodic/Gromark experiment. Its arbitrary-alphabet witnesses are distinct
+from dictionary-generated alphabets. Its language tests remain heuristic.
 
-This matters for a concrete reason: [Berlin's official visitor information](https://www.berlin.de/en/attractions-and-sights/3561749-3104052-world-clock.en.html)
-describes 24 segments, a rotating hour ring, engraved city labels, and a wind-rose
-mosaic; it also says city/time-zone assignments were corrected and cities added
-after reunification. The current clock can therefore be the wrong research input.
-The association between K4 and the World Clock was checked through
-[press coverage quoting Sanborn's letter](https://www.aol.com/articles/cia-home-unsolved-puzzle-35-130000201.html),
-with the primary-scan retrieval limitation recorded in the full report.
+The [keyword-progressive experiment](KEYWORD_PROGRESSIVE_REPORT.md) now covers
+617,732 keyword alphabets, all cycle drifts, and periods 1–24. Periods 1–23 have no
+fit. The six period-24 fits leave 20 plaintext positions unknown, have incoherent
+fixed text, and are not an excess over shuffled controls. This does not justify a
+completion sweep of their arbitrary remaining key values.
 
-Deliverable before any sweep: a sourced, versioned data table with original
-ordering, transcription confidence, and no values chosen from K4's desired plaintext.
-Then test a short predeclared list of extraction rules, such as city initials or
-time-zone indexing. This is a hypothesis, not evidence that any such rule was used.
-The failed simple 24-period progression does not cover label-derived keys.
+Bean's [HistoCrypt 2021 paper](https://ecp.ep.liu.se/index.php/histocrypt/article/view/153)
+is relevant prior work missing from the initial handoff. It motivates direct-alignment
+and Gromark hypotheses, not a finding that either is K4's actual mechanism.
 
-## Priority 2: test a physically specified two-stage construction
+## Priority 1: one specifically defined keyword-tableau autokey family
 
-Build an exact coordinate map from the sculpture transcript and independently
-verified front/back photographs. Specify the letter permutation and its inverse
-before trying plaintext. The transcript displays K4 as a four-letter tail followed
-by three full rows; that provides a concrete alternative to inventing an arbitrary
-7-by-14 grid. Source: [sculpture transcript](https://www.elonka.com/kryptos/transcript.html).
+For a future experiment, define a plaintext- or ciphertext-feedback schedule and
+its alphabet conventions before running it. Bound primer length and source choices,
+and implement its exact inverse. K1/K2 motivate keyword alphabets; they do not
+establish that K4 uses autokey. State which equations genuinely predict letters and
+which still fit free parameters. The progressive test does not cover autokey.
 
-Test both operation orders for a small, declared family: substitution followed by
-the specified permutation, and the permutation followed by substitution. Apply
-the cribs at their final plaintext positions. Earlier direct-alignment arithmetic
-exclusions do not automatically exclude a transposed intermediate layer.
+Deliverable: a fixed design, synthetic recovery and tampering controls, real K1/K2
+checks where applicable, exact counts, null comparisons and small reproducible output.
+Fit one crib block and test the other where parameters allow it, acknowledging that
+both blocks are public. A language score or fitted round trip does not prove a solution.
 
-Deliverable: the positional map, source images or citations, inverse test, exact
-parameter count, synthetic recovery controls, and a fixed experiment budget. A
-route fitted to the known words after inspecting output is not independent evidence.
+## Priority 2: calibrate proposed cipher-family statistics
 
-## Priority 3: extend the hand-executable cipher families with exact constraints
+Before a broader key search, compare a small declared set of mechanisms on genuine
+English and synthetic controls at length 97. Include the width scan and every
+statistic inspected when estimating null behavior. Use likelihood comparisons with
+explicit plaintext/key priors. A single extreme statistic does not prove a cipher type.
+Opus's width-21 and IC checks illustrate how multiple testing and short text weaken
+apparently striking patterns.
 
-Use a small documented family of keyed-alphabet tableaux, fractionation, or
-stateful switching rules. Encode their actual invariants in a constraint solver,
-instead of increasing a keyword list until something looks English. Changing
-alphabet order or introducing a transposition must be an explicit parameter;
-the old ordinary-ABC exclusions must not be applied outside their scope.
-
-Fit on one crib block and reserve the other for out-of-fit prediction. State the
-number of hypotheses examined and include shuffled/random controls; the public
-cribs are already known, so this is not a genuinely blind external test. Penalize
-or reject constructions whose free parameters can fit arbitrary plaintext.
-
-Deliverable: a falsifiable model with predictions outside the fitted characters,
-and a reversible full 97-character implementation. Plausible wording alone is
-insufficient. Higher n-gram scores alone cannot authenticate a solution.
-
-## Priority 4: use new authentic information if it becomes public
+## Priority 3: use authentic additional information if it becomes public
 
 Publicly released coding-chart excerpts, an authorized clarification, or K5
 ciphertext could add constraints that computation cannot manufacture. Any claimed
@@ -94,6 +78,23 @@ shared structure between K4 and K5 must be tested against authenticated text, no
 an invented reconstruction. These are contingent opportunities, not available
 inputs in this repository. No outreach or recurring monitoring has been started.
 
-The next practical action is Priority 1's evidence collection, followed by one
-bounded experiment chosen from those independently established inputs. Resume
-large searches only when a concrete new constraint or mechanism justifies them.
+Knowing a tableau would fix implied key values at the supplied cribs, strengthening
+tests of specified schedules. It would not manufacture repeat checks in a freely
+fitted period-27 model. Similar K4/K5 systems do not establish key reuse; matching
+BERLINCLOCK ciphertext would support reuse at those eleven positions only.
+
+## Lower-priority open hypotheses
+
+World Clock label keys and physically derived transposition hybrids remain open,
+but neither has an independently specified key rule in this repository. Sanborn's
+letter, checked through [quoted press coverage](https://www.aol.com/articles/cia-home-unsolved-puzzle-35-130000201.html),
+identifies the World Clock in the message's context; it does not disclose a label
+extraction rule. Bean also discusses statistical and reported-statement evidence
+supporting direct character alignment. Those are reasons to demote these searches,
+not mathematical exclusions.
+
+If historical clock inputs become relevant to a concrete hypothesis, obtain dated
+transcriptions first. [Berlin's official page](https://www.berlin.de/en/attractions-and-sights/3561749-3104052-world-clock.en.html)
+records later city/time-zone changes, so modern lists may be unsuitable. A sculpture
+permutation likewise needs a sourced positional map and inverse before scoring.
+Resume larger searches only when a concrete new constraint justifies them.

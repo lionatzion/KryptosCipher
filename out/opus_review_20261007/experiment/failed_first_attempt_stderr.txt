@@ -1,0 +1,33 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "<repository>/research/opus_review/run.py", line 57, in <module>
+    main()
+    ~~~~^^
+  File "<repository>/research/opus_review/run.py", line 45, in main
+    result = experiment(log=lambda msg: print(json.dumps({"experiment": "keyword_tableau",
+                                                          "stage": msg}), flush=True))
+  File "<repository>/research/opus_review/keyword_tableau.py", line 385, in experiment
+    k4 = run_family(family=family, pos=pos)
+  File "<repository>/research/opus_review/keyword_tableau.py", line 256, in run_family
+    if len(idx) > keep:
+       ^^^^^^^^^^^^^^^
+ValueError: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+      103.27 real        86.82 user        18.69 sys
+           986677248  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+              252692  page reclaims
+                 270  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                 256  voluntary context switches
+               10773  involuntary context switches
+       1825836129796  instructions retired
+        441840580632  cycles elapsed
+           393446288  peak memory footprint

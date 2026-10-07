@@ -1,0 +1,127 @@
+{
+  "rows": [
+    {
+      "delta": -3,
+      "latin_square_open_periods_le26": [
+        12,
+        15,
+        16,
+        17,
+        18,
+        19,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "periodic48_compatible_25_26_all_zero_or_one_check": true,
+      "periodic48_compatible_period_le24": [],
+      "running_key_best_partial": 9,
+      "running_key_full_hits": 0
+    },
+    {
+      "delta": -2,
+      "latin_square_open_periods_le26": [
+        11,
+        13,
+        15,
+        18,
+        19,
+        22,
+        23,
+        25,
+        26
+      ],
+      "periodic48_compatible_25_26_all_zero_or_one_check": true,
+      "periodic48_compatible_period_le24": [],
+      "running_key_best_partial": 9,
+      "running_key_full_hits": 0
+    },
+    {
+      "delta": -1,
+      "latin_square_open_periods_le26": [
+        8,
+        10,
+        12,
+        13,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        23,
+        24,
+        25,
+        26
+      ],
+      "periodic48_compatible_25_26_all_zero_or_one_check": true,
+      "periodic48_compatible_period_le24": [],
+      "running_key_best_partial": 8,
+      "running_key_full_hits": 0
+    },
+    {
+      "delta": 1,
+      "latin_square_open_periods_le26": [
+        8,
+        10,
+        12,
+        13,
+        14,
+        16,
+        18,
+        19,
+        20,
+        21,
+        24,
+        25,
+        26
+      ],
+      "periodic48_compatible_25_26_all_zero_or_one_check": true,
+      "periodic48_compatible_period_le24": [],
+      "running_key_best_partial": 8,
+      "running_key_full_hits": 0
+    },
+    {
+      "delta": 2,
+      "latin_square_open_periods_le26": [
+        8,
+        10,
+        14,
+        16,
+        17,
+        20,
+        21,
+        24,
+        25
+      ],
+      "periodic48_compatible_25_26_all_zero_or_one_check": true,
+      "periodic48_compatible_period_le24": [],
+      "running_key_best_partial": 9,
+      "running_key_full_hits": 0
+    },
+    {
+      "delta": 3,
+      "latin_square_open_periods_le26": [
+        10,
+        11,
+        14,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        25,
+        26
+      ],
+      "periodic48_compatible_25_26_all_zero_or_one_check": true,
+      "periodic48_compatible_period_le24": [],
+      "running_key_best_partial": 8,
+      "running_key_full_hits": 0
+    }
+  ],
+  "scope": "Block 2 (BERLINCLOCK) key index = sculpture index + delta; block 1 unchanged. 48 fixed systems (periodic p<=26), Latin-square periodic, and all 12 sculpture running-key streams with every offset, direction and key alphabet.",
+  "status": "exploratory, not pre-registered"
+}
