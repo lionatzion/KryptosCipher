@@ -201,7 +201,7 @@ def main():
     ap.add_argument("--letters", type=str, default=ALPH, help="Letters to use for unknown residues (default A..Z).")
     ap.add_argument("--topn", type=int, default=100, help="How many rows to keep for CSV output (default 100).")
     ap.add_argument("--outdir", type=str, default=".", help="Output directory.")
-ap.add_argument("--phase", type=int, default=0, help="Keystream phase offset (0..period-1).")
+    ap.add_argument("--phase", type=int, default=0, help="Keystream phase offset (0..period-1).")
     ap.add_argument("--emit-json", action="store_true", default=True, help="Emit top-10 JSON summary (default True).")
     ap.add_argument("--emit-csv", action="store_true", default=True, help="Emit top-100 CSV (default True).")
     args = ap.parse_args()
@@ -224,7 +224,7 @@ ap.add_argument("--phase", type=int, default=0, help="Keystream phase offset (0.
     scored_rows = []
     for ks_cycle, mapping in fills:
         # Build 97-length decryption
-        plain = decrypt_with_keystream(CIPHERTEXT, ks_cycle)
+        plain = decrypt_with_keystream(CIPHERTEXT, ks_cycle, phase=phase)
 
         # Hard check: islands must match exactly
         if not validate_islands(plain, ISLANDS):
@@ -256,7 +256,7 @@ ap.add_argument("--phase", type=int, default=0, help="Keystream phase offset (0.
     # CSV (light): rank, score, unknown residues (expanded), keystream_27
     if args.emit_csv and scored_rows:
         csv_path = os.path.join(args.outdir, "k4_top100_candidates_light.csv")
-        fieldnames = ["rank", "score", "unknown_fill", "keystream_27"]
+        fieldnames = ["rank", "score", "unknown_fill", "keystream_27", "phase", "period"]
         with open(csv_path, "w", newline="") as f:
             w = csv.DictWriter(f, fieldnames=fieldnames)
             w.writeheader()
@@ -266,6 +266,8 @@ ap.add_argument("--phase", type=int, default=0, help="Keystream phase offset (0.
                     "score": f"{row['score']:.4f}",
                     "unknown_fill": row["unknown_fill"],
                     "keystream_27": row["keystream_27"],
+                    "phase": phase,
+                    "period": period,
                 })
 
     # JSON (top-10): full strings including plaintext
@@ -278,7 +280,9 @@ ap.add_argument("--phase", type=int, default=0, help="Keystream phase offset (0.
                 "score": float(f"{row['score']:.4f}"),
                 "unknown_fill": row["unknown_fill"],
                 "keystream_27": row["keystream_27"],
-                "plaintext": row["plaintext"]
+                "plaintext": row["plaintext"],
+                "phase": phase,
+                "period": period,
             })
         with open(json_path, "w") as f:
             json.dump(top10, f, indent=2)
@@ -291,6 +295,7 @@ ap.add_argument("--phase", type=int, default=0, help="Keystream phase offset (0.
             "====================================\n\n"
             f"Ciphertext length: {len(CIPHERTEXT)}\n"
             f"Period tested: {period}\n"
+            f"Phase: {phase}\n"
             f"A-enforced positions (1-based): {enforce_positions}\n"
             "Anchors: EAST(22–25), NORTHEAST(26–34), BERLIN(64–69), CLOCK(70–74)\n"
             "Files:\n"

@@ -1,0 +1,127 @@
+{
+  "full_anchor_hits": [],
+  "scope": "Seven sculpture-derived streams; every cyclic start; forward/backward; ABC or KRYPTOS key indexing; all 48 affine alphabet systems; all 26 uniform shifts. K2 is the as-inscribed decryption ending IDBYROWS; the corrected XLAYERTWO variant and K3 plaintext are not tested.",
+  "source_metadata": {
+    "K1K2K3_cipher": {
+      "length": 768,
+      "sha256": "23e71c225898eb2776995eebd5a190221cd4c38b7f8a5c5db743845ada9bcf85"
+    },
+    "K1K2_plain_as_inscribed": {
+      "length": 432,
+      "sha256": "c55cc70a8b67f0819b4f3773ce80d8078e6b0a880ff9c7a9e0763c04e88a6b03"
+    },
+    "K1_cipher": {
+      "length": 63,
+      "sha256": "0da44afce6ff53845dee12a15f164036b598fcf40b6c0b3edc83996053c4e2fc"
+    },
+    "K1_plain": {
+      "length": 63,
+      "sha256": "a4a581f02185ae92d52bbf55113cb59e73a2914f24af2634ffdb33c1d4988c15"
+    },
+    "K2_cipher": {
+      "length": 369,
+      "sha256": "4118a78c60a6335c30c7fc2946f6c71fd6c2828fd550ea647c3b713313c0f9ff"
+    },
+    "K2_plain_as_inscribed": {
+      "length": 369,
+      "sha256": "e01a5b04efc848817fac0245a8028a6387553191afc8e39ecb8d4ae3d8a09d76"
+    },
+    "K3_cipher": {
+      "length": 336,
+      "sha256": "db8807dfc8354a42dc2f52aed3f0b54ac938873372c6b504b4c8d69fdfc85c35"
+    }
+  },
+  "tested_parameter_tuples": 11980800,
+  "top_10_partial_matches_not_candidates": [
+    {
+      "anchor_matches": 8,
+      "direction": 1,
+      "key_alphabet": "ABC",
+      "offset": 124,
+      "shift": 5,
+      "source": "K2_cipher",
+      "system": "P=KRYPTOS;C=KRYPTOS;a=19"
+    },
+    {
+      "anchor_matches": 8,
+      "direction": 1,
+      "key_alphabet": "KRYPTOS",
+      "offset": 210,
+      "shift": 18,
+      "source": "K2_cipher",
+      "system": "P=ABC;C=KRYPTOS;a=19"
+    },
+    {
+      "anchor_matches": 8,
+      "direction": -1,
+      "key_alphabet": "ABC",
+      "offset": 13,
+      "shift": 7,
+      "source": "K2_cipher",
+      "system": "P=ABC;C=ABC;a=17"
+    },
+    {
+      "anchor_matches": 8,
+      "direction": -1,
+      "key_alphabet": "ABC",
+      "offset": 1,
+      "shift": 13,
+      "source": "K2_cipher",
+      "system": "P=KRYPTOS;C=KRYPTOS;a=7"
+    },
+    {
+      "anchor_matches": 8,
+      "direction": 1,
+      "key_alphabet": "ABC",
+      "offset": 221,
+      "shift": 7,
+      "source": "K3_cipher",
+      "system": "P=ABC;C=ABC;a=21"
+    },
+    {
+      "anchor_matches": 8,
+      "direction": 1,
+      "key_alphabet": "KRYPTOS",
+      "offset": 46,
+      "shift": 7,
+      "source": "K3_cipher",
+      "system": "P=ABC;C=ABC;a=23"
+    },
+    {
+      "anchor_matches": 8,
+      "direction": -1,
+      "key_alphabet": "ABC",
+      "offset": 88,
+      "shift": 16,
+      "source": "K3_cipher",
+      "system": "P=KRYPTOS;C=ABC;a=17"
+    },
+    {
+      "anchor_matches": 8,
+      "direction": -1,
+      "key_alphabet": "KRYPTOS",
+      "offset": 21,
+      "shift": 19,
+      "source": "K3_cipher",
+      "system": "P=ABC;C=ABC;a=19"
+    },
+    {
+      "anchor_matches": 8,
+      "direction": -1,
+      "key_alphabet": "KRYPTOS",
+      "offset": 17,
+      "shift": 5,
+      "source": "K3_cipher",
+      "system": "P=KRYPTOS;C=KRYPTOS;a=17"
+    },
+    {
+      "anchor_matches": 8,
+      "direction": -1,
+      "key_alphabet": "KRYPTOS",
+      "offset": 187,
+      "shift": 5,
+      "source": "K3_cipher",
+      "system": "P=KRYPTOS;C=KRYPTOS;a=23"
+    }
+  ]
+}

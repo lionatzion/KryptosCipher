@@ -1,4 +1,43 @@
-# KryptosCipher — K4 period‑27 baseline workspace
+# KryptosCipher — K4 research workspace
+
+**2026-10-07 update:** [Opus's independent review](docs/OPUS_K4_REVIEW.md) and a
+[bounded keyword-progressive experiment](docs/KEYWORD_PROGRESSIVE_REPORT.md) are
+now included. The new experiment tests 617,732 keyword alphabets and every cycle
+drift at periods 1–24. Periods 1–23 have no compatible fit; period 24 has six weak,
+incomplete fits, compared with a mean of 18 in shuffled controls. No additional
+confirmed plaintext or solution was recovered.
+
+**2026-10-07 Astra audit:** K4 remains unsolved in this repository. The period-27
+scaffold below is a historical hypothesis, not an established cipher structure:
+its 24 known letters constrain 24 different residues and perform zero independent
+repeat checks. Phase changes do not constitute transposition experiments.
+
+Read [the evidence report](docs/ASTRA_K4_REPORT_2026-10-07.md) for corrected findings,
+bounded new experiments, exact scopes, and remaining uncertainties. Reproduce the
+original Astra work using standard-library Python:
+
+```bash
+python3 -m unittest discover -s tests -p 'test_astra_research.py' -v
+python3 -m research.run_astra
+```
+
+Opus and keyword-progressive code require NumPy. Their dictionary experiments also
+require the registered `/usr/share/dict/web2` bytes; the progressive CLI accepts
+`--dictionary PATH` and checks its hash. With those inputs available:
+
+```bash
+python3 -m unittest discover -s tests -v
+python3 -m research.keyword_progressive --outdir out/progressive_reproduction
+```
+
+The [next research steps](docs/NEXT_STEPS.md) explain what the archive sale changes,
+why the old period-27 track should be deprioritized, and which new hypotheses can
+be tested without fitting a desired plaintext.
+
+The older exports and notes below are retained for provenance. Their claims are
+superseded where the audit identifies unsupported conclusions.
+
+## Historical period-27 baseline
 
 This repository tracks a **constraint‑driven** search for a period‑27 Vigenère‑style keystream on Kryptos K4, with reproducible scripts, notebooks, and exports.
 
@@ -32,9 +71,11 @@ We model K4’s final layer as a repeating Vigenère keystream with **period 27*
   - `DEAD_ENDS.md`, `NOTES_README.md`
 
 ## Dead‑ends / de‑prioritized (keep this current)
-- Raw **Berlin‑Clock lamp‑count → shift** mappings
-- Unconstrained **tableau pointer walks** (even with the extra “L” row)
-- Final‑layer periods **2–26**; **28/29** kept only for a one‑time check
+- Ordinary ABC Vigenere periods 1–26 and 30–52 conflict with the public cribs.
+- Period-27 completion and phase sweeps lack independent supporting checks.
+- Broader exclusions require the exact alphabet and key-family scopes in the reports.
+- Earlier claimed grid, lamp-count and tableau eliminations lack executable evidence
+  in this repository and are not treated as established exclusions.
 
 ## Contributing
 - Prefer small JSON/CSV exports over large dumps.
