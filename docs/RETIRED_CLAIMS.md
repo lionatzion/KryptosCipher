@@ -7,7 +7,7 @@ does not necessarily eliminate the cipher it advocated.
 |---|---|
 | Period 27 is established | It fits arbitrary observations at 24 distinct residues, supplying zero repeat checks. |
 | Free text OF/THE confirms a key | Selecting a free residue to produce a word spends a parameter. |
-| Position 21 disagreement is a clue | Seven saved project JSON entries disagreed with their recorded keys. In direct period 27, positions 21 and 75 must decrypt alike because both have W and are 54 apart. Audit each export. |
+| Position 21 disagreement is a clue | The earlier seven-row figure came from a different project upload. This repository's root top-10 JSON and top-100 light CSV instead require an unrecorded phase 26; all 110 rows reproduce with it. In direct period 27, positions 21 and 75 must decrypt alike. See the hashed [repository export audit](../out/november_20261123/review_checks.json). |
 | Older P27/P28/P29 scores are comparable | Recompute exact keys with a common scorer. Some exports contain inconsistent scores or key fields. |
 | Three collisions are mandatory | Correct models can have zero collisions. Retain them with weaker evidence annotations. |
 | Residual scoring means concatenate 73 characters | Preserve adjacency: 64 unknown-only, 12 boundary and 18 anchor-internal quadgrams. |

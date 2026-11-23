@@ -106,4 +106,6 @@ installing this package does not recreate those external inputs.
 
 Root period 27 scripts, notebooks and exports are historical experiments.
 Their scores and hand-edited candidates are not current ground truth.
-See the [retired claims log](docs/RETIRED_CLAIMS.md).
+See the [retired claims log](docs/RETIRED_CLAIMS.md) and the
+[file-specific historical inventory](docs/LEGACY_ARTIFACTS.md), including the
+unrecorded phase 26 in two root exports and incomplete demonstration placeholders.

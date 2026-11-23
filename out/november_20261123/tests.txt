@@ -31,6 +31,11 @@ test_first_audit_reproduces_published_json (test_report_claims_audit.ReportAudit
 test_independent_period_checker_agrees_with_workbench (test_report_claims_audit.ReportAuditTests.test_independent_period_checker_agrees_with_workbench) ... ok
 test_independent_sparse_collision_example_recovers_exactly (test_report_claims_audit.ReportAuditTests.test_independent_sparse_collision_example_recovers_exactly) ... ok
 test_original_script_snapshot_is_byte_exact (test_report_claims_audit.ReportAuditTests.test_original_script_snapshot_is_byte_exact) ... ok
+test_five_conflicts_in_all_six_modes (test_review_checks.ReviewChecks.test_five_conflicts_in_all_six_modes) ... ok
+test_phase_convention_and_highlighted_field (test_review_checks.ReviewChecks.test_phase_convention_and_highlighted_field) ... ok
+test_placeholders_are_not_candidates (test_review_checks.ReviewChecks.test_placeholders_are_not_candidates) ... ok
+test_repository_export_counts_and_saved_audit (test_review_checks.ReviewChecks.test_repository_export_counts_and_saved_audit) ... ok
+test_unimplemented_historical_route_does_not_fake_geometry (test_review_checks.ReviewChecks.test_unimplemented_historical_route_does_not_fake_geometry) ... ok
 test_exact_known_answers_and_roundtrips (test_workbench.BaselineTests.test_exact_known_answers_and_roundtrips) ... ok
 test_modes_do_not_advance_on_punctuation (test_workbench.BaselineTests.test_modes_do_not_advance_on_punctuation) ... ok
 test_novel_rotational_isomorphs (test_workbench.BaselineTests.test_novel_rotational_isomorphs) ... ok
@@ -51,6 +56,6 @@ test_partial_keys_are_enumerated_or_reported_incomplete (test_workbench.SolverCo
 test_zero_collision_valid_model_is_retained (test_workbench.SolverControls.test_zero_collision_valid_model_is_retained) ... ok
 
 ----------------------------------------------------------------------
-Ran 51 tests in 15.069s
+Ran 56 tests in 15.795s
 
 OK

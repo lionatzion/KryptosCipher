@@ -6,32 +6,39 @@ This project asks which candidate mechanisms can explain Kryptos K4's 97-letter 
 
 ## What is fixed
 
-The canonical K4 transcription starts at `OBKR` and ends at `KCAR`; the physical question mark before it is not part of K4. All positions below are **one-based within K4**. Two known plaintext blocks fix 24 letters: `EASTNORTHEAST` at **22–34** and `BERLINCLOCK` at **64–74**. The remaining 73 letters are not public ground truth. See the [CIA sculpture reference](https://www.cia.gov/legacy/headquarters/kryptos-sculpture/), [Paradigm's indexed K4](https://paradigm.xyz/kryptos/) and [the research dossier's crib provenance](https://github.com/rayborg/kryptos-k4-dashboard/blob/main/docs/RESEARCH.md#k4-public-plaintext).
+The canonical K4 transcription starts at `OBKR` and ends at `KCAR`; the physical question mark before it is not part of K4. All positions below are **one-based within K4**. Two known plaintext blocks fix 24 letters: `EASTNORTHEAST` at **22–34** and `BERLINCLOCK` at **64–74**. The remaining 73 letters are not public ground truth. See the [CIA sculpture reference](https://www.cia.gov/legacy/headquarters/kryptos-sculpture/), [Paradigm's indexed K4](https://www.paradigm.xyz/kryptos/) and [the research dossier's crib provenance](https://github.com/rayborg/kryptos-k4-dashboard/blob/main/docs/RESEARCH.md#k4-public-plaintext).
 
 The archival recovery and the cryptanalysis are separate. Jarett Kobek and Richard Byrne recovered the plaintext from Sanborn's papers, and Sanborn confirmed it; that does not give us a publicly reproducible method from the sculpture. [Archival discovery account](https://www.scientificamerican.com/article/a-solution-to-the-cias-kryptos-code-is-found-after-35-years/) · [Paradigm's stewardship and verification statement](https://www.paradigm.xyz/writing/kryptos)
 
 ## A check you can reproduce
 
-For a direct additive cipher using one fixed alphabet, the shift at position `i` is `(index(ciphertext[i]) - index(plaintext[i])) mod 26`. A period-24 key must use the same shift at positions 22 and 70, which are 48 letters apart. The confirmed pairs require different shifts:
+For a direct additive cipher using one fixed alphabet, the shift at position `i` is `(index(ciphertext[i]) - index(plaintext[i])) mod 26`. A period-24 key must use the same shift at positions 48 letters apart. All five pairs below require different shifts. Within each cell, the first and second values correspond to the first and second positions:
 
-| One-based position | Ciphertext | Known plaintext | A–Z shift | KRYPTOS-alphabet shift |
+| One-based positions | Ciphertext | Known plaintext | A–Z shifts | KRYPTOS-alphabet shifts |
 |---|---|---|---:|---:|
-| 22 | F | E | 1 | 1 |
-| 70 | M | C | 10 | 9 |
+| 22 / 70 | F / M | E / C | 1 / 10 | 1 / 9 |
+| 23 / 71 | L / Z | A / L | 11 / 14 | 10 / 8 |
+| 24 / 72 | R / F | S / O | 25 / 17 | 21 / 7 |
+| 25 / 73 | V / P | T / C | 2 / 13 | 18 / 20 |
+| 26 / 74 | Q / K | N / K | 3 / 0 | 1 / 0 |
 
-The second alphabet is `KRYPTOSABCDEFGHIJLMNQUVWXZ`. This rules out **direct, repeating period-24 addition with either of these fixed alphabets**. It does not rule out an irregular clock schedule, a clock-driven permutation, or a layered construction. Sanborn's identification of the Alexanderplatz World Clock is evidence about the referent, not proof that the cipher uses a 24-step key. [Dossier's summary and source links](https://github.com/rayborg/kryptos-k4-dashboard/blob/main/docs/RESEARCH.md#final-2025-clues)
+The second alphabet is `KRYPTOSABCDEFGHIJLMNQUVWXZ`. All five conflicts also hold under Beaufort and variant Beaufort, using their own shift equations. The [reproducible review audit](../out/november_20261123/review_checks.json) lists all 30 witnesses; the [direct diagnostics](../out/november_20261123/diagnostics.json) cover periods 1–30. Every period 1–26 fails under these six fixed-alphabet models. These results do not rule out irregular clock schedules, clock-driven permutations or layered constructions. Sanborn's clock identification is evidence about the referent, not proof of a 24-step key. [Dossier's source links](RESEARCH_DOSSIER.md#sources-and-engineering-references)
 
-Period 27 has a different problem: the 24 known letters occupy 24 **distinct** residues. Fitting all 24 therefore checks no repeated shift among them and leaves three free residues. The fit does not validate the period. In a separate audit of saved candidates, seven entries disagreed with their own recorded keys at position 21. Positions 21 and 75 both have ciphertext `W` and share a period-27 residue, so those two positions must decrypt alike in that model. Treat the disagreement as an export inconsistency, not a clue about the missing letter.
+Period 27 has a different problem: the 24 known letters occupy 24 **distinct** residues. Fitting all 24 therefore checks no repeated shift among them and leaves three free residues. The fit does not validate the period. Positions 21 and 75 both have ciphertext `W` and share a period-27 residue, so those two positions must decrypt alike in that model.
+
+The repository's root `k4_top10_summary.json` and `k4_top100_candidates_light.csv` contain 110 rows whose stored plaintexts require phase **26**, using `key[(i + 26) % 27]` with zero-based `i`. Neither file records that phase; at phase 0 none reproduces its stored plaintext. With phase 26 all 110 match. The other three complete root CSVs contain 155 rows consistent at phase 0. An earlier seven-row mismatch statement referred to a different uploaded version and did not describe these repository files. The [export inventory](LEGACY_ARTIFACTS.md) and hashed [audit output](../out/november_20261123/review_checks.json) now identify the exact files tested.
 
 ## What the newer work adds
 
-- **Historical controls.** The working audit reports restoring exact K1–K3 checks, treating the carved K2 and its documented missing-`S` correction as separate cases, and reproducing K3 with a two-stage rotation. [K2 correction record](https://www.elonka.com/kryptos/CorrectedK2Announcement.html) · [K3 reference route](https://github.com/rayborg/kryptos-k4-dashboard/blob/main/docs/RESEARCH.md#exact-reproducible-route)
-- **Synthetic controls.** The working solver report describes recovery on synthetic cases for both substitution/transposition orders and selected clock-based constructions. Those tests show that the checks can recover examples built within the modeled families; they are not evidence that K4 uses one of those mechanisms.
-- **Real K4.** The working report describes bounded sweeps over keyed substitutions, both composition orders, and selected World Clock mappings and grid routes. No verified K4 plaintext or method resulted. That is a result about the searched configurations, not an exclusion of all clock or transposition ciphers. The newer runner and sweep logs are not included in this update, so those larger runs remain reported rather than independently reproduced here.
+- **Historical controls.** The included workbench verifies K1, carved K2, corrected K2 and K3 against expected plaintexts and exact round trips. [K2 correction record](https://www.elonka.com/kryptos/CorrectedK2Announcement.html) · [Executed evidence](../out/november_20261123/README.md)
+- **Synthetic controls.** The included tests recover planted cases in both substitution/transposition orders, selected fixed clock schedules, and a zero-collision construction. These show recovery within the modeled families; they do not establish K4's method.
+- **Real K4.** Both independent audit suites now ship as `research/verify_report_claims.py` and `research/november_audit.py`, with outputs and commands under [November evidence](../out/november_20261123/README.md). The included numeric clock/route subset tests 243,648 configurations with zero exact anchor matches. The larger **61.8 million** Gemini campaign is still a separate, unprovided runner and remains reported rather than locally reproduced. No verified K4 plaintext or method resulted from the included bounded checks.
 
 ## What I would test next
 
-1. **Reproduce Bean's Gromark baseline separately.** Start with the published five-digit, base-10 diagnostic and its stated alphabet assumptions. The companion code reports 39 compatible primers under flexible alphabet choices; these are not 39 plaintext solutions. Record the exact alphabet, offset, and search bounds before comparing results. [Bean's HistoCrypt paper](https://doi.org/10.3384/ecp183153) · [Reference code](https://github.com/RichardBean/k4testing)
+The [active roadmap](ACTIVE_ROADMAP.md) gives the current experiment scopes. Bean's 39-primer baseline below is already a passing regression in `tests/test_opus_review.py`; it is a prerequisite to preserve, not an unperformed task.
+
+1. **Keep Bean's Gromark baseline as a regression.** The current test reproduces the published five-digit, base-10 diagnostic's 39 compatible primers under its flexible alphabet constraints. These are not 39 plaintext solutions. Record the exact alphabet, offset, and search bounds when comparing a new experiment with this baseline. [Bean's HistoCrypt paper](https://doi.org/10.3384/ecp183153) · [Reference code](https://github.com/RichardBean/k4testing)
 2. **Test whether a narrower rule predicts an unfitted block.** Freeze the key family, alphabet, route set, and ranking rule; choose parameters with only one crib block, then test exact recovery of the other without retuning. Because both blocks are already public, this is an evaluation holdout, not independent confirmation. Report the number of tested recipes and surviving keys, and compare the entire search on matched random controls. Use language scores as diagnostics, not proof; an English-only score can miss names or non-English fragments.
 3. **Require a complete explanation.** A strong candidate gives all 97 letters, a fully specified reversible recipe, exact re-encryption to the canonical ciphertext, and evidence that the recipe was not merely built to force the answer. Paradigm's verifier can confirm a final plaintext submission, not the proposed historical method.
 
