@@ -1,5 +1,7 @@
 # KryptosCipher — K4 period‑27 baseline workspace
 
+**Current research:** [November 2026 K4 research update](docs/K4_RESEARCH_UPDATE_2026-11-23.md). The period-27 sweep below is a historical baseline, not a confirmed method or decryption.
+
 This repository tracks a **constraint‑driven** search for a period‑27 Vigenère‑style keystream on Kryptos K4, with reproducible scripts, notebooks, and exports.
 
 ## TL;DR (quick start)
