@@ -1,12 +1,9 @@
-Historical exports. See docs/RESEARCH_DOSSIER.md and docs/RETIRED_CLAIMS.md before use.
+Historical K4 exports
 
-Kryptos K4 — Period-27 sweep exports
-====================================
+Current project status and commands: README.md
+File-specific phase conventions and audit results: docs/LEGACY_ARTIFACTS.md
+Machine-readable reproduction checks: out/november_20261123/review_checks.json
 
-Ciphertext length: 97
-Period tested: 27
-A-enforced positions (1-based): [33, 74]
-Anchors: EAST(22–25), NORTHEAST(26–34), BERLIN(64–69), CLOCK(70–74)
-Files:
-- k4_top100_candidates_light.csv
-- k4_top10_summary.json
+These files are historical artifacts, not verified plaintexts or current solution
+rankings. Follow the inventory before consuming them. Earlier guidance remains
+in Git history at commit 994fb6434d4f2d3b7378e1e5413fc3f142aaba6c.

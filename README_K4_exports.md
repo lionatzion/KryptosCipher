@@ -1,10 +1,9 @@
-> Historical material. Current conclusions and commands are in the [November 2026 research dossier](docs/RESEARCH_DOSSIER.md). Claims below may be superseded.
+# Historical K4 exports
 
-# Kryptos K4 — Exported Artifacts
+These exports are historical research artifacts, not verified plaintexts or a
+current ranking of solutions. See the [file-specific inventory](docs/LEGACY_ARTIFACTS.md)
+for phase conventions, reproduction results and incomplete placeholders.
 
-This folder contains two files you can save into your project:
-
-1. **k4_top10_summary.json** — the 10 highest-scoring candidates with their keystream_27, a small Berlin-clock window, and the resulting plaintext strings.
-2. **k4_top100_candidates_light.csv** — a lightweight table of the top 100 candidates with only: rank, score, r7, r8, r20, keystream_27.
-
-> Tip: Keep the JSON as your working set for qualitative review, and use the CSV for quick filtering/sorting inside your analysis notebooks or spreadsheets.
+Use [README.md](README.md) for current project status and commands. The
+[previous export guide](https://github.com/lionatzion/KryptosCipher/blob/994fb6434d4f2d3b7378e1e5413fc3f142aaba6c/README_K4_exports.md)
+is retained in Git history.

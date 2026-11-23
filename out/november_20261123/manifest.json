@@ -5,14 +5,17 @@
   "included_documentation_parent": "855d1d016ed84491ee616c1f326306a273c46822",
   "files": {
     ".github/workflows/tests.yml": "372e538601e1ce63e2c04f7e25518dcb70f91a6e50183d696af6556774a54409",
-    "README.md": "be687d7a250ee17748f9ff2c07fdaa77ac76b797f48941ca6a7a181f95e44ea2",
+    "README.md": "701ed5d24f96592030fa862e7e09d4929814f8c5ed735aa4e68295756acd47b2",
+    "README_K4_exports.md": "22c5866f48a615aa7fd50e7aa86d48a8caf349cd9bba6a162eca7e839e1a07ed",
+    "README_K4_exports.txt": "7eca231b5db5ce59043e6858fe0ce0db7a9bbc0e6776e8f659949e24767aa4f7",
+    "README_KryptosK4.md": "4e05682ac6229e5b8733e48b12841ea2deebcbb8062ee9eaf6020dd290ff2fe8",
     "data/exports/README.md": "d6db07718237177231fc44c57ee7edd34c7ab33bc3575dc622935d70c7fe30ba",
     "docs/ACTIVE_ROADMAP.md": "cbbbe22a71483cd3bafa094626d85528762552b0eeebc3d7a7acb897e46750aa",
     "docs/EXPERIMENT_SCHEMA.json": "9ed22d4dbd924feb3593df32f8f505bd11a2e2be8b0b39043defcb73522af8b8",
     "docs/HYPOTHESIS_LEDGER.json": "ef4930881d81fffd53c84574e66dcb35cc353ab0f2182f2ba2ef6cc28fc38ea6",
     "docs/HYPOTHESIS_SCHEMA.json": "5cfe7ad65dfbdf102294b7631e1b591228e95dcebf03829cf99247ed0a669895",
     "docs/K4_RESEARCH_UPDATE_2026-11-23.md": "cc450464fc5b9d31bfccf98ac21951006b87bf9231c07984a7d02e3ceef765ff",
-    "docs/LEGACY_ARTIFACTS.md": "2ad240071e987ab6c6f2c8447c3235d12d950d652963c87f3f4a02fddadfbab0",
+    "docs/LEGACY_ARTIFACTS.md": "4118c5788b6627966a059ffc4c22097e5f5bb190a0d265c99d05bb8422cbf6a3",
     "docs/RESEARCH_DOSSIER.md": "97492908771d575b9c7e0992f6368775819564e3bf1dde982ca42cf2f22bf286",
     "docs/RETIRED_CLAIMS.md": "348773f32e33a9e8c2081fd5b5736b3259941a8a64154f5f841fbd6e6ee58b2f",
     "docs/archive/Kryptos_expandes_2025.txt": "bd03550d1b203e287b43aa3622fd6cfb198741a67e41729d25c252c096623f19",
@@ -49,8 +52,8 @@
     "tests/test_workbench.py": "7741522bd10ec5ac643b9011cb97a2c9a4e9225afd8a474e54818fbddec86dcf"
   },
   "schema_version": 2,
-  "updated_after_commit": "faa6fc9b0a6c7f56f4754aed3f5ac4ad64d0103c",
-  "previous_manifest_sha256": "fa7049cf1c29af8998b6eee39c4ab7b1a1255b140b377ad32210900c0762be48",
+  "updated_after_commit": "994fb6434d4f2d3b7378e1e5413fc3f142aaba6c",
+  "previous_manifest_sha256": "7cfe162f172bd29cbfe26028096577a66e974feeaa5cc2e65a8c27ab463c8d2c",
   "numpy": "2.3.5",
   "artifact_mapping": {
     "first_suite_original": "verify_report_claims.py",
@@ -193,5 +196,19 @@
       "line": 204,
       "seed": 97
     }
-  ]
+  ],
+  "documentation_update": {
+    "date": "2026-11-23",
+    "scope": "Rewrite current README and replace three outdated README entry points; preserve experiment code and recorded results",
+    "checks": {
+      "relative_links": 18,
+      "anchor_rows": 4,
+      "verify_baselines": 4,
+      "diagnostic_models": 180
+    },
+    "commands": [
+      "python -m kryptos verify",
+      "python -m kryptos diagnostics --output out/local/readme-diagnostics.json"
+    ]
+  }
 }
