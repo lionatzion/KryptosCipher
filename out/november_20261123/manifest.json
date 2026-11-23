@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-23",
+  "python": "3.12.14",
+  "prior_research_parent": "c8b502f2d9fe02c40d05fafeb0c63212b8df5dac",
+  "included_documentation_parent": "855d1d016ed84491ee616c1f326306a273c46822",
+  "files": {
+    "docs/EXPERIMENT_SCHEMA.json": "9ed22d4dbd924feb3593df32f8f505bd11a2e2be8b0b39043defcb73522af8b8",
+    "docs/HYPOTHESIS_LEDGER.json": "6a7c2d6cb4ead304520e88c6cb428e5a0529221dfa2dde2949117bd44c869719",
+    "docs/HYPOTHESIS_SCHEMA.json": "5cfe7ad65dfbdf102294b7631e1b591228e95dcebf03829cf99247ed0a669895",
+    "docs/archive/Kryptos_expandes_2025.txt": "bd03550d1b203e287b43aa3622fd6cfb198741a67e41729d25c252c096623f19",
+    "docs/archive/Kryptos_notes_2025.txt": "610ffbc76370940e07318a247fe530708bbfe802d45dc51696c92350672de9f2",
+    "docs/archive/Kryptos_theories_2025.txt": "2199d767035f6152cf91d95faf10375a97601165fc438ea2f9afd20009b62efa",
+    "out/november_20261123/algebraic_audit.json": "7aaa6475d8c4c4dc1691f6ce377bfd8ed0743e5be93687c5384e180911b73363",
+    "out/november_20261123/clock.json": "253e762f0e6913bef861d936b623f00194be933346740b74be73165a2a084404",
+    "out/november_20261123/diagnostics.json": "db92c553d7d7394a65dfe3dd7772231c0568147fcc59b421de382c77db332209",
+    "out/november_20261123/tests.txt": "8ed52e9f9a98e7abe9fd5f4ca6f4428077273c14020df01744980867eff25bd8",
+    "pyproject.toml": "04995cc8a05ce99ab520cbacdb3468e7333e18f9d1373a59245c96b7f393c2da",
+    "research/november_audit.py": "bf99852414e8e85a291c7ffd8ab43364812a2800df685aff53e14ec7550c8010",
+    "src/kryptos/__init__.py": "034d8e81370402ab6f11ab0b03c8b9dd73d652037cc62824e8c2eabe822e106a",
+    "src/kryptos/__main__.py": "3129adff95e0f38b87ab34cddfc27082c7892bcaec267ff5d40f160fdf55b44a",
+    "src/kryptos/cli.py": "6a42ec80e0c49452340cda3c3dc7370990584d39dd10d05d7036c7809e91dd0d",
+    "src/kryptos/constants.py": "eaac5c9055ee8af52030259d68159e252dddd94df454fa30bbec1898c1f947ed",
+    "src/kryptos/diagnostics.py": "96fbb67832ec202b846e9f22bb831abd250f56203294b6fbc52f83c60721d4af",
+    "src/kryptos/fixtures.json": "9fbace2410a9bf43b812a4c90bc455afd81b9c7d95abd81533d95c2536dbc096",
+    "src/kryptos/primitives.py": "5380eed786177d4578fc3aab318b3d675f1b56aff47fb1a6642b1555385939c4",
+    "src/kryptos/scoring.py": "274c142157f5aef975674615d08652c964c4788a532e634ea959b75799ff9203",
+    "src/kryptos/solver.py": "14be2cad61913561eedb411b84b946dfe9d0e1040809514fda27b9e9b564764d",
+    "tests/test_opus_review.py": "ed35bcac15be0f648e3536dbc242d7880aeafc5647c0155c78bd771bb14958b7",
+    "tests/test_workbench.py": "7741522bd10ec5ac643b9011cb97a2c9a4e9225afd8a474e54818fbddec86dcf"
+  }
+}

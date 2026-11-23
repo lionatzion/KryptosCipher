@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "updated": "2026-11-23",
+  "hypotheses": [
+    {
+      "id": "direct-periodic-1-26",
+      "status": "eliminated",
+      "evidence_type": "exact_conflict",
+      "scope": "Direct periodic substitution, periods 1..26, STD/STD or KRYPTOS/KRYPTOS, Vigenere, Beaufort or variant Beaufort.",
+      "assumptions": [
+        "Original 97-character alignment",
+        "No transposition, nulls, progressive drift or unknown alphabet"
+      ],
+      "evidence_files": [
+        "out/november_20261123/diagnostics.json"
+      ],
+      "positive_controls": [
+        "tests/test_workbench.py::SolverControls.test_novel_seeded_controls_both_orders_all_modes"
+      ],
+      "reproduce": "python -m kryptos diagnostics --output out/november_20261123/diagnostics.json"
+    },
+    {
+      "id": "intact-crib-relative-phase-1-23",
+      "status": "eliminated",
+      "evidence_type": "exhaustive_bounded",
+      "scope": "Every relative phase for periods 1..23 in the six fixed-tableau modes; 2106 total checks cover all phases through period 26.",
+      "assumptions": [
+        "Each crib remains internally contiguous",
+        "Only one constant phase displacement between blocks",
+        "No further substitution or transposition"
+      ],
+      "evidence_files": [
+        "research/november_audit.py",
+        "out/november_20261123/algebraic_audit.json"
+      ],
+      "positive_controls": [
+        "10 planted period-7 relative-phase cases in phase_audit"
+      ],
+      "reproduce": "python -m research.november_audit --output out/november_20261123/algebraic_audit.json"
+    },
+    {
+      "id": "one-arbitrary-alphabet-periods",
+      "status": "eliminated",
+      "evidence_type": "exact_conflict",
+      "scope": "Common excluded periods 1..12,14,15,17,18,21,22,25 for four one-arbitrary-alphabet additive models. Individual survivor lists are in the output.",
+      "assumptions": [
+        "Exactly one arbitrary permutation alphabet",
+        "Other alphabet STD or KRYPTOS",
+        "Direct periodic additive substitution, original alignment"
+      ],
+      "evidence_files": [
+        "research/november_audit.py",
+        "out/november_20261123/algebraic_audit.json"
+      ],
+      "positive_controls": [
+        "20 seeded arbitrary-alphabet positive controls in alphabet_graph_audit"
+      ],
+      "reproduce": "python -m research.november_audit --output out/november_20261123/algebraic_audit.json"
+    },
+    {
+      "id": "base12-standard-taps-six-models",
+      "status": "eliminated",
+      "evidence_type": "exhaustive_bounded",
+      "scope": "All 248832 length-five base-12 primers, recurrence k[i]=(k[i-5]+k[i-4]) mod 12, six explicitly listed additive alphabet/sign models.",
+      "assumptions": [
+        "Fixed taps (5,4)",
+        "Original positional correspondence",
+        "No transposition or nulls",
+        "Other taps, moduli, and two arbitrary alphabets remain open"
+      ],
+      "evidence_files": [
+        "research/november_audit.py",
+        "out/november_20261123/algebraic_audit.json"
+      ],
+      "positive_controls": [
+        "Six planted primer recoveries and scalar/matrix recurrence comparison"
+      ],
+      "reproduce": "python -m research.november_audit --output out/november_20261123/algebraic_audit.json"
+    },
+    {
+      "id": "period27-preferred-final-layer",
+      "status": "retired",
+      "evidence_type": "unsupported_inference",
+      "scope": "Retire the claim that fitting all 24 anchors establishes period 27; the model itself is still possible.",
+      "assumptions": [
+        "24 distinct observed residues imply zero independent repeat checks",
+        "Three free residues have 17576 completions"
+      ],
+      "evidence_files": [
+        "out/november_20261123/diagnostics.json",
+        "docs/ASTRA_K4_REPORT_2026-10-07.md"
+      ],
+      "positive_controls": [],
+      "reproduce": "python -m kryptos diagnostics"
+    },
+    {
+      "id": "crib-parity",
+      "status": "statistical",
+      "evidence_type": "descriptive",
+      "scope": "13 repeated-plaintext pair equalities, 11 independent checks in STD numbering.",
+      "assumptions": [
+        "Not evidence that direct key parity globally alternates",
+        "No universal cipher-family filter or historical order proof"
+      ],
+      "evidence_files": [
+        "out/november_20261123/diagnostics.json",
+        "docs/RESEARCH_DOSSIER.md"
+      ],
+      "positive_controls": [],
+      "reproduce": "python -m kryptos diagnostics"
+    },
+    {
+      "id": "mengenlehreuhr-clue-identification",
+      "status": "retired",
+      "evidence_type": "source_revision",
+      "scope": "Lamp-clock reading of BERLINCLOCK is superseded by the November 2025 World Clock clarification.",
+      "assumptions": [
+        "Does not eliminate all base-5 mathematics or establish a 24-period cipher"
+      ],
+      "evidence_files": [
+        "docs/RESEARCH_DOSSIER.md"
+      ],
+      "positive_controls": [],
+      "reproduce": "Read sources S2 and S3 in docs/RESEARCH_DOSSIER.md"
+    },
+    {
+      "id": "weltzeituhr-numeric-routes",
+      "status": "eliminated",
+      "evidence_type": "exhaustive_bounded",
+      "scope": "243648 configurations: 288 distinct numeric 24-facet schedules times 846 alphabet/mode/order/route models from the default width-3 catalog. Zero exact anchor matches. Other clock constructions remain open.",
+      "assumptions": [
+        "No official historical city lists claimed",
+        "The run output bounds the tested subset only"
+      ],
+      "evidence_files": [
+        "out/november_20261123/clock.json"
+      ],
+      "positive_controls": [
+        "tests/test_workbench.py::SolverControls.test_independently_fixed_clock_keys"
+      ],
+      "reproduce": "python -m kryptos clock --routes grids --output out/november_20261123/clock.json"
+    },
+    {
+      "id": "dictionary-gromark",
+      "status": "open",
+      "evidence_type": "future_experiment",
+      "scope": "Further keyword ciphertext-alphabet Gromark searches require a frozen deduplicated word list and hashes.",
+      "assumptions": [
+        "Check overlap with October experiments before adding runs",
+        "No arbitrary-alphabet exhaustion claim from a dictionary"
+      ],
+      "evidence_files": [
+        "docs/OPUS_K4_REVIEW.md",
+        "docs/RESEARCH_DOSSIER.md"
+      ],
+      "positive_controls": [],
+      "reproduce": "Register dictionary, model equations, controls and budget before execution"
+    },
+    {
+      "id": "physical-masking-and-yar",
+      "status": "open",
+      "evidence_type": "future_experiment",
+      "scope": "YAR, extra L, measured overlays and positional masking with explicit geometry.",
+      "assumptions": [
+        "No ad hoc per-position lookup card",
+        "Calibrated imaging and coordinate uncertainty required",
+        "Simple between-crib phase shifts at periods 1..23 already excluded"
+      ],
+      "evidence_files": [
+        "docs/RESEARCH_DOSSIER.md"
+      ],
+      "positive_controls": [],
+      "reproduce": "Register a reversible coordinate rule and synthetic controls before execution"
+    },
+    {
+      "id": "gemini-61-million-sweeps",
+      "status": "unverified",
+      "evidence_type": "reported_only",
+      "scope": "The supplied Gemini report claims 61753970 configurations; its complete runner and logs were not supplied.",
+      "assumptions": [
+        "Do not add this count to locally executed tests",
+        "Do not import all community negative results as local proofs"
+      ],
+      "evidence_files": [
+        "docs/RESEARCH_DOSSIER.md"
+      ],
+      "positive_controls": [],
+      "reproduce": "Requires original runner, exact inputs, seeds, positive controls and logs"
+    }
+  ]
+}

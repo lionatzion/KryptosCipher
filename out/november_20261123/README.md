@@ -1,0 +1,42 @@
+# Executed November evidence
+
+Date: November 23, 2026. Python 3.12 in the local validation environment.
+No K4 solution, English corpus calibration or paid verifier submission is claimed.
+
+| Artifact | Executed result |
+|---|---|
+| `diagnostics.json` | Four baseline cases pass; 180 direct models across two alphabets, three modes and periods 1–30; only periods 27–29 compatible |
+| `clock.json` | 846 route/alphabet/mode/order models times 288 distinct schedules = 243,648 configurations; zero exact matches |
+| `algebraic_audit.json` | 2,106 relative-phase checks, 104 arbitrary-alphabet graph models, 961 binary recurrence/seed pairs, 1,492,992 base-12 model/primer checks; 36 synthetic controls pass |
+| `tests.txt` | 47 tests pass, including older research tests and new workbench regressions |
+| `manifest.json` | SHA-256 identifiers for implementation, fixtures, source notes and results |
+
+Reproduce from the repository root:
+
+```bash
+python -m pip install -e '.[test]'
+python -m unittest discover -s tests -v
+python -m kryptos diagnostics --output out/local/diagnostics.json
+python -m kryptos clock --routes grids --output out/local/clock.json
+python -m research.november_audit --output out/local/algebraic_audit.json
+```
+
+Output timestamps, requested destination and elapsed seconds can differ. The
+mathematical results should agree. CLI envelopes validate against
+`docs/EXPERIMENT_SCHEMA.json`; the detailed algebraic audit has its own recorded
+schema and script hash. Its 36 assertions include planted phase, alphabet and
+recurrence checks. It does not claim to reproduce Gemini's entire search campaign.
+
+The first full local test attempt exposed an old `/usr/share/dict/web2` dependency.
+The algorithm tests now use deterministic synthetic keywords plus the original
+context words; all four formerly dependent tests execute. The October dictionary
+experiment, its registered hash and its saved results were not altered or rerun.
+
+The matched-control pipeline is tested using a deliberately tiny synthetic score
+table, not represented as an English research corpus. Real language calibration
+requires an external count table and the exact same model catalog, key-completion
+policy and search budget for observed and randomized ciphertexts. See README for
+the complete pipeline command. No numerical English significance claim is made.
+
+Original and current manifests from October remain intact. New output counts must
+not be added to unverified external totals as independent evidence.

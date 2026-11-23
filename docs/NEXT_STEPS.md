@@ -1,3 +1,5 @@
+> October plan retained for provenance. The [November dossier](RESEARCH_DOSSIER.md#next-work) updates the active plan, including the relative-phase exclusion and conditional treatment of crib parity.
+
 # K4: what changed and what to test next
 
 Research status, 2026-10-07: **no additional confirmed plaintext recovered**.

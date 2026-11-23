@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Kryptos reproducible run envelope",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "id", "recorded_at", "command", "code_sha256", "ciphertext_sha256", "parameters", "result", "is_solution"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "id": {"type": "string", "minLength": 1},
+    "recorded_at": {"type": "string", "format": "date-time"},
+    "command": {"type": "string", "minLength": 1},
+    "code_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "ciphertext_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "parameters": {"type": "object"},
+    "result": {"type": "object"},
+    "is_solution": {"const": false}
+  }
+}

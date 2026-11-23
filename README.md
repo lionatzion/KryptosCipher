@@ -1,85 +1,100 @@
-# KryptosCipher — K4 research workspace
+# KryptosCipher
 
-**2026-10-07 update:** [Opus's independent review](docs/OPUS_K4_REVIEW.md) and a
-[bounded keyword-progressive experiment](docs/KEYWORD_PROGRESSIVE_REPORT.md) are
-now included. The new experiment tests 617,732 keyword alphabets and every cycle
-drift at periods 1–24. Periods 1–23 have no compatible fit; period 24 has six weak,
-incomplete fits, compared with a mean of 18 in shuffled controls. No additional
-confirmed plaintext or solution was recovered.
+Reproducible Kryptos research with verified K1–K3 decoders and bounded K4 experiments.
+**No verified K4 plaintext or decryption method is claimed by this repository.**
 
-**2026-10-07 Astra audit:** K4 remains unsolved in this repository. The period-27
-scaffold below is a historical hypothesis, not an established cipher structure:
-its 24 known letters constrain 24 different residues and perform zero independent
-repeat checks. Phase changes do not constitute transposition experiments.
+The November 23, 2026 update replaces the preferred period 27 premise with explicit
+model assumptions, positive controls, separately scored unknown text, and logged
+search limits. Older research and exports remain available for provenance.
 
-Read [the evidence report](docs/ASTRA_K4_REPORT_2026-10-07.md) for corrected findings,
-bounded new experiments, exact scopes, and remaining uncertainties. Reproduce the
-original Astra work using standard-library Python:
+## Quick start
+
+Python 3.11 or newer. The new `kryptos` package uses the standard library; the
+October experiments and November algebraic audit use NumPy.
 
 ```bash
-python3 -m unittest discover -s tests -p 'test_astra_research.py' -v
-python3 -m research.run_astra
+python -m pip install -e '.[test]'
+python -m unittest discover -s tests -v
+python -m kryptos verify
+python -m kryptos diagnostics --output out/local/diagnostics.json
+python -m kryptos clock --routes grids --output out/local/clock.json
+python -m research.november_audit --output out/local/algebraic_audit.json
 ```
 
-Opus and keyword-progressive code require NumPy. Their dictionary experiments also
-require the registered `/usr/share/dict/web2` bytes; the progressive CLI accepts
-`--dictionary PATH` and checks its hash. With those inputs available:
+`python kryptos_analysis.py verify` provides the same interface after installation.
+K2 exposes both the carved and corrected endings; K3 uses the verified double
+rotation and preserves its physical question mark.
+
+For a scored search, provide a legally usable quadgram count table. There is no
+bundled English corpus, fabricated fallback model, or universal score cutoff.
 
 ```bash
-python3 -m unittest discover -s tests -v
-python3 -m research.keyword_progressive --outdir out/progressive_reproduction
+python -m kryptos search --periods 27 --alphabet STD --mode vigenere \
+  --quadgrams /path/to/english_quadgrams.txt --controls 20 --seed 20261123 \
+  --output out/local/p27-calibration.json
 ```
 
-The [next research steps](docs/NEXT_STEPS.md) explain what the archive sale changes,
-why the old period-27 track should be deprioritized, and which new hypotheses can
-be tested without fitting a desired plaintext.
+This last command is a diagnostic baseline, not a preferred solution route. It
+exhausts 17,576 period 27 completions per ciphertext, repeating the search on 20
+histogram shuffles and 20 uniform controls. Other searches can reach explicit caps
+and report `complete: false`. Without `--quadgrams`, candidate output is unscored
+enumeration order, never an English ranking.
 
-The older exports and notes below are retained for provenance. Their claims are
-superseded where the audit identifies unsupported conclusions.
+## What is established here
 
-## Historical period-27 baseline
+| Item | Current interpretation |
+|---|---|
+| Public anchors | EASTNORTHEAST at 22–34; BERLINCLOCK at 64–74, one based |
+| Direct periodic keys | Periods 1–26 conflict under the stated STD/KRYPTOS Vigenere, Beaufort and variant Beaufort models |
+| Period 27 | 24 distinct constrained residues, zero independent repeat checks, three free residues |
+| Simple gap nulls | Every relative phase fails at periods 1–23 when both crib blocks remain intact under those fixed tableaux |
+| Crib parity | Pairwise observation; not proof of a globally alternating key |
+| Clock clue | Alexanderplatz World Clock; numeric schedules and city selections are separate hypotheses |
+| Public status | Archive recovery and the official plaintext verifier do not provide a public encryption recipe |
 
-This repository tracks a **constraint‑driven** search for a period‑27 Vigenère‑style keystream on Kryptos K4, with reproducible scripts, notebooks, and exports.
+Read the [research dossier](docs/RESEARCH_DOSSIER.md),
+[hypothesis ledger](docs/HYPOTHESIS_LEDGER.json), and
+[executed November runs](out/november_20261123/README.md).
 
-## TL;DR (quick start)
-```bash
-# from the repo root
-python kryptos_k4_p27_sweep.py --outdir ./out --topn 100
+## Research contract
+
+```mermaid
+flowchart TD
+    A["Freeze model and inputs"] --> B["Pass synthetic controls"]
+    B --> C["Apply anchor constraints"]
+    C --> D["Enumerate explicit key completions"]
+    D --> E["Score unknown windows"]
+    E --> F["Repeat full search on random controls"]
+    F --> G["Record scope and evidence"]
 ```
-Outputs will appear in `out/`:
-- `k4_top10_summary.json` — top‑10 candidates with `rank`, `score`, `unknown_fill`, `keystream_27`, `plaintext`
-- `k4_top100_candidates_light.csv` — top‑N lightweight table (rank, score, unknown_fill, keystream_27)
 
-## Method in one paragraph
-We model K4’s final layer as a repeating Vigenère keystream with **period 27**. We **hard‑lock the four plaintext islands** at absolute positions (1‑based) — **EAST** (22–25), **NORTHEAST** (26–34), **BERLIN** (64–69), **CLOCK** (70–74) — and **enforce zero‑shift ‘A’** at positions **33** and **74**. Those anchors determine 24/27 cycle residues; the remaining unknowns (r7, r8, r20) are exhausted over A..Z. Each full 97‑char decrypt is scored with a light English fitness (chi‑square + common bigrams + function‑word hits).
+- Collision counts describe evidence strength. They do not reject a consistent model.
+- Scores report 64 unknown-only, 12 boundary, 18 anchor-internal and 94 full-text
+  windows. Missing key values are never silently filled.
+- `--evaluation-holdout` fits EASTNORTHEAST and reports BERLINCLOCK recovery
+  afterward. Both public blocks influenced research; this is not a pristine blind test.
+- Every complete candidate must reproduce its ciphertext. That is a consistency
+  check, not evidence that the recipe is historically correct.
+- No command contacts Paradigm or makes paid verifier submissions.
 
-## Repository layout (suggested)
-- `kryptos_k4_p27_sweep.py` — main sweep CLI
-- `RUN_GUIDE.md` — step‑by‑step instructions and troubleshooting
-- `notebooks/`
-  - `K4_P27_Sweep.ipynb` — run baseline sweep and write `out/` artifacts
-  - `K4_P28_29_SanityChecks.ipynb` — completeness checks for P=28/29
-  - `Minimal_Transposition_Probe.ipynb` — (stub) reversible 7×14 route probe
-  - `Review_Top_Candidates.ipynb` — inspect JSON/CSV and island windows
-- `docs/`
-  - `hypothesis.md` — two‑layer working model (optional tiny transposition + P=27)
-  - `analysis.md` — eliminated methods and next steps
-- `data/exports/` (or `out/`) — JSON/CSV artifacts and status snapshots
-  - `k4_top10_summary.json`
-  - `k4_top100_candidates_light.csv`
-  - `kryptos_k4_conclusions.json`
-  - `DEAD_ENDS.md`, `NOTES_README.md`
+## Layout and earlier work
 
-## Dead‑ends / de‑prioritized (keep this current)
-- Ordinary ABC Vigenere periods 1–26 and 30–52 conflict with the public cribs.
-- Period-27 completion and phase sweeps lack independent supporting checks.
-- Broader exclusions require the exact alphabet and key-family scopes in the reports.
-- Earlier claimed grid, lamp-count and tableau eliminations lack executable evidence
-  in this repository and are not treated as established exclusions.
+| Path | Purpose |
+|---|---|
+| `src/kryptos/` | Verified primitives, solver, scoring, diagnostics and CLI |
+| `tests/` | October tests plus November known-answer and seeded controls |
+| `research/` | Preserved October experiments and November algebraic audit |
+| `docs/RESEARCH_DOSSIER.md` | Consolidated interpretation of original notes |
+| `docs/archive/` | Original notes and previous README, explicitly historical |
+| `out/november_20261123/` | Executed diagnostic, clock and algebraic audit outputs |
 
-## Contributing
-- Prefer small JSON/CSV exports over large dumps.
-- When an approach is ruled out, add a line to `DEAD_ENDS.md` and update `docs/analysis.md`.
-- Use clear commit messages: `feat:`, `exp:`, `docs:`, `data:`, `fix:`
+The [Astra report](docs/ASTRA_K4_REPORT_2026-10-07.md),
+[Opus review](docs/OPUS_K4_REVIEW.md),
+[keyword progressive experiment](docs/KEYWORD_PROGRESSIVE_REPORT.md), and
+[November research note](docs/K4_RESEARCH_UPDATE_2026-11-23.md) remain intact.
+October dictionary runs require their registered dictionary bytes and hash;
+installing this package does not recreate those external inputs.
 
-_Last updated: 2025-08-26 05:58:11_
+Root period 27 scripts, notebooks and exports are historical experiments.
+Their scores and hand-edited candidates are not current ground truth.
+See the [retired claims log](docs/RETIRED_CLAIMS.md).

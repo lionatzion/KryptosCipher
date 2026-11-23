@@ -83,9 +83,13 @@ class CoreTests(unittest.TestCase):
 class KeywordTableauTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        words = kt.DICTIONARY.read_text().split()
         rng = random.Random(3)
-        cls.family = kt.alphabet_family(rng.sample(words, 3000) + list(kt.CONTEXT_WORDS))
+        # Portable algorithm controls, not a reproduction of the registered
+        # dictionary campaign. That experiment still requires its exact hash.
+        words = set()
+        while len(words) < 3000:
+            words.add("".join(rng.choice(ABC) for _ in range(rng.randrange(4, 15))))
+        cls.family = kt.alphabet_family(sorted(words) + list(kt.CONTEXT_WORDS))
         cls.pos = kt.positions_matrix(cls.family[0])
         cls.pool = audit.sculpture_texts()[2]["K1K2K3_plain_corrected"]
 

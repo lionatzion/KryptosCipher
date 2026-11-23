@@ -1,3 +1,5 @@
+> Historical material. Current conclusions and commands are in the [November 2026 research dossier](docs/RESEARCH_DOSSIER.md). Claims below may be superseded.
+
 
 # Kryptos K4 — Period‑27 Keystream + Minimal Route Transposition
 
