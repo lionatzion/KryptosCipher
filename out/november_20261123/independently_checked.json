@@ -1,0 +1,4789 @@
+{
+  "status": "Independent bounded audit; large Gemini campaign NOT reproduced",
+  "input_source_sha256": "f6b2ae396f35aeca442818a37bca20397953435900c988df52adddddbc8c7ec6",
+  "script_sha256": "2b9d69962e6e225b5d6a8a8d860ec7cda245fdcce8aa5422ced453d943ec808e",
+  "k4_ciphertext": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR",
+  "k4_letter_counts": {
+    "A": 4,
+    "B": 5,
+    "C": 2,
+    "D": 3,
+    "E": 2,
+    "F": 4,
+    "G": 4,
+    "H": 2,
+    "I": 4,
+    "J": 3,
+    "K": 8,
+    "L": 4,
+    "M": 1,
+    "N": 3,
+    "O": 5,
+    "P": 3,
+    "Q": 4,
+    "R": 4,
+    "S": 6,
+    "T": 6,
+    "U": 6,
+    "V": 2,
+    "W": 5,
+    "X": 2,
+    "Y": 1,
+    "Z": 4
+  },
+  "k4_ic": 0.03608247422680412,
+  "baseline_checks": {
+    "k1_expected_plaintext": true,
+    "k1_roundtrip": true,
+    "k2_carved_tail": "ESFORTYFOURSECONDSWESTIDBYROWS",
+    "k2_intended_tail": "SFORTYFOURSECONDSWESTXLAYERTWO",
+    "k2_carved_roundtrip": true,
+    "k2_intended_roundtrip": true,
+    "k3_expected_plaintext_letters": true,
+    "k3_roundtrip_letters": true,
+    "k3_punctuation_policy": "336 letters rotated; final physical question mark is retained separately"
+  },
+  "direct_period_test_count": 240,
+  "direct_period_scope": "Fixed alphabets and additive equations, direct positional alignment, no transposition",
+  "direct_period_variants": [
+    {
+      "name": "STD_vig",
+      "plaintext_alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+      "ciphertext_alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+      "anchor_shifts": {
+        "21": 1,
+        "22": 11,
+        "23": 25,
+        "24": 2,
+        "25": 3,
+        "26": 2,
+        "27": 24,
+        "28": 24,
+        "29": 6,
+        "30": 2,
+        "31": 10,
+        "32": 0,
+        "33": 25,
+        "63": 12,
+        "64": 20,
+        "65": 24,
+        "66": 10,
+        "67": 11,
+        "68": 6,
+        "69": 10,
+        "70": 14,
+        "71": 17,
+        "72": 13,
+        "73": 0
+      },
+      "period_checks": [
+        {
+          "period": 1,
+          "compatible": false,
+          "distinct_anchor_residues": 1,
+          "conflicting_positions_1_based": [
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 2,
+          "compatible": false,
+          "distinct_anchor_residues": 2,
+          "conflicting_positions_1_based": [
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 3,
+          "compatible": false,
+          "distinct_anchor_residues": 3,
+          "conflicting_positions_1_based": [
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            64,
+            65,
+            66,
+            67,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 4,
+          "compatible": false,
+          "distinct_anchor_residues": 4,
+          "conflicting_positions_1_based": [
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 5,
+          "compatible": false,
+          "distinct_anchor_residues": 5,
+          "conflicting_positions_1_based": [
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            64,
+            65,
+            66,
+            67,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 6,
+          "compatible": false,
+          "distinct_anchor_residues": 6,
+          "conflicting_positions_1_based": [
+            28,
+            29,
+            30,
+            32,
+            33,
+            34,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 7,
+          "compatible": false,
+          "distinct_anchor_residues": 7,
+          "conflicting_positions_1_based": [
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 8,
+          "compatible": false,
+          "distinct_anchor_residues": 8,
+          "conflicting_positions_1_based": [
+            30,
+            31,
+            32,
+            33,
+            34,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 9,
+          "compatible": false,
+          "distinct_anchor_residues": 9,
+          "conflicting_positions_1_based": [
+            31,
+            32,
+            33,
+            34,
+            64,
+            65,
+            66,
+            67,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 10,
+          "compatible": false,
+          "distinct_anchor_residues": 10,
+          "conflicting_positions_1_based": [
+            32,
+            33,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 11,
+          "compatible": false,
+          "distinct_anchor_residues": 11,
+          "conflicting_positions_1_based": [
+            33,
+            34,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 12,
+          "compatible": false,
+          "distinct_anchor_residues": 12,
+          "conflicting_positions_1_based": [
+            34,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 13,
+          "compatible": false,
+          "distinct_anchor_residues": 13,
+          "conflicting_positions_1_based": [
+            64,
+            65,
+            66,
+            67,
+            68,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 14,
+          "compatible": false,
+          "distinct_anchor_residues": 13,
+          "conflicting_positions_1_based": [
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 15,
+          "compatible": false,
+          "distinct_anchor_residues": 15,
+          "conflicting_positions_1_based": [
+            64,
+            67,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 16,
+          "compatible": false,
+          "distinct_anchor_residues": 16,
+          "conflicting_positions_1_based": [
+            64,
+            65,
+            66,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 17,
+          "compatible": false,
+          "distinct_anchor_residues": 17,
+          "conflicting_positions_1_based": [
+            64,
+            65,
+            66,
+            67,
+            68,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 18,
+          "compatible": false,
+          "distinct_anchor_residues": 17,
+          "conflicting_positions_1_based": [
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70
+          ]
+        },
+        {
+          "period": 19,
+          "compatible": false,
+          "distinct_anchor_residues": 15,
+          "conflicting_positions_1_based": [
+            64,
+            65,
+            67,
+            68,
+            69,
+            71,
+            72
+          ]
+        },
+        {
+          "period": 20,
+          "compatible": false,
+          "distinct_anchor_residues": 13,
+          "conflicting_positions_1_based": [
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 21,
+          "compatible": false,
+          "distinct_anchor_residues": 13,
+          "conflicting_positions_1_based": [
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 22,
+          "compatible": false,
+          "distinct_anchor_residues": 15,
+          "conflicting_positions_1_based": [
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 23,
+          "compatible": false,
+          "distinct_anchor_residues": 17,
+          "conflicting_positions_1_based": [
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 24,
+          "compatible": false,
+          "distinct_anchor_residues": 19,
+          "conflicting_positions_1_based": [
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 25,
+          "compatible": false,
+          "distinct_anchor_residues": 21,
+          "conflicting_positions_1_based": [
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 26,
+          "compatible": false,
+          "distinct_anchor_residues": 23,
+          "conflicting_positions_1_based": [
+            74
+          ]
+        },
+        {
+          "period": 27,
+          "compatible": true,
+          "distinct_anchor_residues": 24,
+          "conflicting_positions_1_based": []
+        },
+        {
+          "period": 28,
+          "compatible": true,
+          "distinct_anchor_residues": 24,
+          "conflicting_positions_1_based": []
+        },
+        {
+          "period": 29,
+          "compatible": true,
+          "distinct_anchor_residues": 24,
+          "conflicting_positions_1_based": []
+        },
+        {
+          "period": 30,
+          "compatible": false,
+          "distinct_anchor_residues": 23,
+          "conflicting_positions_1_based": [
+            64
+          ]
+        }
+      ],
+      "compatible_periods_1_to_30": [
+        27,
+        28,
+        29
+      ]
+    },
+    {
+      "name": "STD_beau",
+      "plaintext_alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+      "ciphertext_alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+      "anchor_shifts": {
+        "21": 9,
+        "22": 11,
+        "23": 9,
+        "24": 14,
+        "25": 3,
+        "26": 4,
+        "27": 6,
+        "28": 10,
+        "29": 20,
+        "30": 10,
+        "31": 10,
+        "32": 10,
+        "33": 11,
+        "63": 14,
+        "64": 2,
+        "65": 6,
+        "66": 6,
+        "67": 1,
+        "68": 6,
+        "69": 14,
+        "70": 10,
+        "71": 19,
+        "72": 17,
+        "73": 20
+      },
+      "period_checks": [
+        {
+          "period": 1,
+          "compatible": false,
+          "distinct_anchor_residues": 1,
+          "conflicting_positions_1_based": [
+            23,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 2,
+          "compatible": false,
+          "distinct_anchor_residues": 2,
+          "conflicting_positions_1_based": [
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 3,
+          "compatible": false,
+          "distinct_anchor_residues": 3,
+          "conflicting_positions_1_based": [
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 4,
+          "compatible": false,
+          "distinct_anchor_residues": 4,
+          "conflicting_positions_1_based": [
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 5,
+          "compatible": false,
+          "distinct_anchor_residues": 5,
+          "conflicting_positions_1_based": [
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 6,
+          "compatible": false,
+          "distinct_anchor_residues": 6,
+          "conflicting_positions_1_based": [
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 7,
+          "compatible": false,
+          "distinct_anchor_residues": 7,
+          "conflicting_positions_1_based": [
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 8,
+          "compatible": false,
+          "distinct_anchor_residues": 8,
+          "conflicting_positions_1_based": [
+            30,
+            31,
+            32,
+            33,
+            34,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 9,
+          "compatible": false,
+          "distinct_anchor_residues": 9,
+          "conflicting_positions_1_based": [
+            31,
+            32,
+            33,
+            34,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 10,
+          "compatible": false,
+          "distinct_anchor_residues": 10,
+          "conflicting_positions_1_based": [
+            32,
+            33,
+            34,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 11,
+          "compatible": false,
+          "distinct_anchor_residues": 11,
+          "conflicting_positions_1_based": [
+            33,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73
+          ]
+        },
+        {
+          "period": 12,
+          "compatible": false,
+          "distinct_anchor_residues": 12,
+          "conflicting_positions_1_based": [
+            34,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 13,
+          "compatible": false,
+          "distinct_anchor_residues": 13,
+          "conflicting_positions_1_based": [
+            65,
+            66,
+            68,
+            69,
+            70,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 14,
+          "compatible": false,
+          "distinct_anchor_residues": 13,
+          "conflicting_positions_1_based": [
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 15,
+          "compatible": false,
+          "distinct_anchor_residues": 15,
+          "conflicting_positions_1_based": [
+            64,
+            67,
+            68,
+            69,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 16,
+          "compatible": false,
+          "distinct_anchor_residues": 16,
+          "conflicting_positions_1_based": [
+            64,
+            65,
+            66,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 17,
+          "compatible": false,
+          "distinct_anchor_residues": 17,
+          "conflicting_positions_1_based": [
+            64,
+            65,
+            66,
+            67,
+            68,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 18,
+          "compatible": false,
+          "distinct_anchor_residues": 17,
+          "conflicting_positions_1_based": [
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70
+          ]
+        },
+        {
+          "period": 19,
+          "compatible": false,
+          "distinct_anchor_residues": 15,
+          "conflicting_positions_1_based": [
+            64,
+            65,
+            67,
+            68,
+            69,
+            70,
+            72
+          ]
+        },
+        {
+          "period": 20,
+          "compatible": false,
+          "distinct_anchor_residues": 13,
+          "conflicting_positions_1_based": [
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 21,
+          "compatible": false,
+          "distinct_anchor_residues": 13,
+          "conflicting_positions_1_based": [
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 22,
+          "compatible": false,
+          "distinct_anchor_residues": 15,
+          "conflicting_positions_1_based": [
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73
+          ]
+        },
+        {
+          "period": 23,
+          "compatible": false,
+          "distinct_anchor_residues": 17,
+          "conflicting_positions_1_based": [
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 24,
+          "compatible": false,
+          "distinct_anchor_residues": 19,
+          "conflicting_positions_1_based": [
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 25,
+          "compatible": false,
+          "distinct_anchor_residues": 21,
+          "conflicting_positions_1_based": [
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 26,
+          "compatible": false,
+          "distinct_anchor_residues": 23,
+          "conflicting_positions_1_based": [
+            74
+          ]
+        },
+        {
+          "period": 27,
+          "compatible": true,
+          "distinct_anchor_residues": 24,
+          "conflicting_positions_1_based": []
+        },
+        {
+          "period": 28,
+          "compatible": true,
+          "distinct_anchor_residues": 24,
+          "conflicting_positions_1_based": []
+        },
+        {
+          "period": 29,
+          "compatible": true,
+          "distinct_anchor_residues": 24,
+          "conflicting_positions_1_based": []
+        },
+        {
+          "period": 30,
+          "compatible": false,
+          "distinct_anchor_residues": 23,
+          "conflicting_positions_1_based": [
+            64
+          ]
+        }
+      ],
+      "compatible_periods_1_to_30": [
+        27,
+        28,
+        29
+      ]
+    },
+    {
+      "name": "STD_vbeau",
+      "plaintext_alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+      "ciphertext_alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+      "anchor_shifts": {
+        "21": 25,
+        "22": 15,
+        "23": 1,
+        "24": 24,
+        "25": 23,
+        "26": 24,
+        "27": 2,
+        "28": 2,
+        "29": 20,
+        "30": 24,
+        "31": 16,
+        "32": 0,
+        "33": 1,
+        "63": 14,
+        "64": 6,
+        "65": 2,
+        "66": 16,
+        "67": 15,
+        "68": 20,
+        "69": 16,
+        "70": 12,
+        "71": 9,
+        "72": 13,
+        "73": 0
+      },
+      "period_checks": [
+        {
+          "period": 1,
+          "compatible": false,
+          "distinct_anchor_residues": 1,
+          "conflicting_positions_1_based": [
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 2,
+          "compatible": false,
+          "distinct_anchor_residues": 2,
+          "conflicting_positions_1_based": [
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 3,
+          "compatible": false,
+          "distinct_anchor_residues": 3,
+          "conflicting_positions_1_based": [
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            64,
+            65,
+            66,
+            67,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 4,
+          "compatible": false,
+          "distinct_anchor_residues": 4,
+          "conflicting_positions_1_based": [
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 5,
+          "compatible": false,
+          "distinct_anchor_residues": 5,
+          "conflicting_positions_1_based": [
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            64,
+            65,
+            66,
+            67,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 6,
+          "compatible": false,
+          "distinct_anchor_residues": 6,
+          "conflicting_positions_1_based": [
+            28,
+            29,
+            30,
+            32,
+            33,
+            34,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 7,
+          "compatible": false,
+          "distinct_anchor_residues": 7,
+          "conflicting_positions_1_based": [
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 8,
+          "compatible": false,
+          "distinct_anchor_residues": 8,
+          "conflicting_positions_1_based": [
+            30,
+            31,
+            32,
+            33,
+            34,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 9,
+          "compatible": false,
+          "distinct_anchor_residues": 9,
+          "conflicting_positions_1_based": [
+            31,
+            32,
+            33,
+            34,
+            64,
+            65,
+            66,
+            67,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 10,
+          "compatible": false,
+          "distinct_anchor_residues": 10,
+          "conflicting_positions_1_based": [
+            32,
+            33,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 11,
+          "compatible": false,
+          "distinct_anchor_residues": 11,
+          "conflicting_positions_1_based": [
+            33,
+            34,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 12,
+          "compatible": false,
+          "distinct_anchor_residues": 12,
+          "conflicting_positions_1_based": [
+            34,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 13,
+          "compatible": false,
+          "distinct_anchor_residues": 13,
+          "conflicting_positions_1_based": [
+            64,
+            65,
+            66,
+            67,
+            68,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 14,
+          "compatible": false,
+          "distinct_anchor_residues": 13,
+          "conflicting_positions_1_based": [
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 15,
+          "compatible": false,
+          "distinct_anchor_residues": 15,
+          "conflicting_positions_1_based": [
+            64,
+            67,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 16,
+          "compatible": false,
+          "distinct_anchor_residues": 16,
+          "conflicting_positions_1_based": [
+            64,
+            65,
+            66,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 17,
+          "compatible": false,
+          "distinct_anchor_residues": 17,
+          "conflicting_positions_1_based": [
+            64,
+            65,
+            66,
+            67,
+            68,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 18,
+          "compatible": false,
+          "distinct_anchor_residues": 17,
+          "conflicting_positions_1_based": [
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70
+          ]
+        },
+        {
+          "period": 19,
+          "compatible": false,
+          "distinct_anchor_residues": 15,
+          "conflicting_positions_1_based": [
+            64,
+            65,
+            67,
+            68,
+            69,
+            71,
+            72
+          ]
+        },
+        {
+          "period": 20,
+          "compatible": false,
+          "distinct_anchor_residues": 13,
+          "conflicting_positions_1_based": [
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 21,
+          "compatible": false,
+          "distinct_anchor_residues": 13,
+          "conflicting_positions_1_based": [
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 22,
+          "compatible": false,
+          "distinct_anchor_residues": 15,
+          "conflicting_positions_1_based": [
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 23,
+          "compatible": false,
+          "distinct_anchor_residues": 17,
+          "conflicting_positions_1_based": [
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 24,
+          "compatible": false,
+          "distinct_anchor_residues": 19,
+          "conflicting_positions_1_based": [
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 25,
+          "compatible": false,
+          "distinct_anchor_residues": 21,
+          "conflicting_positions_1_based": [
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 26,
+          "compatible": false,
+          "distinct_anchor_residues": 23,
+          "conflicting_positions_1_based": [
+            74
+          ]
+        },
+        {
+          "period": 27,
+          "compatible": true,
+          "distinct_anchor_residues": 24,
+          "conflicting_positions_1_based": []
+        },
+        {
+          "period": 28,
+          "compatible": true,
+          "distinct_anchor_residues": 24,
+          "conflicting_positions_1_based": []
+        },
+        {
+          "period": 29,
+          "compatible": true,
+          "distinct_anchor_residues": 24,
+          "conflicting_positions_1_based": []
+        },
+        {
+          "period": 30,
+          "compatible": false,
+          "distinct_anchor_residues": 23,
+          "conflicting_positions_1_based": [
+            64
+          ]
+        }
+      ],
+      "compatible_periods_1_to_30": [
+        27,
+        28,
+        29
+      ]
+    },
+    {
+      "name": "KRY_vig",
+      "plaintext_alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+      "ciphertext_alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+      "anchor_shifts": {
+        "21": 1,
+        "22": 10,
+        "23": 21,
+        "24": 18,
+        "25": 1,
+        "26": 15,
+        "27": 2,
+        "28": 23,
+        "29": 5,
+        "30": 2,
+        "31": 19,
+        "32": 0,
+        "33": 2,
+        "63": 11,
+        "64": 17,
+        "65": 2,
+        "66": 5,
+        "67": 15,
+        "68": 11,
+        "69": 9,
+        "70": 8,
+        "71": 7,
+        "72": 20,
+        "73": 0
+      },
+      "period_checks": [
+        {
+          "period": 1,
+          "compatible": false,
+          "distinct_anchor_residues": 1,
+          "conflicting_positions_1_based": [
+            23,
+            24,
+            25,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 2,
+          "compatible": false,
+          "distinct_anchor_residues": 2,
+          "conflicting_positions_1_based": [
+            24,
+            25,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 3,
+          "compatible": false,
+          "distinct_anchor_residues": 3,
+          "conflicting_positions_1_based": [
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 4,
+          "compatible": false,
+          "distinct_anchor_residues": 4,
+          "conflicting_positions_1_based": [
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 5,
+          "compatible": false,
+          "distinct_anchor_residues": 5,
+          "conflicting_positions_1_based": [
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 6,
+          "compatible": false,
+          "distinct_anchor_residues": 6,
+          "conflicting_positions_1_based": [
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 7,
+          "compatible": false,
+          "distinct_anchor_residues": 7,
+          "conflicting_positions_1_based": [
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 8,
+          "compatible": false,
+          "distinct_anchor_residues": 8,
+          "conflicting_positions_1_based": [
+            30,
+            31,
+            32,
+            33,
+            34,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 9,
+          "compatible": false,
+          "distinct_anchor_residues": 9,
+          "conflicting_positions_1_based": [
+            31,
+            32,
+            33,
+            34,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 10,
+          "compatible": false,
+          "distinct_anchor_residues": 10,
+          "conflicting_positions_1_based": [
+            32,
+            33,
+            34,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 11,
+          "compatible": false,
+          "distinct_anchor_residues": 11,
+          "conflicting_positions_1_based": [
+            33,
+            34,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 12,
+          "compatible": false,
+          "distinct_anchor_residues": 12,
+          "conflicting_positions_1_based": [
+            34,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 13,
+          "compatible": false,
+          "distinct_anchor_residues": 13,
+          "conflicting_positions_1_based": [
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 14,
+          "compatible": false,
+          "distinct_anchor_residues": 13,
+          "conflicting_positions_1_based": [
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 15,
+          "compatible": false,
+          "distinct_anchor_residues": 15,
+          "conflicting_positions_1_based": [
+            64,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 16,
+          "compatible": false,
+          "distinct_anchor_residues": 16,
+          "conflicting_positions_1_based": [
+            64,
+            65,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 17,
+          "compatible": false,
+          "distinct_anchor_residues": 17,
+          "conflicting_positions_1_based": [
+            64,
+            65,
+            66,
+            67,
+            68,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 18,
+          "compatible": false,
+          "distinct_anchor_residues": 17,
+          "conflicting_positions_1_based": [
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70
+          ]
+        },
+        {
+          "period": 19,
+          "compatible": false,
+          "distinct_anchor_residues": 15,
+          "conflicting_positions_1_based": [
+            64,
+            65,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72
+          ]
+        },
+        {
+          "period": 20,
+          "compatible": false,
+          "distinct_anchor_residues": 13,
+          "conflicting_positions_1_based": [
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 21,
+          "compatible": false,
+          "distinct_anchor_residues": 13,
+          "conflicting_positions_1_based": [
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 22,
+          "compatible": false,
+          "distinct_anchor_residues": 15,
+          "conflicting_positions_1_based": [
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 23,
+          "compatible": false,
+          "distinct_anchor_residues": 17,
+          "conflicting_positions_1_based": [
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 24,
+          "compatible": false,
+          "distinct_anchor_residues": 19,
+          "conflicting_positions_1_based": [
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 25,
+          "compatible": false,
+          "distinct_anchor_residues": 21,
+          "conflicting_positions_1_based": [
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 26,
+          "compatible": false,
+          "distinct_anchor_residues": 23,
+          "conflicting_positions_1_based": [
+            74
+          ]
+        },
+        {
+          "period": 27,
+          "compatible": true,
+          "distinct_anchor_residues": 24,
+          "conflicting_positions_1_based": []
+        },
+        {
+          "period": 28,
+          "compatible": true,
+          "distinct_anchor_residues": 24,
+          "conflicting_positions_1_based": []
+        },
+        {
+          "period": 29,
+          "compatible": true,
+          "distinct_anchor_residues": 24,
+          "conflicting_positions_1_based": []
+        },
+        {
+          "period": 30,
+          "compatible": false,
+          "distinct_anchor_residues": 23,
+          "conflicting_positions_1_based": [
+            64
+          ]
+        }
+      ],
+      "compatible_periods_1_to_30": [
+        27,
+        28,
+        29
+      ]
+    },
+    {
+      "name": "KRY_beau",
+      "plaintext_alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+      "ciphertext_alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+      "anchor_shifts": {
+        "21": 23,
+        "22": 24,
+        "23": 7,
+        "24": 0,
+        "25": 13,
+        "26": 25,
+        "27": 4,
+        "28": 5,
+        "29": 7,
+        "30": 24,
+        "31": 7,
+        "32": 12,
+        "33": 10,
+        "63": 1,
+        "64": 13,
+        "65": 4,
+        "66": 13,
+        "67": 19,
+        "68": 23,
+        "69": 1,
+        "70": 16,
+        "71": 17,
+        "72": 12,
+        "73": 0
+      },
+      "period_checks": [
+        {
+          "period": 1,
+          "compatible": false,
+          "distinct_anchor_residues": 1,
+          "conflicting_positions_1_based": [
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            64,
+            65,
+            66,
+            67,
+            68,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 2,
+          "compatible": false,
+          "distinct_anchor_residues": 2,
+          "conflicting_positions_1_based": [
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            32,
+            33,
+            34,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 3,
+          "compatible": false,
+          "distinct_anchor_residues": 3,
+          "conflicting_positions_1_based": [
+            25,
+            26,
+            27,
+            28,
+            29,
+            31,
+            32,
+            33,
+            34,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 4,
+          "compatible": false,
+          "distinct_anchor_residues": 4,
+          "conflicting_positions_1_based": [
+            26,
+            27,
+            28,
+            29,
+            30,
+            33,
+            34,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 5,
+          "compatible": false,
+          "distinct_anchor_residues": 5,
+          "conflicting_positions_1_based": [
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 6,
+          "compatible": false,
+          "distinct_anchor_residues": 6,
+          "conflicting_positions_1_based": [
+            28,
+            29,
+            31,
+            32,
+            33,
+            34,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 7,
+          "compatible": false,
+          "distinct_anchor_residues": 7,
+          "conflicting_positions_1_based": [
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73
+          ]
+        },
+        {
+          "period": 8,
+          "compatible": false,
+          "distinct_anchor_residues": 8,
+          "conflicting_positions_1_based": [
+            30,
+            33,
+            34,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 9,
+          "compatible": false,
+          "distinct_anchor_residues": 9,
+          "conflicting_positions_1_based": [
+            31,
+            32,
+            33,
+            34,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 10,
+          "compatible": false,
+          "distinct_anchor_residues": 10,
+          "conflicting_positions_1_based": [
+            32,
+            33,
+            34,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 11,
+          "compatible": false,
+          "distinct_anchor_residues": 11,
+          "conflicting_positions_1_based": [
+            33,
+            34,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 12,
+          "compatible": false,
+          "distinct_anchor_residues": 12,
+          "conflicting_positions_1_based": [
+            34,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 13,
+          "compatible": false,
+          "distinct_anchor_residues": 13,
+          "conflicting_positions_1_based": [
+            64,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 14,
+          "compatible": false,
+          "distinct_anchor_residues": 13,
+          "conflicting_positions_1_based": [
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 15,
+          "compatible": false,
+          "distinct_anchor_residues": 15,
+          "conflicting_positions_1_based": [
+            64,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 16,
+          "compatible": false,
+          "distinct_anchor_residues": 16,
+          "conflicting_positions_1_based": [
+            64,
+            65,
+            66,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 17,
+          "compatible": false,
+          "distinct_anchor_residues": 17,
+          "conflicting_positions_1_based": [
+            64,
+            65,
+            66,
+            67,
+            68,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 18,
+          "compatible": false,
+          "distinct_anchor_residues": 17,
+          "conflicting_positions_1_based": [
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70
+          ]
+        },
+        {
+          "period": 19,
+          "compatible": false,
+          "distinct_anchor_residues": 15,
+          "conflicting_positions_1_based": [
+            64,
+            65,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72
+          ]
+        },
+        {
+          "period": 20,
+          "compatible": false,
+          "distinct_anchor_residues": 13,
+          "conflicting_positions_1_based": [
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            74
+          ]
+        },
+        {
+          "period": 21,
+          "compatible": false,
+          "distinct_anchor_residues": 13,
+          "conflicting_positions_1_based": [
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 22,
+          "compatible": false,
+          "distinct_anchor_residues": 15,
+          "conflicting_positions_1_based": [
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 23,
+          "compatible": false,
+          "distinct_anchor_residues": 17,
+          "conflicting_positions_1_based": [
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 24,
+          "compatible": false,
+          "distinct_anchor_residues": 19,
+          "conflicting_positions_1_based": [
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 25,
+          "compatible": false,
+          "distinct_anchor_residues": 21,
+          "conflicting_positions_1_based": [
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 26,
+          "compatible": false,
+          "distinct_anchor_residues": 23,
+          "conflicting_positions_1_based": [
+            74
+          ]
+        },
+        {
+          "period": 27,
+          "compatible": true,
+          "distinct_anchor_residues": 24,
+          "conflicting_positions_1_based": []
+        },
+        {
+          "period": 28,
+          "compatible": true,
+          "distinct_anchor_residues": 24,
+          "conflicting_positions_1_based": []
+        },
+        {
+          "period": 29,
+          "compatible": true,
+          "distinct_anchor_residues": 24,
+          "conflicting_positions_1_based": []
+        },
+        {
+          "period": 30,
+          "compatible": false,
+          "distinct_anchor_residues": 23,
+          "conflicting_positions_1_based": [
+            64
+          ]
+        }
+      ],
+      "compatible_periods_1_to_30": [
+        27,
+        28,
+        29
+      ]
+    },
+    {
+      "name": "KRY_vbeau",
+      "plaintext_alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+      "ciphertext_alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+      "anchor_shifts": {
+        "21": 25,
+        "22": 16,
+        "23": 5,
+        "24": 8,
+        "25": 25,
+        "26": 11,
+        "27": 24,
+        "28": 3,
+        "29": 21,
+        "30": 24,
+        "31": 7,
+        "32": 0,
+        "33": 24,
+        "63": 15,
+        "64": 9,
+        "65": 24,
+        "66": 21,
+        "67": 11,
+        "68": 15,
+        "69": 17,
+        "70": 18,
+        "71": 19,
+        "72": 6,
+        "73": 0
+      },
+      "period_checks": [
+        {
+          "period": 1,
+          "compatible": false,
+          "distinct_anchor_residues": 1,
+          "conflicting_positions_1_based": [
+            23,
+            24,
+            25,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 2,
+          "compatible": false,
+          "distinct_anchor_residues": 2,
+          "conflicting_positions_1_based": [
+            24,
+            25,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 3,
+          "compatible": false,
+          "distinct_anchor_residues": 3,
+          "conflicting_positions_1_based": [
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 4,
+          "compatible": false,
+          "distinct_anchor_residues": 4,
+          "conflicting_positions_1_based": [
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 5,
+          "compatible": false,
+          "distinct_anchor_residues": 5,
+          "conflicting_positions_1_based": [
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 6,
+          "compatible": false,
+          "distinct_anchor_residues": 6,
+          "conflicting_positions_1_based": [
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 7,
+          "compatible": false,
+          "distinct_anchor_residues": 7,
+          "conflicting_positions_1_based": [
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 8,
+          "compatible": false,
+          "distinct_anchor_residues": 8,
+          "conflicting_positions_1_based": [
+            30,
+            31,
+            32,
+            33,
+            34,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 9,
+          "compatible": false,
+          "distinct_anchor_residues": 9,
+          "conflicting_positions_1_based": [
+            31,
+            32,
+            33,
+            34,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 10,
+          "compatible": false,
+          "distinct_anchor_residues": 10,
+          "conflicting_positions_1_based": [
+            32,
+            33,
+            34,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 11,
+          "compatible": false,
+          "distinct_anchor_residues": 11,
+          "conflicting_positions_1_based": [
+            33,
+            34,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 12,
+          "compatible": false,
+          "distinct_anchor_residues": 12,
+          "conflicting_positions_1_based": [
+            34,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 13,
+          "compatible": false,
+          "distinct_anchor_residues": 13,
+          "conflicting_positions_1_based": [
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 14,
+          "compatible": false,
+          "distinct_anchor_residues": 13,
+          "conflicting_positions_1_based": [
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 15,
+          "compatible": false,
+          "distinct_anchor_residues": 15,
+          "conflicting_positions_1_based": [
+            64,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 16,
+          "compatible": false,
+          "distinct_anchor_residues": 16,
+          "conflicting_positions_1_based": [
+            64,
+            65,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 17,
+          "compatible": false,
+          "distinct_anchor_residues": 17,
+          "conflicting_positions_1_based": [
+            64,
+            65,
+            66,
+            67,
+            68,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 18,
+          "compatible": false,
+          "distinct_anchor_residues": 17,
+          "conflicting_positions_1_based": [
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70
+          ]
+        },
+        {
+          "period": 19,
+          "compatible": false,
+          "distinct_anchor_residues": 15,
+          "conflicting_positions_1_based": [
+            64,
+            65,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72
+          ]
+        },
+        {
+          "period": 20,
+          "compatible": false,
+          "distinct_anchor_residues": 13,
+          "conflicting_positions_1_based": [
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 21,
+          "compatible": false,
+          "distinct_anchor_residues": 13,
+          "conflicting_positions_1_based": [
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 22,
+          "compatible": false,
+          "distinct_anchor_residues": 15,
+          "conflicting_positions_1_based": [
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 23,
+          "compatible": false,
+          "distinct_anchor_residues": 17,
+          "conflicting_positions_1_based": [
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 24,
+          "compatible": false,
+          "distinct_anchor_residues": 19,
+          "conflicting_positions_1_based": [
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 25,
+          "compatible": false,
+          "distinct_anchor_residues": 21,
+          "conflicting_positions_1_based": [
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 26,
+          "compatible": false,
+          "distinct_anchor_residues": 23,
+          "conflicting_positions_1_based": [
+            74
+          ]
+        },
+        {
+          "period": 27,
+          "compatible": true,
+          "distinct_anchor_residues": 24,
+          "conflicting_positions_1_based": []
+        },
+        {
+          "period": 28,
+          "compatible": true,
+          "distinct_anchor_residues": 24,
+          "conflicting_positions_1_based": []
+        },
+        {
+          "period": 29,
+          "compatible": true,
+          "distinct_anchor_residues": 24,
+          "conflicting_positions_1_based": []
+        },
+        {
+          "period": 30,
+          "compatible": false,
+          "distinct_anchor_residues": 23,
+          "conflicting_positions_1_based": [
+            64
+          ]
+        }
+      ],
+      "compatible_periods_1_to_30": [
+        27,
+        28,
+        29
+      ]
+    },
+    {
+      "name": "Q1_fixed_orientation_vig",
+      "plaintext_alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+      "ciphertext_alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+      "anchor_shifts": {
+        "21": 20,
+        "22": 4,
+        "23": 11,
+        "24": 17,
+        "25": 23,
+        "26": 11,
+        "27": 14,
+        "28": 13,
+        "29": 25,
+        "30": 21,
+        "31": 3,
+        "32": 12,
+        "33": 14,
+        "63": 5,
+        "64": 13,
+        "65": 14,
+        "66": 4,
+        "67": 4,
+        "68": 0,
+        "69": 3,
+        "70": 8,
+        "71": 0,
+        "72": 6,
+        "73": 10
+      },
+      "period_checks": [
+        {
+          "period": 1,
+          "compatible": false,
+          "distinct_anchor_residues": 1,
+          "conflicting_positions_1_based": [
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 2,
+          "compatible": false,
+          "distinct_anchor_residues": 2,
+          "conflicting_positions_1_based": [
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            64,
+            65,
+            66,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 3,
+          "compatible": false,
+          "distinct_anchor_residues": 3,
+          "conflicting_positions_1_based": [
+            25,
+            26,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            64,
+            65,
+            66,
+            67,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 4,
+          "compatible": false,
+          "distinct_anchor_residues": 4,
+          "conflicting_positions_1_based": [
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            64,
+            65,
+            66,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 5,
+          "compatible": false,
+          "distinct_anchor_residues": 5,
+          "conflicting_positions_1_based": [
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            64,
+            65,
+            66,
+            67,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 6,
+          "compatible": false,
+          "distinct_anchor_residues": 6,
+          "conflicting_positions_1_based": [
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 7,
+          "compatible": false,
+          "distinct_anchor_residues": 7,
+          "conflicting_positions_1_based": [
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 8,
+          "compatible": false,
+          "distinct_anchor_residues": 8,
+          "conflicting_positions_1_based": [
+            30,
+            31,
+            32,
+            33,
+            34,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 9,
+          "compatible": false,
+          "distinct_anchor_residues": 9,
+          "conflicting_positions_1_based": [
+            31,
+            32,
+            33,
+            34,
+            64,
+            66,
+            67,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 10,
+          "compatible": false,
+          "distinct_anchor_residues": 10,
+          "conflicting_positions_1_based": [
+            32,
+            33,
+            34,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 11,
+          "compatible": false,
+          "distinct_anchor_residues": 11,
+          "conflicting_positions_1_based": [
+            33,
+            34,
+            64,
+            65,
+            66,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 12,
+          "compatible": false,
+          "distinct_anchor_residues": 12,
+          "conflicting_positions_1_based": [
+            34,
+            64,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 13,
+          "compatible": false,
+          "distinct_anchor_residues": 13,
+          "conflicting_positions_1_based": [
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 14,
+          "compatible": false,
+          "distinct_anchor_residues": 13,
+          "conflicting_positions_1_based": [
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 15,
+          "compatible": false,
+          "distinct_anchor_residues": 15,
+          "conflicting_positions_1_based": [
+            64,
+            67,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 16,
+          "compatible": false,
+          "distinct_anchor_residues": 16,
+          "conflicting_positions_1_based": [
+            64,
+            65,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 17,
+          "compatible": false,
+          "distinct_anchor_residues": 17,
+          "conflicting_positions_1_based": [
+            64,
+            65,
+            66,
+            67,
+            68,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 18,
+          "compatible": false,
+          "distinct_anchor_residues": 17,
+          "conflicting_positions_1_based": [
+            64,
+            66,
+            67,
+            68,
+            69,
+            70
+          ]
+        },
+        {
+          "period": 19,
+          "compatible": false,
+          "distinct_anchor_residues": 15,
+          "conflicting_positions_1_based": [
+            64,
+            65,
+            67,
+            68,
+            69,
+            71,
+            72
+          ]
+        },
+        {
+          "period": 20,
+          "compatible": false,
+          "distinct_anchor_residues": 13,
+          "conflicting_positions_1_based": [
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 21,
+          "compatible": false,
+          "distinct_anchor_residues": 13,
+          "conflicting_positions_1_based": [
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 22,
+          "compatible": false,
+          "distinct_anchor_residues": 15,
+          "conflicting_positions_1_based": [
+            66,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 23,
+          "compatible": false,
+          "distinct_anchor_residues": 17,
+          "conflicting_positions_1_based": [
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 24,
+          "compatible": false,
+          "distinct_anchor_residues": 19,
+          "conflicting_positions_1_based": [
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 25,
+          "compatible": false,
+          "distinct_anchor_residues": 21,
+          "conflicting_positions_1_based": [
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 26,
+          "compatible": false,
+          "distinct_anchor_residues": 23,
+          "conflicting_positions_1_based": [
+            74
+          ]
+        },
+        {
+          "period": 27,
+          "compatible": true,
+          "distinct_anchor_residues": 24,
+          "conflicting_positions_1_based": []
+        },
+        {
+          "period": 28,
+          "compatible": true,
+          "distinct_anchor_residues": 24,
+          "conflicting_positions_1_based": []
+        },
+        {
+          "period": 29,
+          "compatible": true,
+          "distinct_anchor_residues": 24,
+          "conflicting_positions_1_based": []
+        },
+        {
+          "period": 30,
+          "compatible": false,
+          "distinct_anchor_residues": 23,
+          "conflicting_positions_1_based": [
+            64
+          ]
+        }
+      ],
+      "compatible_periods_1_to_30": [
+        27,
+        28,
+        29
+      ]
+    },
+    {
+      "name": "Q2_fixed_orientation_vig",
+      "plaintext_alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+      "ciphertext_alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+      "anchor_shifts": {
+        "21": 8,
+        "22": 17,
+        "23": 9,
+        "24": 3,
+        "25": 7,
+        "26": 6,
+        "27": 12,
+        "28": 8,
+        "29": 12,
+        "30": 9,
+        "31": 0,
+        "32": 14,
+        "33": 13,
+        "63": 18,
+        "64": 24,
+        "65": 12,
+        "66": 11,
+        "67": 22,
+        "68": 17,
+        "69": 16,
+        "70": 14,
+        "71": 24,
+        "72": 1,
+        "73": 16
+      },
+      "period_checks": [
+        {
+          "period": 1,
+          "compatible": false,
+          "distinct_anchor_residues": 1,
+          "conflicting_positions_1_based": [
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            30,
+            31,
+            32,
+            33,
+            34,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 2,
+          "compatible": false,
+          "distinct_anchor_residues": 2,
+          "conflicting_positions_1_based": [
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            64,
+            65,
+            66,
+            67,
+            68,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 3,
+          "compatible": false,
+          "distinct_anchor_residues": 3,
+          "conflicting_positions_1_based": [
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 4,
+          "compatible": false,
+          "distinct_anchor_residues": 4,
+          "conflicting_positions_1_based": [
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 5,
+          "compatible": false,
+          "distinct_anchor_residues": 5,
+          "conflicting_positions_1_based": [
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 6,
+          "compatible": false,
+          "distinct_anchor_residues": 6,
+          "conflicting_positions_1_based": [
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 7,
+          "compatible": false,
+          "distinct_anchor_residues": 7,
+          "conflicting_positions_1_based": [
+            30,
+            32,
+            33,
+            34,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 8,
+          "compatible": false,
+          "distinct_anchor_residues": 8,
+          "conflicting_positions_1_based": [
+            30,
+            31,
+            32,
+            33,
+            34,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 9,
+          "compatible": false,
+          "distinct_anchor_residues": 9,
+          "conflicting_positions_1_based": [
+            31,
+            32,
+            33,
+            34,
+            64,
+            65,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 10,
+          "compatible": false,
+          "distinct_anchor_residues": 10,
+          "conflicting_positions_1_based": [
+            32,
+            33,
+            34,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 11,
+          "compatible": false,
+          "distinct_anchor_residues": 11,
+          "conflicting_positions_1_based": [
+            33,
+            34,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 12,
+          "compatible": false,
+          "distinct_anchor_residues": 12,
+          "conflicting_positions_1_based": [
+            34,
+            64,
+            65,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 13,
+          "compatible": false,
+          "distinct_anchor_residues": 13,
+          "conflicting_positions_1_based": [
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 14,
+          "compatible": false,
+          "distinct_anchor_residues": 13,
+          "conflicting_positions_1_based": [
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 15,
+          "compatible": false,
+          "distinct_anchor_residues": 15,
+          "conflicting_positions_1_based": [
+            64,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 16,
+          "compatible": false,
+          "distinct_anchor_residues": 16,
+          "conflicting_positions_1_based": [
+            64,
+            65,
+            66,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 17,
+          "compatible": false,
+          "distinct_anchor_residues": 17,
+          "conflicting_positions_1_based": [
+            64,
+            65,
+            66,
+            67,
+            68,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 18,
+          "compatible": false,
+          "distinct_anchor_residues": 17,
+          "conflicting_positions_1_based": [
+            64,
+            65,
+            67,
+            68,
+            69,
+            70
+          ]
+        },
+        {
+          "period": 19,
+          "compatible": false,
+          "distinct_anchor_residues": 15,
+          "conflicting_positions_1_based": [
+            64,
+            65,
+            67,
+            68,
+            69,
+            70,
+            72
+          ]
+        },
+        {
+          "period": 20,
+          "compatible": false,
+          "distinct_anchor_residues": 13,
+          "conflicting_positions_1_based": [
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 21,
+          "compatible": false,
+          "distinct_anchor_residues": 13,
+          "conflicting_positions_1_based": [
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 22,
+          "compatible": false,
+          "distinct_anchor_residues": 15,
+          "conflicting_positions_1_based": [
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 23,
+          "compatible": false,
+          "distinct_anchor_residues": 17,
+          "conflicting_positions_1_based": [
+            68,
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 24,
+          "compatible": false,
+          "distinct_anchor_residues": 19,
+          "conflicting_positions_1_based": [
+            70,
+            71,
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 25,
+          "compatible": false,
+          "distinct_anchor_residues": 21,
+          "conflicting_positions_1_based": [
+            72,
+            73,
+            74
+          ]
+        },
+        {
+          "period": 26,
+          "compatible": false,
+          "distinct_anchor_residues": 23,
+          "conflicting_positions_1_based": [
+            74
+          ]
+        },
+        {
+          "period": 27,
+          "compatible": true,
+          "distinct_anchor_residues": 24,
+          "conflicting_positions_1_based": []
+        },
+        {
+          "period": 28,
+          "compatible": true,
+          "distinct_anchor_residues": 24,
+          "conflicting_positions_1_based": []
+        },
+        {
+          "period": 29,
+          "compatible": true,
+          "distinct_anchor_residues": 24,
+          "conflicting_positions_1_based": []
+        },
+        {
+          "period": 30,
+          "compatible": false,
+          "distinct_anchor_residues": 23,
+          "conflicting_positions_1_based": [
+            64
+          ]
+        }
+      ],
+      "compatible_periods_1_to_30": [
+        27,
+        28,
+        29
+      ]
+    }
+  ],
+  "quadgram_window_counts": {
+    "anchor_only": 18,
+    "unknown_only": 64,
+    "mixed": 12
+  },
+  "quadgram_window_starts_zero_based": {
+    "anchor_only": [
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70
+    ],
+    "unknown_only": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93
+    ],
+    "mixed": [
+      18,
+      19,
+      20,
+      31,
+      32,
+      33,
+      60,
+      61,
+      62,
+      71,
+      72,
+      73
+    ]
+  },
+  "reported_sweep_arithmetic_only": {
+    "rows": [
+      55792512,
+      3119976,
+      1797840,
+      461088,
+      451398,
+      49600,
+      37860,
+      23728,
+      19968
+    ],
+    "sum": 61753970,
+    "after_removing_reported_p24_overlap": 61574186,
+    "semantic_uniqueness_not_established": true
+  },
+  "reported_p24_survivor_completion_count_if_distribution_is_correct": {
+    "zero_collision_models": 396,
+    "one_collision_models": 66,
+    "free_key_letters_in_one_collision_period24_model": 1,
+    "possible_completions_including_all_26_fills": 2112,
+    "note": "Conditional arithmetic, not independent reproduction of 462 survivors"
+  },
+  "synthetic_collision_counterexample": {
+    "synthetic_only_not_a_k4_candidate": true,
+    "purpose": "Demonstrate a false negative from a universal >=3 anchor collision gate",
+    "order": "transposition_then_substitution",
+    "alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "plaintext": "FROMTHEGATEYOUCANLOOKEASTNORTHEASTTOSEETHEHIDDENMESSAGEBYTHEOLDBERLINCLOCKANDWAITFORTHENEXTSIGNAL",
+    "ciphertext": "EBUWRTXAPNKDFGCHVIGFNCADAUGBSZIHVUYZWRSIXVZBXYAKMFUVELKIGCRYPJOXJWGKNCAKEYVVMLTHTNYWPOSGBZFVFJYHA",
+    "key": "ABCDEFGHIJKLMNOPQRSTUVWX",
+    "fixed_partition_boundaries": [
+      0,
+      21,
+      37,
+      49,
+      59,
+      75,
+      97
+    ],
+    "block_order_zero_based": [
+      1,
+      0,
+      2,
+      3,
+      5,
+      4
+    ],
+    "roundtrip_exact": true,
+    "anchor_matches": 24,
+    "distinct_anchor_residues": 24,
+    "anchor_collisions": 0,
+    "would_fail_at_least_three_collision_gate": true,
+    "scope_note": "Explicit block permutation; does not reproduce Gemini's unpublished permutation generator."
+  },
+  "ordinary_rectangle_inventory": [
+    {
+      "width": 5,
+      "letter": "S",
+      "corners_1_based": [
+        [
+          7,
+          3
+        ],
+        [
+          7,
+          4
+        ],
+        [
+          9,
+          3
+        ],
+        [
+          9,
+          4
+        ]
+      ]
+    },
+    {
+      "width": 10,
+      "letter": "S",
+      "corners_1_based": [
+        [
+          4,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          5,
+          4
+        ]
+      ]
+    },
+    {
+      "width": 19,
+      "letter": "W",
+      "corners_1_based": [
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          18
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          4,
+          18
+        ]
+      ]
+    },
+    {
+      "width": 30,
+      "letter": "T",
+      "corners_1_based": [
+        [
+          2,
+          8
+        ],
+        [
+          2,
+          21
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          3,
+          21
+        ]
+      ]
+    },
+    {
+      "width": 38,
+      "letter": "W",
+      "corners_1_based": [
+        [
+          1,
+          21
+        ],
+        [
+          1,
+          37
+        ],
+        [
+          2,
+          21
+        ],
+        [
+          2,
+          37
+        ]
+      ]
+    },
+    {
+      "width": 41,
+      "letter": "K",
+      "corners_1_based": [
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          12
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          12
+        ]
+      ]
+    }
+  ],
+  "geometry_scope_note": "Ordinary rectangles are not the same criterion as four symmetrically inset corners of a specified grid",
+  "limitations": [
+    "No new large cipher sweep",
+    "No quadgram corpus supplied or new language scoring performed",
+    "No paid verifier submission",
+    "No confirmation of Gemini's source code, run logs or runtime measurements"
+  ]
+}

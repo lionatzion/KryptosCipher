@@ -56,6 +56,15 @@ Read the [research dossier](docs/RESEARCH_DOSSIER.md),
 [hypothesis ledger](docs/HYPOTHESIS_LEDGER.json), and
 [executed November runs](out/november_20261123/README.md).
 
+## Next experiments
+
+1. Bounded base-10 keyword Gromark with an arbitrary plaintext alphabet.
+2. Independently specified alternating-parity key generators.
+3. Masking and transposition that cannot reduce to a constant crib-phase change.
+
+These are proposed, not executed. The [active roadmap](docs/ACTIVE_ROADMAP.md)
+defines scope, overlap with earlier work, controls and stopping rules.
+
 ## Research contract
 
 ```mermaid

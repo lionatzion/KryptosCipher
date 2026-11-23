@@ -27,6 +27,10 @@ test_gromark_full_key_inverts_recurrence (test_opus_review.KeywordTableauTests.t
 test_planted_periodic_and_gromark (test_opus_review.KeywordTableauTests.test_planted_periodic_and_gromark) ... ok
 test_real_k1_k2_controls (test_opus_review.KeywordTableauTests.test_real_k1_k2_controls) ... ok
 test_round_trip_all_signs (test_opus_review.KeywordTableauTests.test_round_trip_all_signs) ... ok
+test_first_audit_reproduces_published_json (test_report_claims_audit.ReportAuditTests.test_first_audit_reproduces_published_json) ... ok
+test_independent_period_checker_agrees_with_workbench (test_report_claims_audit.ReportAuditTests.test_independent_period_checker_agrees_with_workbench) ... ok
+test_independent_sparse_collision_example_recovers_exactly (test_report_claims_audit.ReportAuditTests.test_independent_sparse_collision_example_recovers_exactly) ... ok
+test_original_script_snapshot_is_byte_exact (test_report_claims_audit.ReportAuditTests.test_original_script_snapshot_is_byte_exact) ... ok
 test_exact_known_answers_and_roundtrips (test_workbench.BaselineTests.test_exact_known_answers_and_roundtrips) ... ok
 test_modes_do_not_advance_on_punctuation (test_workbench.BaselineTests.test_modes_do_not_advance_on_punctuation) ... ok
 test_novel_rotational_isomorphs (test_workbench.BaselineTests.test_novel_rotational_isomorphs) ... ok
@@ -47,6 +51,6 @@ test_partial_keys_are_enumerated_or_reported_incomplete (test_workbench.SolverCo
 test_zero_collision_valid_model_is_retained (test_workbench.SolverControls.test_zero_collision_valid_model_is_retained) ... ok
 
 ----------------------------------------------------------------------
-Ran 47 tests in 14.355s
+Ran 51 tests in 15.069s
 
 OK

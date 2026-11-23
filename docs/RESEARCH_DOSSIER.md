@@ -139,16 +139,24 @@ to force that text.
 
 ## Next work
 
-1. Reconcile a dictionary Gromark campaign with October experiment scopes. Freeze
-   the exact alphabet rule and dictionary hash; deduplicate alphabets, preserve
-   survivors and demonstrate planted recoveries.
-2. Explore physical masking with a reversible, measured coordinate rule. Preserve
-   YAR and extra L as clues without promoting an arbitrary overlay into a proven
-   mechanism. Do not repeat excluded simple gap-phase cases under new names.
-3. Study bounded nonperiodic shifts with parity as a conditional branch. Keep
-   another branch that does not assume the pattern reflects the cipher.
-4. Require a complete reproducible recipe and search-aware language evidence
-   before considering a separately authorized official verifier submission.
+The [active roadmap](ACTIVE_ROADMAP.md) specifies three unexecuted experiments:
+bounded base-10 keyword Gromark, independently specified parity generators, and
+masking/rearrangements that do not reduce to a constant phase between intact cribs.
+It records overlap with October S2, necessary versus sufficient filters, and the
+difference between skipping a key index and deleting a confirmed anchor character.
+Complete recipes and search-aware evidence remain necessary before considering
+a separately authorized official verifier submission.
+
+## External proposed plaintexts
+
+[SolveKryptos's solution page](https://solvekryptos.com/solution), checked November
+23, 2026, states that its non-anchor text is an unverified reconstruction and that
+its mechanism reproduces that text by construction. It is not authenticated K4
+plaintext and must not be used as a known-answer positive control. Deliberately
+testing that proposal as a labeled hypothesis is a different use.
+
+The [suggested video](https://www.youtube.com/watch?v=i8TJQhDZyqI) is an unreviewed
+community lead, not a source of confirmed K4 plaintext or method.
 
 ## Sources and engineering references
 

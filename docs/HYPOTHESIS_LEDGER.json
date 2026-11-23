@@ -144,17 +144,38 @@
       "id": "dictionary-gromark",
       "status": "open",
       "evidence_type": "future_experiment",
-      "scope": "Further keyword ciphertext-alphabet Gromark searches require a frozen deduplicated word list and hashes.",
+      "scope": "Planned base-10, five-digit (5,4)-tap Gromark with deduplicated dictionary ciphertext alphabets and one arbitrary injective plaintext alphabet; not yet executed.",
       "assumptions": [
         "Check overlap with October experiments before adding runs",
-        "No arbitrary-alphabet exhaustion claim from a dictionary"
+        "No arbitrary-alphabet exhaustion claim from a dictionary",
+        "C_index = M(P) +/- k mod 26; digits 0..9",
+        "Circular span <=9 is necessary, not sufficient",
+        "October S2 fixed dictionary pairs overlap only part of this proposed arbitrary-plaintext-alphabet scope"
       ],
       "evidence_files": [
         "docs/OPUS_K4_REVIEW.md",
-        "docs/RESEARCH_DOSSIER.md"
+        "docs/RESEARCH_DOSSIER.md",
+        "docs/ACTIVE_ROADMAP.md"
       ],
       "positive_controls": [],
       "reproduce": "Register dictionary, model equations, controls and budget before execution"
+    },
+    {
+      "id": "independently-specified-parity-generators",
+      "status": "open",
+      "evidence_type": "future_experiment",
+      "scope": "Planned low-parameter key generators under a conditional alternating-parity hypothesis; no unrestricted per-position fitting.",
+      "assumptions": [
+        "Pairwise crib parity does not establish global alternation",
+        "No unconditional exclusion of reversed layer order",
+        "Freeze generator, parameter bounds and free alphabet handling before searching"
+      ],
+      "evidence_files": [
+        "docs/ACTIVE_ROADMAP.md",
+        "docs/RESEARCH_DOSSIER.md"
+      ],
+      "positive_controls": [],
+      "reproduce": "Register and implement an independent generator with seeded controls before execution"
     },
     {
       "id": "physical-masking-and-yar",
@@ -167,7 +188,8 @@
         "Simple between-crib phase shifts at periods 1..23 already excluded"
       ],
       "evidence_files": [
-        "docs/RESEARCH_DOSSIER.md"
+        "docs/RESEARCH_DOSSIER.md",
+        "docs/ACTIVE_ROADMAP.md"
       ],
       "positive_controls": [],
       "reproduce": "Register a reversible coordinate rule and synthetic controls before execution"

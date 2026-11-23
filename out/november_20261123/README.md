@@ -5,27 +5,37 @@ No K4 solution, English corpus calibration or paid verifier submission is claime
 
 | Artifact | Executed result |
 |---|---|
+| `independently_checked.json` | First report audit: independent K1–K3 checks, 240 direct periodic cases, window partition and zero-collision counterexample |
 | `diagnostics.json` | Four baseline cases pass; 180 direct models across two alphabets, three modes and periods 1–30; only periods 27–29 compatible |
 | `clock.json` | 846 route/alphabet/mode/order models times 288 distinct schedules = 243,648 configurations; zero exact matches |
 | `algebraic_audit.json` | 2,106 relative-phase checks, 104 arbitrary-alphabet graph models, 961 binary recurrence/seed pairs, 1,492,992 base-12 model/primer checks; 36 synthetic controls pass |
-| `tests.txt` | 47 tests pass, including older research tests and new workbench regressions |
-| `manifest.json` | SHA-256 identifiers for implementation, fixtures, source notes and results |
+| `tests.txt` | 51 tests pass, including independent audit cross-checks, older research tests and workbench regressions |
+| `manifest.json` | Source/output hashes, Python/NumPy versions, seeds, exact commands and original-to-repository artifact mapping |
 
 Reproduce from the repository root:
 
 ```bash
 python -m pip install -e '.[test]'
 python -m unittest discover -s tests -v
+python -m research.verify_report_claims --output out/local/independently_checked.json
 python -m kryptos diagnostics --output out/local/diagnostics.json
 python -m kryptos clock --routes grids --output out/local/clock.json
 python -m research.november_audit --output out/local/algebraic_audit.json
 ```
 
 Output timestamps, requested destination and elapsed seconds can differ. The
-mathematical results should agree. CLI envelopes validate against
+mathematical results should agree. The first audit reproduces its saved JSON
+exactly while its source and input hashes remain unchanged. CLI envelopes validate against
 `docs/EXPERIMENT_SCHEMA.json`; the detailed algebraic audit has its own recorded
 schema and script hash. Its 36 assertions include planted phase, alphabet and
 recurrence checks. It does not claim to reproduce Gemini's entire search campaign.
+
+The evidence-archive script `audit_parity_nulls.py` is already included as
+`research/november_audit.py`, with `audit_results.json` recorded here as
+`algebraic_audit.json`. The first suite is `research/verify_report_claims.py`;
+only its default repository paths and output-directory creation were adapted.
+The original legacy script is preserved byte for byte in `docs/archive/`.
+These mappings avoid duplicate implementations and conflicting current outputs.
 
 The first full local test attempt exposed an old `/usr/share/dict/web2` dependency.
 The algorithm tests now use deterministic synthetic keywords plus the original
