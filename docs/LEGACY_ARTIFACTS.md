@@ -29,8 +29,11 @@ similarly named project uploads. The October audit ignored the highlighted-text
 field in the five-row CSV; this audit explicitly accepts that named field and
 validates its complete length and characters.
 
-`README_K4_exports.md` and `.txt`, the root period 27 scripts and the notebooks are
-historical. Their older scores and proposed geometry are not current findings.
+`README_KryptosK4.md`, `README_K4_exports.md` and `.txt` now direct readers to the
+current README and this inventory. Their prior text remains in Git history at
+commit `994fb6434d4f2d3b7378e1e5413fc3f142aaba6c`. The root period 27 scripts and
+notebooks are historical. Their older scores and proposed geometry are not
+current findings.
 `route_transposition.py` contained an identity placeholder under an E-to-NE name.
 Calling that unimplemented traversal now raises `NotImplementedError`; implemented
 route choices live in `kryptos.primitives.route_catalog`.
