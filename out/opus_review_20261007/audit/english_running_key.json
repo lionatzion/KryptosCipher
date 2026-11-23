@@ -1,0 +1,643 @@
+{
+  "max_block1_percentile_any_combo_either_direction": 0.62,
+  "max_english_percentile_any_combo": 4.28,
+  "max_joint_tail_probability_either_direction": 3.852e-05,
+  "model": "letter trigrams from the first half of Python's bundled reference text; percentiles against 20,000 held-out windows and all K1-K3 plaintext windows",
+  "positive_control": {
+    "fragments": [
+      "ALVARIABLEOFT",
+      "CALORGLOBAL"
+    ],
+    "percentile_in_english_13_11": [
+      81.39,
+      11.97
+    ]
+  },
+  "rows": [
+    {
+      "C": "ABC",
+      "P": "ABC",
+      "fragments": [
+        "BLZCDCYYGCKAZ",
+        "MUYKLGKORNA"
+      ],
+      "key_letters": "ABC",
+      "percentile_in_K1K3_plain_13_11": [
+        0.0,
+        3.83
+      ],
+      "percentile_in_english_13_11": [
+        0.03,
+        0.71
+      ],
+      "percentile_in_random_13_11": [
+        43.59,
+        95.17
+      ],
+      "percentile_reversed_13_11": [
+        0.09,
+        0.0
+      ],
+      "sign": "vigenere"
+    },
+    {
+      "C": "ABC",
+      "P": "ABC",
+      "fragments": [
+        "REZYPYXXSYDKZ",
+        "FQXDESDHLGK"
+      ],
+      "key_letters": "KRYPTOS",
+      "percentile_in_K1K3_plain_13_11": [
+        0.0,
+        0.79
+      ],
+      "percentile_in_english_13_11": [
+        0.01,
+        0.34
+      ],
+      "percentile_in_random_13_11": [
+        22.25,
+        86.89
+      ],
+      "percentile_reversed_13_11": [
+        0.62,
+        0.14
+      ],
+      "sign": "vigenere"
+    },
+    {
+      "C": "ABC",
+      "P": "ABC",
+      "fragments": [
+        "JLJODEGKUKKKL",
+        "OCGGBGOKTRU"
+      ],
+      "key_letters": "ABC",
+      "percentile_in_K1K3_plain_13_11": [
+        0.4,
+        0.0
+      ],
+      "percentile_in_english_13_11": [
+        0.27,
+        0.15
+      ],
+      "percentile_in_random_13_11": [
+        93.3,
+        64.52
+      ],
+      "percentile_reversed_13_11": [
+        0.35,
+        0.08
+      ],
+      "sign": "beaufort"
+    },
+    {
+      "C": "ABC",
+      "P": "ABC",
+      "fragments": [
+        "CECHPTSDQDDDE",
+        "HYSSRSHDNLQ"
+      ],
+      "key_letters": "KRYPTOS",
+      "percentile_in_K1K3_plain_13_11": [
+        0.13,
+        0.0
+      ],
+      "percentile_in_english_13_11": [
+        0.16,
+        0.0
+      ],
+      "percentile_in_random_13_11": [
+        87.98,
+        1.75
+      ],
+      "percentile_reversed_13_11": [
+        0.03,
+        0.0
+      ],
+      "sign": "beaufort"
+    },
+    {
+      "C": "ABC",
+      "P": "ABC",
+      "fragments": [
+        "ZPBYXYCCUYQAB",
+        "OGCQPUQMJNA"
+      ],
+      "key_letters": "ABC",
+      "percentile_in_K1K3_plain_13_11": [
+        0.26,
+        0.79
+      ],
+      "percentile_in_english_13_11": [
+        0.23,
+        0.34
+      ],
+      "percentile_in_random_13_11": [
+        91.14,
+        88.19
+      ],
+      "percentile_reversed_13_11": [
+        0.04,
+        0.01
+      ],
+      "sign": "variant"
+    },
+    {
+      "C": "ABC",
+      "P": "ABC",
+      "fragments": [
+        "ZIRXWXYYQXJKR",
+        "HSYJIQJFCGK"
+      ],
+      "key_letters": "KRYPTOS",
+      "percentile_in_K1K3_plain_13_11": [
+        0.0,
+        0.26
+      ],
+      "percentile_in_english_13_11": [
+        0.14,
+        0.27
+      ],
+      "percentile_in_random_13_11": [
+        84.83,
+        80.5
+      ],
+      "percentile_reversed_13_11": [
+        0.17,
+        0.27
+      ],
+      "sign": "variant"
+    },
+    {
+      "C": "KRYPTOS",
+      "P": "ABC",
+      "fragments": [
+        "IRJDHGMIMJAON",
+        "SYMLWRQOYBQ"
+      ],
+      "key_letters": "ABC",
+      "percentile_in_K1K3_plain_13_11": [
+        0.0,
+        0.0
+      ],
+      "percentile_in_english_13_11": [
+        0.07,
+        0.09
+      ],
+      "percentile_in_random_13_11": [
+        65.08,
+        51.61
+      ],
+      "percentile_reversed_13_11": [
+        0.01,
+        0.21
+      ],
+      "sign": "vigenere"
+    },
+    {
+      "C": "KRYPTOS",
+      "P": "ABC",
+      "fragments": [
+        "BLCPASFBFCKHG",
+        "MXFEVLJHXRJ"
+      ],
+      "key_letters": "KRYPTOS",
+      "percentile_in_K1K3_plain_13_11": [
+        0.0,
+        0.0
+      ],
+      "percentile_in_english_13_11": [
+        0.07,
+        0.2
+      ],
+      "percentile_in_random_13_11": [
+        63.9,
+        69.11
+      ],
+      "percentile_reversed_13_11": [
+        0.01,
+        0.12
+      ],
+      "sign": "vigenere"
+    },
+    {
+      "C": "KRYPTOS",
+      "P": "ABC",
+      "fragments": [
+        "QRTPHIUUARAYZ",
+        "UGUHMRUKAFK"
+      ],
+      "key_letters": "ABC",
+      "percentile_in_K1K3_plain_13_11": [
+        0.0,
+        0.0
+      ],
+      "percentile_in_english_13_11": [
+        0.1,
+        0.0
+      ],
+      "percentile_in_random_13_11": [
+        76.28,
+        4.61
+      ],
+      "percentile_reversed_13_11": [
+        0.01,
+        0.0
+      ],
+      "sign": "beaufort"
+    },
+    {
+      "C": "KRYPTOS",
+      "P": "ABC",
+      "fragments": [
+        "JLNIABQQKLKXZ",
+        "QSQAFLQDKOD"
+      ],
+      "key_letters": "KRYPTOS",
+      "percentile_in_K1K3_plain_13_11": [
+        0.0,
+        0.26
+      ],
+      "percentile_in_english_13_11": [
+        0.13,
+        0.29
+      ],
+      "percentile_in_random_13_11": [
+        81.51,
+        82.54
+      ],
+      "percentile_reversed_13_11": [
+        0.12,
+        0.14
+      ],
+      "sign": "beaufort"
+    },
+    {
+      "C": "KRYPTOS",
+      "P": "ABC",
+      "fragments": [
+        "SJRXTUOSORAMN",
+        "ICOPEJKMCZK"
+      ],
+      "key_letters": "ABC",
+      "percentile_in_K1K3_plain_13_11": [
+        0.13,
+        3.17
+      ],
+      "percentile_in_english_13_11": [
+        0.16,
+        0.55
+      ],
+      "percentile_in_random_13_11": [
+        87.94,
+        93.75
+      ],
+      "percentile_reversed_13_11": [
+        0.2,
+        0.12
+      ],
+      "sign": "variant"
+    },
+    {
+      "C": "KRYPTOS",
+      "P": "ABC",
+      "fragments": [
+        "MCLWNQHMHLKFG",
+        "BYHITCDFYZD"
+      ],
+      "key_letters": "KRYPTOS",
+      "percentile_in_K1K3_plain_13_11": [
+        0.0,
+        0.0
+      ],
+      "percentile_in_english_13_11": [
+        0.04,
+        0.0
+      ],
+      "percentile_in_random_13_11": [
+        58.84,
+        5.05
+      ],
+      "percentile_reversed_13_11": [
+        0.07,
+        0.05
+      ],
+      "sign": "variant"
+    },
+    {
+      "C": "ABC",
+      "P": "KRYPTOS",
+      "fragments": [
+        "UELRXLONZVDMO",
+        "FNOEEADIAGK"
+      ],
+      "key_letters": "ABC",
+      "percentile_in_K1K3_plain_13_11": [
+        0.0,
+        0.26
+      ],
+      "percentile_in_english_13_11": [
+        0.1,
+        0.26
+      ],
+      "percentile_in_random_13_11": [
+        77.5,
+        79.39
+      ],
+      "percentile_reversed_13_11": [
+        0.03,
+        0.1
+      ],
+      "sign": "vigenere"
+    },
+    {
+      "C": "ABC",
+      "P": "KRYPTOS",
+      "fragments": [
+        "QTELWEHGZUPFH",
+        "OGHTTKPBKSD"
+      ],
+      "key_letters": "KRYPTOS",
+      "percentile_in_K1K3_plain_13_11": [
+        0.0,
+        0.0
+      ],
+      "percentile_in_english_13_11": [
+        0.01,
+        0.23
+      ],
+      "percentile_in_random_13_11": [
+        16.14,
+        76.58
+      ],
+      "percentile_reversed_13_11": [
+        0.07,
+        0.14
+      ],
+      "sign": "vigenere"
+    },
+    {
+      "C": "ABC",
+      "P": "KRYPTOS",
+      "fragments": [
+        "QSXZJVQVBRRYW",
+        "VJQMIMVQKYK"
+      ],
+      "key_letters": "ABC",
+      "percentile_in_K1K3_plain_13_11": [
+        0.13,
+        0.26
+      ],
+      "percentile_in_english_13_11": [
+        0.18,
+        0.29
+      ],
+      "percentile_in_random_13_11": [
+        89.0,
+        84.0
+      ],
+      "percentile_reversed_13_11": [
+        0.07,
+        0.23
+      ],
+      "sign": "beaufort"
+    },
+    {
+      "C": "ABC",
+      "P": "KRYPTOS",
+      "fragments": [
+        "JMWZCUJURLLXV",
+        "UCJFBFUJDXD"
+      ],
+      "key_letters": "KRYPTOS",
+      "percentile_in_K1K3_plain_13_11": [
+        0.0,
+        0.0
+      ],
+      "percentile_in_english_13_11": [
+        0.05,
+        0.18
+      ],
+      "percentile_in_random_13_11": [
+        62.26,
+        66.98
+      ],
+      "percentile_reversed_13_11": [
+        0.16,
+        0.79
+      ],
+      "sign": "beaufort"
+    },
+    {
+      "C": "ABC",
+      "P": "KRYPTOS",
+      "fragments": [
+        "GWPJDPMNBFXOM",
+        "VNMWWAXSAUQ"
+      ],
+      "key_letters": "ABC",
+      "percentile_in_K1K3_plain_13_11": [
+        0.0,
+        0.0
+      ],
+      "percentile_in_english_13_11": [
+        0.07,
+        0.01
+      ],
+      "percentile_in_random_13_11": [
+        66.69,
+        17.63
+      ],
+      "percentile_reversed_13_11": [
+        0.01,
+        0.06
+      ],
+      "sign": "variant"
+    },
+    {
+      "C": "ABC",
+      "P": "KRYPTOS",
+      "fragments": [
+        "SVICPIFGROWHF",
+        "UGFVVKWMKQJ"
+      ],
+      "key_letters": "KRYPTOS",
+      "percentile_in_K1K3_plain_13_11": [
+        0.0,
+        0.0
+      ],
+      "percentile_in_english_13_11": [
+        0.01,
+        0.22
+      ],
+      "percentile_in_random_13_11": [
+        34.9,
+        74.84
+      ],
+      "percentile_reversed_13_11": [
+        0.01,
+        0.79
+      ],
+      "sign": "variant"
+    },
+    {
+      "C": "KRYPTOS",
+      "P": "KRYPTOS",
+      "fragments": [
+        "BKVSBPCXFCTAC",
+        "LRCFPLJIHUA"
+      ],
+      "key_letters": "ABC",
+      "percentile_in_K1K3_plain_13_11": [
+        0.0,
+        0.0
+      ],
+      "percentile_in_english_13_11": [
+        0.1,
+        0.04
+      ],
+      "percentile_in_random_13_11": [
+        76.64,
+        32.45
+      ],
+      "percentile_reversed_13_11": [
+        0.03,
+        0.0
+      ],
+      "sign": "vigenere"
+    },
+    {
+      "C": "KRYPTOS",
+      "P": "KRYPTOS",
+      "fragments": [
+        "RDUMRIYWOYNKY",
+        "ELYOIECBAQK"
+      ],
+      "key_letters": "KRYPTOS",
+      "percentile_in_K1K3_plain_13_11": [
+        0.0,
+        0.0
+      ],
+      "percentile_in_english_13_11": [
+        0.01,
+        0.01
+      ],
+      "percentile_in_random_13_11": [
+        11.81,
+        22.07
+      ],
+      "percentile_reversed_13_11": [
+        0.01,
+        0.1
+      ],
+      "sign": "vigenere"
+    },
+    {
+      "C": "KRYPTOS",
+      "P": "KRYPTOS",
+      "fragments": [
+        "XYHANZEFHYHMK",
+        "BNENTXBQRMA"
+      ],
+      "key_letters": "ABC",
+      "percentile_in_K1K3_plain_13_11": [
+        0.0,
+        21.37
+      ],
+      "percentile_in_english_13_11": [
+        0.09,
+        4.28
+      ],
+      "percentile_in_random_13_11": [
+        72.59,
+        99.84
+      ],
+      "percentile_reversed_13_11": [
+        0.03,
+        0.14
+      ],
+      "sign": "beaufort"
+    },
+    {
+      "C": "KRYPTOS",
+      "P": "KRYPTOS",
+      "fragments": [
+        "WXAKGZTOAXAFD",
+        "RGTGNWRJLFK"
+      ],
+      "key_letters": "KRYPTOS",
+      "percentile_in_K1K3_plain_13_11": [
+        0.0,
+        0.0
+      ],
+      "percentile_in_english_13_11": [
+        0.03,
+        0.0
+      ],
+      "percentile_in_random_13_11": [
+        37.85,
+        9.87
+      ],
+      "percentile_reversed_13_11": [
+        0.04,
+        0.25
+      ],
+      "sign": "beaufort"
+    },
+    {
+      "C": "KRYPTOS",
+      "P": "KRYPTOS",
+      "fragments": [
+        "ZQFIZLYDVYHAY",
+        "PJYVLPRSTGA"
+      ],
+      "key_letters": "ABC",
+      "percentile_in_K1K3_plain_13_11": [
+        0.0,
+        0.26
+      ],
+      "percentile_in_english_13_11": [
+        0.03,
+        0.27
+      ],
+      "percentile_in_random_13_11": [
+        43.69,
+        80.64
+      ],
+      "percentile_reversed_13_11": [
+        0.01,
+        0.01
+      ],
+      "sign": "variant"
+    },
+    {
+      "C": "KRYPTOS",
+      "P": "KRYPTOS",
+      "fragments": [
+        "ZJOBZEXPUXAKX",
+        "ICXUEILMNSK"
+      ],
+      "key_letters": "KRYPTOS",
+      "percentile_in_K1K3_plain_13_11": [
+        0.0,
+        0.0
+      ],
+      "percentile_in_english_13_11": [
+        0.03,
+        0.0
+      ],
+      "percentile_in_random_13_11": [
+        43.7,
+        7.86
+      ],
+      "percentile_reversed_13_11": [
+        0.01,
+        0.01
+      ],
+      "sign": "variant"
+    }
+  ],
+  "status": "heuristic language test; eliminates English running keys only for these tableaux"
+}

@@ -1,0 +1,3849 @@
+{
+  "coefficient_vectors_checked": 1872,
+  "rows": [
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 22,
+      "order": 1,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=ABC;a=1"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 20,
+      "order": 2,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=ABC;a=1"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 18,
+      "order": 3,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=ABC;a=1"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 16,
+      "order": 4,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=ABC;a=1"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 14,
+      "order": 5,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=ABC;a=1"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 12,
+      "order": 6,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=ABC;a=1"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 10,
+      "order": 7,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=ABC;a=1"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 8,
+      "order": 8,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=ABC;a=1"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 22,
+      "order": 1,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=ABC;a=3"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 20,
+      "order": 2,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=ABC;a=3"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 18,
+      "order": 3,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=ABC;a=3"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 16,
+      "order": 4,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=ABC;a=3"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 14,
+      "order": 5,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=ABC;a=3"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 12,
+      "order": 6,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=ABC;a=3"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 10,
+      "order": 7,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=ABC;a=3"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 8,
+      "order": 8,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=ABC;a=3"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 22,
+      "order": 1,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=ABC;a=5"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 20,
+      "order": 2,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=ABC;a=5"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 18,
+      "order": 3,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=ABC;a=5"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 16,
+      "order": 4,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=ABC;a=5"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 14,
+      "order": 5,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=ABC;a=5"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 12,
+      "order": 6,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=ABC;a=5"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 10,
+      "order": 7,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=ABC;a=5"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 8,
+      "order": 8,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=ABC;a=5"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 22,
+      "order": 1,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=ABC;a=7"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 20,
+      "order": 2,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=ABC;a=7"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 18,
+      "order": 3,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=ABC;a=7"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 16,
+      "order": 4,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=ABC;a=7"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 14,
+      "order": 5,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=ABC;a=7"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 12,
+      "order": 6,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=ABC;a=7"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 10,
+      "order": 7,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=ABC;a=7"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 8,
+      "order": 8,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=ABC;a=7"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 22,
+      "order": 1,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=ABC;a=9"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 20,
+      "order": 2,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=ABC;a=9"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 18,
+      "order": 3,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=ABC;a=9"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 16,
+      "order": 4,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=ABC;a=9"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 14,
+      "order": 5,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=ABC;a=9"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 12,
+      "order": 6,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=ABC;a=9"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 10,
+      "order": 7,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=ABC;a=9"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 8,
+      "order": 8,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=ABC;a=9"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 22,
+      "order": 1,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=ABC;a=11"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 20,
+      "order": 2,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=ABC;a=11"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 18,
+      "order": 3,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=ABC;a=11"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 16,
+      "order": 4,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=ABC;a=11"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 14,
+      "order": 5,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=ABC;a=11"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 12,
+      "order": 6,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=ABC;a=11"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 10,
+      "order": 7,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=ABC;a=11"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 8,
+      "order": 8,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=ABC;a=11"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 22,
+      "order": 1,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=ABC;a=15"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 20,
+      "order": 2,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=ABC;a=15"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 18,
+      "order": 3,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=ABC;a=15"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 16,
+      "order": 4,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=ABC;a=15"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 14,
+      "order": 5,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=ABC;a=15"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 12,
+      "order": 6,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=ABC;a=15"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 10,
+      "order": 7,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=ABC;a=15"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 8,
+      "order": 8,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=ABC;a=15"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 22,
+      "order": 1,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=ABC;a=17"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 20,
+      "order": 2,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=ABC;a=17"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 18,
+      "order": 3,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=ABC;a=17"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 16,
+      "order": 4,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=ABC;a=17"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 14,
+      "order": 5,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=ABC;a=17"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 12,
+      "order": 6,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=ABC;a=17"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 10,
+      "order": 7,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=ABC;a=17"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 8,
+      "order": 8,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=ABC;a=17"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 22,
+      "order": 1,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=ABC;a=19"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 20,
+      "order": 2,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=ABC;a=19"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 18,
+      "order": 3,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=ABC;a=19"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 16,
+      "order": 4,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=ABC;a=19"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 14,
+      "order": 5,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=ABC;a=19"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 12,
+      "order": 6,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=ABC;a=19"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 10,
+      "order": 7,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=ABC;a=19"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 8,
+      "order": 8,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=ABC;a=19"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 22,
+      "order": 1,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=ABC;a=21"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 20,
+      "order": 2,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=ABC;a=21"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 18,
+      "order": 3,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=ABC;a=21"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 16,
+      "order": 4,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=ABC;a=21"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 14,
+      "order": 5,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=ABC;a=21"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 12,
+      "order": 6,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=ABC;a=21"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 10,
+      "order": 7,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=ABC;a=21"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 8,
+      "order": 8,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=ABC;a=21"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 22,
+      "order": 1,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=ABC;a=23"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 20,
+      "order": 2,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=ABC;a=23"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 18,
+      "order": 3,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=ABC;a=23"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 16,
+      "order": 4,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=ABC;a=23"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 14,
+      "order": 5,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=ABC;a=23"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 12,
+      "order": 6,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=ABC;a=23"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 10,
+      "order": 7,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=ABC;a=23"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 8,
+      "order": 8,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=ABC;a=23"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 22,
+      "order": 1,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=ABC;a=25"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 20,
+      "order": 2,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=ABC;a=25"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 18,
+      "order": 3,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=ABC;a=25"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 16,
+      "order": 4,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=ABC;a=25"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 14,
+      "order": 5,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=ABC;a=25"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 12,
+      "order": 6,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=ABC;a=25"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 10,
+      "order": 7,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=ABC;a=25"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 8,
+      "order": 8,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=ABC;a=25"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 22,
+      "order": 1,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=KRYPTOS;a=1"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 20,
+      "order": 2,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=KRYPTOS;a=1"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 18,
+      "order": 3,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=KRYPTOS;a=1"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 16,
+      "order": 4,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=KRYPTOS;a=1"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 14,
+      "order": 5,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=KRYPTOS;a=1"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 12,
+      "order": 6,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=KRYPTOS;a=1"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 10,
+      "order": 7,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=KRYPTOS;a=1"
+    },
+    {
+      "coefficient_vectors": 26,
+      "complete": true,
+      "forward_checked": 26,
+      "local_equations": 8,
+      "order": 8,
+      "rejection_stage": "forward_between_cribs",
+      "survivors": [],
+      "system": "P=ABC;C=KRYPTOS;a=1"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 22,
+      "order": 1,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=KRYPTOS;a=3"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 20,
+      "order": 2,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=KRYPTOS;a=3"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 18,
+      "order": 3,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=KRYPTOS;a=3"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 16,
+      "order": 4,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=KRYPTOS;a=3"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 14,
+      "order": 5,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=KRYPTOS;a=3"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 12,
+      "order": 6,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=KRYPTOS;a=3"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 10,
+      "order": 7,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=KRYPTOS;a=3"
+    },
+    {
+      "coefficient_vectors": 26,
+      "complete": true,
+      "forward_checked": 26,
+      "local_equations": 8,
+      "order": 8,
+      "rejection_stage": "forward_between_cribs",
+      "survivors": [],
+      "system": "P=ABC;C=KRYPTOS;a=3"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 22,
+      "order": 1,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=KRYPTOS;a=5"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 20,
+      "order": 2,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=KRYPTOS;a=5"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 18,
+      "order": 3,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=KRYPTOS;a=5"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 16,
+      "order": 4,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=KRYPTOS;a=5"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 14,
+      "order": 5,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=KRYPTOS;a=5"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 12,
+      "order": 6,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=KRYPTOS;a=5"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 10,
+      "order": 7,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=KRYPTOS;a=5"
+    },
+    {
+      "coefficient_vectors": 26,
+      "complete": true,
+      "forward_checked": 26,
+      "local_equations": 8,
+      "order": 8,
+      "rejection_stage": "forward_between_cribs",
+      "survivors": [],
+      "system": "P=ABC;C=KRYPTOS;a=5"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 22,
+      "order": 1,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=KRYPTOS;a=7"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 20,
+      "order": 2,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=KRYPTOS;a=7"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 18,
+      "order": 3,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=KRYPTOS;a=7"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 16,
+      "order": 4,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=KRYPTOS;a=7"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 14,
+      "order": 5,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=KRYPTOS;a=7"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 12,
+      "order": 6,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=KRYPTOS;a=7"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 10,
+      "order": 7,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=KRYPTOS;a=7"
+    },
+    {
+      "coefficient_vectors": 26,
+      "complete": true,
+      "forward_checked": 26,
+      "local_equations": 8,
+      "order": 8,
+      "rejection_stage": "forward_between_cribs",
+      "survivors": [],
+      "system": "P=ABC;C=KRYPTOS;a=7"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 22,
+      "order": 1,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=KRYPTOS;a=9"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 20,
+      "order": 2,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=KRYPTOS;a=9"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 18,
+      "order": 3,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=KRYPTOS;a=9"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 16,
+      "order": 4,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=KRYPTOS;a=9"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 14,
+      "order": 5,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=KRYPTOS;a=9"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 12,
+      "order": 6,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=KRYPTOS;a=9"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 10,
+      "order": 7,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=KRYPTOS;a=9"
+    },
+    {
+      "coefficient_vectors": 26,
+      "complete": true,
+      "forward_checked": 26,
+      "local_equations": 8,
+      "order": 8,
+      "rejection_stage": "forward_between_cribs",
+      "survivors": [],
+      "system": "P=ABC;C=KRYPTOS;a=9"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 22,
+      "order": 1,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=KRYPTOS;a=11"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 20,
+      "order": 2,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=KRYPTOS;a=11"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 18,
+      "order": 3,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=KRYPTOS;a=11"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 16,
+      "order": 4,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=KRYPTOS;a=11"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 14,
+      "order": 5,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=KRYPTOS;a=11"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 12,
+      "order": 6,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=KRYPTOS;a=11"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 10,
+      "order": 7,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=KRYPTOS;a=11"
+    },
+    {
+      "coefficient_vectors": 26,
+      "complete": true,
+      "forward_checked": 26,
+      "local_equations": 8,
+      "order": 8,
+      "rejection_stage": "forward_between_cribs",
+      "survivors": [],
+      "system": "P=ABC;C=KRYPTOS;a=11"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 22,
+      "order": 1,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=KRYPTOS;a=15"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 20,
+      "order": 2,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=KRYPTOS;a=15"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 18,
+      "order": 3,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=KRYPTOS;a=15"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 16,
+      "order": 4,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=KRYPTOS;a=15"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 14,
+      "order": 5,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=KRYPTOS;a=15"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 12,
+      "order": 6,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=KRYPTOS;a=15"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 10,
+      "order": 7,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=KRYPTOS;a=15"
+    },
+    {
+      "coefficient_vectors": 26,
+      "complete": true,
+      "forward_checked": 26,
+      "local_equations": 8,
+      "order": 8,
+      "rejection_stage": "forward_between_cribs",
+      "survivors": [],
+      "system": "P=ABC;C=KRYPTOS;a=15"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 22,
+      "order": 1,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=KRYPTOS;a=17"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 20,
+      "order": 2,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=KRYPTOS;a=17"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 18,
+      "order": 3,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=KRYPTOS;a=17"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 16,
+      "order": 4,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=KRYPTOS;a=17"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 14,
+      "order": 5,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=KRYPTOS;a=17"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 12,
+      "order": 6,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=KRYPTOS;a=17"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 10,
+      "order": 7,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=KRYPTOS;a=17"
+    },
+    {
+      "coefficient_vectors": 26,
+      "complete": true,
+      "forward_checked": 26,
+      "local_equations": 8,
+      "order": 8,
+      "rejection_stage": "forward_between_cribs",
+      "survivors": [],
+      "system": "P=ABC;C=KRYPTOS;a=17"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 22,
+      "order": 1,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=KRYPTOS;a=19"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 20,
+      "order": 2,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=KRYPTOS;a=19"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 18,
+      "order": 3,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=KRYPTOS;a=19"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 16,
+      "order": 4,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=KRYPTOS;a=19"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 14,
+      "order": 5,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=KRYPTOS;a=19"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 12,
+      "order": 6,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=KRYPTOS;a=19"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 10,
+      "order": 7,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=KRYPTOS;a=19"
+    },
+    {
+      "coefficient_vectors": 26,
+      "complete": true,
+      "forward_checked": 26,
+      "local_equations": 8,
+      "order": 8,
+      "rejection_stage": "forward_between_cribs",
+      "survivors": [],
+      "system": "P=ABC;C=KRYPTOS;a=19"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 22,
+      "order": 1,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=KRYPTOS;a=21"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 20,
+      "order": 2,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=KRYPTOS;a=21"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 18,
+      "order": 3,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=KRYPTOS;a=21"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 16,
+      "order": 4,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=KRYPTOS;a=21"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 14,
+      "order": 5,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=KRYPTOS;a=21"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 12,
+      "order": 6,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=KRYPTOS;a=21"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 10,
+      "order": 7,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=KRYPTOS;a=21"
+    },
+    {
+      "coefficient_vectors": 26,
+      "complete": true,
+      "forward_checked": 26,
+      "local_equations": 8,
+      "order": 8,
+      "rejection_stage": "forward_between_cribs",
+      "survivors": [],
+      "system": "P=ABC;C=KRYPTOS;a=21"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 22,
+      "order": 1,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=KRYPTOS;a=23"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 20,
+      "order": 2,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=KRYPTOS;a=23"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 18,
+      "order": 3,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=KRYPTOS;a=23"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 16,
+      "order": 4,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=KRYPTOS;a=23"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 14,
+      "order": 5,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=KRYPTOS;a=23"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 12,
+      "order": 6,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=KRYPTOS;a=23"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 10,
+      "order": 7,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=KRYPTOS;a=23"
+    },
+    {
+      "coefficient_vectors": 26,
+      "complete": true,
+      "forward_checked": 26,
+      "local_equations": 8,
+      "order": 8,
+      "rejection_stage": "forward_between_cribs",
+      "survivors": [],
+      "system": "P=ABC;C=KRYPTOS;a=23"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 22,
+      "order": 1,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=KRYPTOS;a=25"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 20,
+      "order": 2,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=KRYPTOS;a=25"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 18,
+      "order": 3,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=KRYPTOS;a=25"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 16,
+      "order": 4,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=KRYPTOS;a=25"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 14,
+      "order": 5,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=KRYPTOS;a=25"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 12,
+      "order": 6,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=KRYPTOS;a=25"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 10,
+      "order": 7,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=ABC;C=KRYPTOS;a=25"
+    },
+    {
+      "coefficient_vectors": 26,
+      "complete": true,
+      "forward_checked": 26,
+      "local_equations": 8,
+      "order": 8,
+      "rejection_stage": "forward_between_cribs",
+      "survivors": [],
+      "system": "P=ABC;C=KRYPTOS;a=25"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 22,
+      "order": 1,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=ABC;a=1"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 20,
+      "order": 2,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=ABC;a=1"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 18,
+      "order": 3,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=ABC;a=1"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 16,
+      "order": 4,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=ABC;a=1"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 14,
+      "order": 5,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=ABC;a=1"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 12,
+      "order": 6,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=ABC;a=1"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 10,
+      "order": 7,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=ABC;a=1"
+    },
+    {
+      "coefficient_vectors": 104,
+      "complete": true,
+      "forward_checked": 104,
+      "local_equations": 8,
+      "order": 8,
+      "rejection_stage": "forward_between_cribs",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=ABC;a=1"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 22,
+      "order": 1,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=ABC;a=3"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 20,
+      "order": 2,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=ABC;a=3"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 18,
+      "order": 3,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=ABC;a=3"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 16,
+      "order": 4,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=ABC;a=3"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 14,
+      "order": 5,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=ABC;a=3"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 12,
+      "order": 6,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=ABC;a=3"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 10,
+      "order": 7,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=ABC;a=3"
+    },
+    {
+      "coefficient_vectors": 104,
+      "complete": true,
+      "forward_checked": 104,
+      "local_equations": 8,
+      "order": 8,
+      "rejection_stage": "forward_between_cribs",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=ABC;a=3"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 22,
+      "order": 1,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=ABC;a=5"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 20,
+      "order": 2,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=ABC;a=5"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 18,
+      "order": 3,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=ABC;a=5"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 16,
+      "order": 4,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=ABC;a=5"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 14,
+      "order": 5,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=ABC;a=5"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 12,
+      "order": 6,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=ABC;a=5"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 10,
+      "order": 7,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=ABC;a=5"
+    },
+    {
+      "coefficient_vectors": 104,
+      "complete": true,
+      "forward_checked": 104,
+      "local_equations": 8,
+      "order": 8,
+      "rejection_stage": "forward_between_cribs",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=ABC;a=5"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 22,
+      "order": 1,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=ABC;a=7"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 20,
+      "order": 2,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=ABC;a=7"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 18,
+      "order": 3,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=ABC;a=7"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 16,
+      "order": 4,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=ABC;a=7"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 14,
+      "order": 5,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=ABC;a=7"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 12,
+      "order": 6,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=ABC;a=7"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 10,
+      "order": 7,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=ABC;a=7"
+    },
+    {
+      "coefficient_vectors": 104,
+      "complete": true,
+      "forward_checked": 104,
+      "local_equations": 8,
+      "order": 8,
+      "rejection_stage": "forward_between_cribs",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=ABC;a=7"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 22,
+      "order": 1,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=ABC;a=9"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 20,
+      "order": 2,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=ABC;a=9"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 18,
+      "order": 3,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=ABC;a=9"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 16,
+      "order": 4,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=ABC;a=9"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 14,
+      "order": 5,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=ABC;a=9"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 12,
+      "order": 6,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=ABC;a=9"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 10,
+      "order": 7,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=ABC;a=9"
+    },
+    {
+      "coefficient_vectors": 104,
+      "complete": true,
+      "forward_checked": 104,
+      "local_equations": 8,
+      "order": 8,
+      "rejection_stage": "forward_between_cribs",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=ABC;a=9"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 22,
+      "order": 1,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=ABC;a=11"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 20,
+      "order": 2,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=ABC;a=11"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 18,
+      "order": 3,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=ABC;a=11"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 16,
+      "order": 4,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=ABC;a=11"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 14,
+      "order": 5,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=ABC;a=11"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 12,
+      "order": 6,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=ABC;a=11"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 10,
+      "order": 7,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=ABC;a=11"
+    },
+    {
+      "coefficient_vectors": 104,
+      "complete": true,
+      "forward_checked": 104,
+      "local_equations": 8,
+      "order": 8,
+      "rejection_stage": "forward_between_cribs",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=ABC;a=11"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 22,
+      "order": 1,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=ABC;a=15"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 20,
+      "order": 2,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=ABC;a=15"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 18,
+      "order": 3,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=ABC;a=15"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 16,
+      "order": 4,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=ABC;a=15"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 14,
+      "order": 5,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=ABC;a=15"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 12,
+      "order": 6,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=ABC;a=15"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 10,
+      "order": 7,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=ABC;a=15"
+    },
+    {
+      "coefficient_vectors": 104,
+      "complete": true,
+      "forward_checked": 104,
+      "local_equations": 8,
+      "order": 8,
+      "rejection_stage": "forward_between_cribs",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=ABC;a=15"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 22,
+      "order": 1,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=ABC;a=17"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 20,
+      "order": 2,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=ABC;a=17"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 18,
+      "order": 3,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=ABC;a=17"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 16,
+      "order": 4,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=ABC;a=17"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 14,
+      "order": 5,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=ABC;a=17"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 12,
+      "order": 6,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=ABC;a=17"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 10,
+      "order": 7,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=ABC;a=17"
+    },
+    {
+      "coefficient_vectors": 104,
+      "complete": true,
+      "forward_checked": 104,
+      "local_equations": 8,
+      "order": 8,
+      "rejection_stage": "forward_between_cribs",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=ABC;a=17"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 22,
+      "order": 1,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=ABC;a=19"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 20,
+      "order": 2,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=ABC;a=19"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 18,
+      "order": 3,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=ABC;a=19"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 16,
+      "order": 4,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=ABC;a=19"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 14,
+      "order": 5,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=ABC;a=19"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 12,
+      "order": 6,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=ABC;a=19"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 10,
+      "order": 7,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=ABC;a=19"
+    },
+    {
+      "coefficient_vectors": 104,
+      "complete": true,
+      "forward_checked": 104,
+      "local_equations": 8,
+      "order": 8,
+      "rejection_stage": "forward_between_cribs",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=ABC;a=19"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 22,
+      "order": 1,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=ABC;a=21"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 20,
+      "order": 2,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=ABC;a=21"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 18,
+      "order": 3,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=ABC;a=21"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 16,
+      "order": 4,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=ABC;a=21"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 14,
+      "order": 5,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=ABC;a=21"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 12,
+      "order": 6,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=ABC;a=21"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 10,
+      "order": 7,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=ABC;a=21"
+    },
+    {
+      "coefficient_vectors": 104,
+      "complete": true,
+      "forward_checked": 104,
+      "local_equations": 8,
+      "order": 8,
+      "rejection_stage": "forward_between_cribs",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=ABC;a=21"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 22,
+      "order": 1,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=ABC;a=23"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 20,
+      "order": 2,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=ABC;a=23"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 18,
+      "order": 3,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=ABC;a=23"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 16,
+      "order": 4,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=ABC;a=23"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 14,
+      "order": 5,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=ABC;a=23"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 12,
+      "order": 6,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=ABC;a=23"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 10,
+      "order": 7,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=ABC;a=23"
+    },
+    {
+      "coefficient_vectors": 104,
+      "complete": true,
+      "forward_checked": 104,
+      "local_equations": 8,
+      "order": 8,
+      "rejection_stage": "forward_between_cribs",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=ABC;a=23"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 22,
+      "order": 1,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=ABC;a=25"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 20,
+      "order": 2,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=ABC;a=25"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 18,
+      "order": 3,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=ABC;a=25"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 16,
+      "order": 4,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=ABC;a=25"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 14,
+      "order": 5,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=ABC;a=25"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 12,
+      "order": 6,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=ABC;a=25"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 10,
+      "order": 7,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=ABC;a=25"
+    },
+    {
+      "coefficient_vectors": 104,
+      "complete": true,
+      "forward_checked": 104,
+      "local_equations": 8,
+      "order": 8,
+      "rejection_stage": "forward_between_cribs",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=ABC;a=25"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 22,
+      "order": 1,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=KRYPTOS;a=1"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 20,
+      "order": 2,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=KRYPTOS;a=1"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 18,
+      "order": 3,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=KRYPTOS;a=1"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 16,
+      "order": 4,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=KRYPTOS;a=1"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 14,
+      "order": 5,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=KRYPTOS;a=1"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 12,
+      "order": 6,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=KRYPTOS;a=1"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 10,
+      "order": 7,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=KRYPTOS;a=1"
+    },
+    {
+      "coefficient_vectors": 26,
+      "complete": true,
+      "forward_checked": 26,
+      "local_equations": 8,
+      "order": 8,
+      "rejection_stage": "forward_between_cribs",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=KRYPTOS;a=1"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 22,
+      "order": 1,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=KRYPTOS;a=3"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 20,
+      "order": 2,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=KRYPTOS;a=3"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 18,
+      "order": 3,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=KRYPTOS;a=3"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 16,
+      "order": 4,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=KRYPTOS;a=3"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 14,
+      "order": 5,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=KRYPTOS;a=3"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 12,
+      "order": 6,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=KRYPTOS;a=3"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 10,
+      "order": 7,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=KRYPTOS;a=3"
+    },
+    {
+      "coefficient_vectors": 26,
+      "complete": true,
+      "forward_checked": 26,
+      "local_equations": 8,
+      "order": 8,
+      "rejection_stage": "forward_between_cribs",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=KRYPTOS;a=3"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 22,
+      "order": 1,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=KRYPTOS;a=5"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 20,
+      "order": 2,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=KRYPTOS;a=5"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 18,
+      "order": 3,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=KRYPTOS;a=5"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 16,
+      "order": 4,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=KRYPTOS;a=5"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 14,
+      "order": 5,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=KRYPTOS;a=5"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 12,
+      "order": 6,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=KRYPTOS;a=5"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 10,
+      "order": 7,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=KRYPTOS;a=5"
+    },
+    {
+      "coefficient_vectors": 26,
+      "complete": true,
+      "forward_checked": 26,
+      "local_equations": 8,
+      "order": 8,
+      "rejection_stage": "forward_between_cribs",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=KRYPTOS;a=5"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 22,
+      "order": 1,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=KRYPTOS;a=7"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 20,
+      "order": 2,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=KRYPTOS;a=7"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 18,
+      "order": 3,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=KRYPTOS;a=7"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 16,
+      "order": 4,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=KRYPTOS;a=7"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 14,
+      "order": 5,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=KRYPTOS;a=7"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 12,
+      "order": 6,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=KRYPTOS;a=7"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 10,
+      "order": 7,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=KRYPTOS;a=7"
+    },
+    {
+      "coefficient_vectors": 26,
+      "complete": true,
+      "forward_checked": 26,
+      "local_equations": 8,
+      "order": 8,
+      "rejection_stage": "forward_between_cribs",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=KRYPTOS;a=7"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 22,
+      "order": 1,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=KRYPTOS;a=9"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 20,
+      "order": 2,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=KRYPTOS;a=9"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 18,
+      "order": 3,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=KRYPTOS;a=9"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 16,
+      "order": 4,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=KRYPTOS;a=9"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 14,
+      "order": 5,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=KRYPTOS;a=9"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 12,
+      "order": 6,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=KRYPTOS;a=9"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 10,
+      "order": 7,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=KRYPTOS;a=9"
+    },
+    {
+      "coefficient_vectors": 26,
+      "complete": true,
+      "forward_checked": 26,
+      "local_equations": 8,
+      "order": 8,
+      "rejection_stage": "forward_between_cribs",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=KRYPTOS;a=9"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 22,
+      "order": 1,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=KRYPTOS;a=11"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 20,
+      "order": 2,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=KRYPTOS;a=11"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 18,
+      "order": 3,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=KRYPTOS;a=11"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 16,
+      "order": 4,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=KRYPTOS;a=11"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 14,
+      "order": 5,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=KRYPTOS;a=11"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 12,
+      "order": 6,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=KRYPTOS;a=11"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 10,
+      "order": 7,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=KRYPTOS;a=11"
+    },
+    {
+      "coefficient_vectors": 26,
+      "complete": true,
+      "forward_checked": 26,
+      "local_equations": 8,
+      "order": 8,
+      "rejection_stage": "forward_between_cribs",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=KRYPTOS;a=11"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 22,
+      "order": 1,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=KRYPTOS;a=15"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 20,
+      "order": 2,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=KRYPTOS;a=15"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 18,
+      "order": 3,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=KRYPTOS;a=15"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 16,
+      "order": 4,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=KRYPTOS;a=15"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 14,
+      "order": 5,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=KRYPTOS;a=15"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 12,
+      "order": 6,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=KRYPTOS;a=15"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 10,
+      "order": 7,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=KRYPTOS;a=15"
+    },
+    {
+      "coefficient_vectors": 26,
+      "complete": true,
+      "forward_checked": 26,
+      "local_equations": 8,
+      "order": 8,
+      "rejection_stage": "forward_between_cribs",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=KRYPTOS;a=15"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 22,
+      "order": 1,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=KRYPTOS;a=17"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 20,
+      "order": 2,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=KRYPTOS;a=17"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 18,
+      "order": 3,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=KRYPTOS;a=17"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 16,
+      "order": 4,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=KRYPTOS;a=17"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 14,
+      "order": 5,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=KRYPTOS;a=17"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 12,
+      "order": 6,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=KRYPTOS;a=17"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 10,
+      "order": 7,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=KRYPTOS;a=17"
+    },
+    {
+      "coefficient_vectors": 26,
+      "complete": true,
+      "forward_checked": 26,
+      "local_equations": 8,
+      "order": 8,
+      "rejection_stage": "forward_between_cribs",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=KRYPTOS;a=17"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 22,
+      "order": 1,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=KRYPTOS;a=19"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 20,
+      "order": 2,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=KRYPTOS;a=19"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 18,
+      "order": 3,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=KRYPTOS;a=19"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 16,
+      "order": 4,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=KRYPTOS;a=19"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 14,
+      "order": 5,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=KRYPTOS;a=19"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 12,
+      "order": 6,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=KRYPTOS;a=19"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 10,
+      "order": 7,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=KRYPTOS;a=19"
+    },
+    {
+      "coefficient_vectors": 26,
+      "complete": true,
+      "forward_checked": 26,
+      "local_equations": 8,
+      "order": 8,
+      "rejection_stage": "forward_between_cribs",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=KRYPTOS;a=19"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 22,
+      "order": 1,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=KRYPTOS;a=21"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 20,
+      "order": 2,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=KRYPTOS;a=21"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 18,
+      "order": 3,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=KRYPTOS;a=21"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 16,
+      "order": 4,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=KRYPTOS;a=21"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 14,
+      "order": 5,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=KRYPTOS;a=21"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 12,
+      "order": 6,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=KRYPTOS;a=21"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 10,
+      "order": 7,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=KRYPTOS;a=21"
+    },
+    {
+      "coefficient_vectors": 26,
+      "complete": true,
+      "forward_checked": 26,
+      "local_equations": 8,
+      "order": 8,
+      "rejection_stage": "forward_between_cribs",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=KRYPTOS;a=21"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 22,
+      "order": 1,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=KRYPTOS;a=23"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 20,
+      "order": 2,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=KRYPTOS;a=23"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 18,
+      "order": 3,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=KRYPTOS;a=23"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 16,
+      "order": 4,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=KRYPTOS;a=23"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 14,
+      "order": 5,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=KRYPTOS;a=23"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 12,
+      "order": 6,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=KRYPTOS;a=23"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 10,
+      "order": 7,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=KRYPTOS;a=23"
+    },
+    {
+      "coefficient_vectors": 26,
+      "complete": true,
+      "forward_checked": 26,
+      "local_equations": 8,
+      "order": 8,
+      "rejection_stage": "forward_between_cribs",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=KRYPTOS;a=23"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 22,
+      "order": 1,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=KRYPTOS;a=25"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 20,
+      "order": 2,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=KRYPTOS;a=25"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 18,
+      "order": 3,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=KRYPTOS;a=25"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 16,
+      "order": 4,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=KRYPTOS;a=25"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 14,
+      "order": 5,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=KRYPTOS;a=25"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 12,
+      "order": 6,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=KRYPTOS;a=25"
+    },
+    {
+      "coefficient_vectors": 0,
+      "complete": true,
+      "forward_checked": 0,
+      "local_equations": 10,
+      "order": 7,
+      "rejection_stage": "local_equations",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=KRYPTOS;a=25"
+    },
+    {
+      "coefficient_vectors": 26,
+      "complete": true,
+      "forward_checked": 26,
+      "local_equations": 8,
+      "order": 8,
+      "rejection_stage": "forward_between_cribs",
+      "survivors": [],
+      "system": "P=KRYPTOS;C=KRYPTOS;a=25"
+    }
+  ],
+  "scope": "All affine homogeneous-in-time recurrences of orders 1..8 modulo 26, with arbitrary initial states and constant term; 48 alphabet/multiplier systems. Local crib equations solved over GF(2) and GF(13), CRT combined and propagated from the first crib block to the second. Cap=100000 coefficient vectors per system/order; capped cases stay open.",
+  "surviving_coefficient_vectors": 0,
+  "systems_and_orders": 384,
+  "unresolved_capped": 0
+}

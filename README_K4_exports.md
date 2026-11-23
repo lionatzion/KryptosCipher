@@ -1,3 +1,5 @@
+> Historical material. Current conclusions and commands are in the [November 2026 research dossier](docs/RESEARCH_DOSSIER.md). Claims below may be superseded.
+
 # Kryptos K4 — Exported Artifacts
 
 This folder contains two files you can save into your project:

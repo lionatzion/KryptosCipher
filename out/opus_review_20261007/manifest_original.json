@@ -1,0 +1,165 @@
+{
+  "base_commit": "183f1bfbcf4038b08290d63c288847c59dc201da",
+  "branch": "research/opus-k4-review",
+  "files": {
+    "docs/OPUS_K4_EXPERIMENT_PREREG.md": {
+      "bytes": 4362,
+      "sha256": "8c832755089c36bca6c763ce80b8626a99e8052e7ee2457a4de4e84187f3e6a1"
+    },
+    "docs/OPUS_K4_REVIEW.md": {
+      "bytes": 31021,
+      "sha256": "aee7cdcf2a83fd228ade9c633488807d420c2dbd661d61221e67c8bff1d6bccd"
+    },
+    "out/opus_review_20261007/audit/english_running_key.json": {
+      "bytes": 12225,
+      "sha256": "bf048fca511810afb05f0a2284cb5dceb9f20d6bbcc14a70cb610109e1c6d0b3"
+    },
+    "out/opus_review_20261007/audit/feedback.json": {
+      "bytes": 1030,
+      "sha256": "91b64e31e69e57cd8a9567127170b7ab41c373e1bfc2e72c41fb60bd3e805454"
+    },
+    "out/opus_review_20261007/audit/gromark_bean.json": {
+      "bytes": 1101,
+      "sha256": "287d84fc4c410847db4336b71125ee2fee17340f725dc7a6d66a801a37f9a9e1"
+    },
+    "out/opus_review_20261007/audit/ic_period.json": {
+      "bytes": 2149,
+      "sha256": "1f40562ac4d0c28efef7721e46e9750202b36ef5953990722bd2015694f5e789"
+    },
+    "out/opus_review_20261007/audit/identifiability.json": {
+      "bytes": 763,
+      "sha256": "d7426d45694367f451ef7fb322805b83c973a7ed26ff608a404d8f5222773c90"
+    },
+    "out/opus_review_20261007/audit/inputs.json": {
+      "bytes": 902,
+      "sha256": "09f14a600116cef5cb26698cd0f60b2a3752a2d5171971d2d0679bb0e231d903"
+    },
+    "out/opus_review_20261007/audit/legacy_exports.json": {
+      "bytes": 442,
+      "sha256": "e462e0fdb244cf1a8c74e4427c454b44ecc6e1a05ed14d8eac2c4a428fc4751c"
+    },
+    "out/opus_review_20261007/audit/period27.json": {
+      "bytes": 268,
+      "sha256": "a10cfc2c1f68971de7b3eae70d95abd189b4ae17b7a61d77b1a880eacdc7ebe2"
+    },
+    "out/opus_review_20261007/audit/period_ladder.json": {
+      "bytes": 40882,
+      "sha256": "f4ed6863576e822e8b619b0564dd33b025c7f0231874dcbe50c2ed2a5b0fc357"
+    },
+    "out/opus_review_20261007/audit/planted.json": {
+      "bytes": 421,
+      "sha256": "4d318726d762ec5fccccf76989429e85feb3c03551a25752180bd3ecd1a8ef93"
+    },
+    "out/opus_review_20261007/audit/progressive.json": {
+      "bytes": 8193,
+      "sha256": "d3b9da905f746a1b707678747627d93f6528a79cf04bb0fb74e1e170e162e0e7"
+    },
+    "out/opus_review_20261007/audit/recurrence.json": {
+      "bytes": 58746,
+      "sha256": "59abcde14bc891fbe336f40d4450e879b7f038a9d7a0f759474bd93eac3a3304"
+    },
+    "out/opus_review_20261007/audit/run_stdout.jsonl": {
+      "bytes": 1667,
+      "sha256": "5039e090f995ed0a5deefd064ca0d5f7b77b510a42885a888898b24cb8297323"
+    },
+    "out/opus_review_20261007/audit/running_key.json": {
+      "bytes": 1212,
+      "sha256": "d9812b84174b4af85bf899a62e234505c3ced93e02c4b7d84c48b9f50934053f"
+    },
+    "out/opus_review_20261007/audit/transcription_shift.json": {
+      "bytes": 2686,
+      "sha256": "3612b29bab3505432e2d5b378ddad2842b65ab73fdb5acbac1aadf1d74d6e546"
+    },
+    "out/opus_review_20261007/audit/width_bigrams.json": {
+      "bytes": 1639,
+      "sha256": "6002d58d5359654730ce7f3d940b7251203521086fded985bc20b0b536519fd0"
+    },
+    "out/opus_review_20261007/experiment/failed_first_attempt_stderr.txt": {
+      "bytes": 1906,
+      "sha256": "cafa8b6aec6f6e0fcbec634c681b6aabf22365aa79ed63fb399c33bd70506e8a"
+    },
+    "out/opus_review_20261007/experiment/failed_first_attempt_stdout.jsonl": {
+      "bytes": 192,
+      "sha256": "9703c462e265ab1b205d1e344b2d5bd61e5cd57e68845d4d03ab3144d99058d4"
+    },
+    "out/opus_review_20261007/experiment/keyword_tableau.json": {
+      "bytes": 48639,
+      "sha256": "0b89c61087485f88ccc52f34614bc89d00b6ed0af7db50c09487616b65cb7ee0"
+    },
+    "out/opus_review_20261007/experiment/prereg_hash_before_k4_run.txt": {
+      "bytes": 121,
+      "sha256": "1f097256646f50d7a29c81337bc1b66e03db7d55adc0b10ff8f1b2ff3e20be75"
+    },
+    "out/opus_review_20261007/experiment/run_stderr.txt": {
+      "bytes": 777,
+      "sha256": "96d24585f349eaf89d6dc5b43a27cf80282668a4335bb09a674b2e2a0c6a6e66"
+    },
+    "out/opus_review_20261007/experiment/run_stdout.jsonl": {
+      "bytes": 382,
+      "sha256": "9a25f02de8a07aae816b4986527f852d21442f5bf7a091b38716c17d757148be"
+    },
+    "out/opus_review_20261007/reproduction/astra_tests.txt": {
+      "bytes": 1943,
+      "sha256": "a1182e720184f7f1419cb0aeaf242db414a00909dacf816bcc223b73af569a32"
+    },
+    "out/opus_review_20261007/reproduction/audit.json": {
+      "bytes": 106865,
+      "sha256": "157c833e0ab1c5c8003e268aec5472f4b1571a7c7badae4637dbffc67ddffe01"
+    },
+    "out/opus_review_20261007/reproduction/complete.json": {
+      "bytes": 48381,
+      "sha256": "24d4654eec62f346c3260b362195521e5d76d67a6fc60ddf317f8db13061ba24"
+    },
+    "out/opus_review_20261007/reproduction/feedback.json": {
+      "bytes": 204247,
+      "sha256": "b98c9a29fc7aa55b1f88a798e972a3a16d6912e1969e27cfa99e473f5f2b178c"
+    },
+    "out/opus_review_20261007/reproduction/progressive.json": {
+      "bytes": 32795,
+      "sha256": "3292707efb537dc6e25ba620be334e2a56a13f1e74b4ccbc11f87d04847de98e"
+    },
+    "out/opus_review_20261007/reproduction/recurrence.json": {
+      "bytes": 96612,
+      "sha256": "0ea335e3c8cf372a0144b17b74249660087073f1002c1f652c1a980256a6d630"
+    },
+    "out/opus_review_20261007/reproduction/run_astra_stdout.jsonl": {
+      "bytes": 1009,
+      "sha256": "a7dc77286982c9cb64240cc6d4c181f75765dc22d146133c141f32b3e1b87757"
+    },
+    "out/opus_review_20261007/reproduction/running.json": {
+      "bytes": 3368,
+      "sha256": "0cd33f7ed8331323d6fb69e5499b3eaaddb6a399f55e4d10d44aaeb549c3b3d1"
+    },
+    "out/opus_review_20261007/tests_all.txt": {
+      "bytes": 3313,
+      "sha256": "727e54614d6e566e632589947c80f499e48dc7b397ba0358c288b5be638d7f07"
+    },
+    "research/opus_review/__init__.py": {
+      "bytes": 73,
+      "sha256": "98ac85825b19daf32c5d1f47a6d4f41edd920e2513ba45b910356ea3c464049b"
+    },
+    "research/opus_review/audit.py": {
+      "bytes": 36116,
+      "sha256": "2721a9485fcbc561843d6082cbc1fde6fbf73f6530df2368ddf23d6b7bddf003"
+    },
+    "research/opus_review/core.py": {
+      "bytes": 13570,
+      "sha256": "fa0471f8fe8871a71ac225eed2940d63779487f4bec6a82e4ba3b0c9b0f6bcc2"
+    },
+    "research/opus_review/keyword_tableau.py": {
+      "bytes": 22388,
+      "sha256": "d3ea3facea47fce01a595486a44609af6a25409bda6838863dc030fc72190e4f"
+    },
+    "research/opus_review/run.py": {
+      "bytes": 3499,
+      "sha256": "206ace8b01434d3cb8bb67e90f55be1618ef1fb80496aad974f1b325a93ab003"
+    },
+    "tests/test_opus_review.py": {
+      "bytes": 5522,
+      "sha256": "7d2539586689526a947a153c26f2801500a6d61ee68cdd6cdec665ab2186d892"
+    }
+  },
+  "numpy": "2.1.3",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "python": "3.13.5"
+}

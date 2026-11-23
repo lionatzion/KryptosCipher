@@ -1,0 +1,54 @@
+{
+  "astra_streams_recomputed": {
+    "best_partial": 8,
+    "full_24_hits": [],
+    "partial_histogram": {
+      "2": 49876,
+      "3": 272502,
+      "4": 115006,
+      "5": 20295,
+      "6": 2814,
+      "7": 278,
+      "8": 29
+    },
+    "streams": {
+      "K1K2K3_cipher": 768,
+      "K1K2_plain_as_inscribed": 432,
+      "K1_cipher": 63,
+      "K1_plain": 63,
+      "K2_cipher": 369,
+      "K2_plain_as_inscribed": 369,
+      "K3_cipher": 336
+    },
+    "tested_tuples": 11980800
+  },
+  "gap_fill_streams": {
+    "best_partial": 8,
+    "full_24_hits": [],
+    "partial_histogram": {
+      "2": 54330,
+      "3": 296865,
+      "4": 125330,
+      "5": 21960,
+      "6": 3075,
+      "7": 299,
+      "8": 29
+    },
+    "streams": {
+      "K1K2K3_cipher_corrected": 769,
+      "K1K2K3_plain_corrected": 769,
+      "K2_cipher_corrected": 370,
+      "K2_plain_corrected": 370,
+      "K3_plain": 336
+    },
+    "tested_tuples": 13049088
+  },
+  "matches_astra": true,
+  "provenance": {
+    "K2_correction_alternatives": 1,
+    "K2_correction_insert_0b": 361,
+    "K2_correction_letter": "S",
+    "K3_plain_head": "SLOWLYDESPARATLYSLOWLYTHEREMAINSOFPASSAG",
+    "K3_plain_tail": "FROMTHEMISTXCANYOUSEEANYTHINGQ"
+  }
+}

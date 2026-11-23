@@ -1,3 +1,5 @@
+> Historical material. Current conclusions and commands are in the [November 2026 research dossier](docs/RESEARCH_DOSSIER.md). Claims below may be superseded.
+
 # RUN_GUIDE.md — Reproducing the K4 Period‑27 Sweep
 
 ## 1) Prereqs

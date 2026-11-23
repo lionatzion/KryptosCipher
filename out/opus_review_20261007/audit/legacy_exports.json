@@ -1,0 +1,26 @@
+{
+  "k4_top100_candidates_light.csv": {
+    "matching_phases": {
+      "[26]": 100
+    },
+    "rows": 100
+  },
+  "k4_top10_summary.json": {
+    "matching_phases": {
+      "[26]": 10
+    },
+    "rows": 10
+  },
+  "kryptos_k4_top100_period27_quadgram_composite.csv": {
+    "matching_phases": {
+      "[0]": 100
+    },
+    "rows": 100
+  },
+  "kryptos_k4_top50_period27.csv": {
+    "matching_phases": {
+      "[0]": 50
+    },
+    "rows": 50
+  }
+}

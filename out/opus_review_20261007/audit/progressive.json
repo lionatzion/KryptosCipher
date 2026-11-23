@@ -1,0 +1,421 @@
+{
+  "compatible": 1248,
+  "even_delta_systems_all_mixed_alphabets": true,
+  "interpretation": "Survival at m=26 is a parity property of one equation, not a signal.",
+  "matches_astra": true,
+  "parity_rows": [
+    {
+      "delta": 25,
+      "delta_even": false,
+      "drifts": [],
+      "same_alphabets": true,
+      "system": "P=ABC;C=ABC;a=1"
+    },
+    {
+      "delta": 13,
+      "delta_even": false,
+      "drifts": [],
+      "same_alphabets": true,
+      "system": "P=ABC;C=ABC;a=3"
+    },
+    {
+      "delta": 1,
+      "delta_even": false,
+      "drifts": [],
+      "same_alphabets": true,
+      "system": "P=ABC;C=ABC;a=5"
+    },
+    {
+      "delta": 15,
+      "delta_even": false,
+      "drifts": [],
+      "same_alphabets": true,
+      "system": "P=ABC;C=ABC;a=7"
+    },
+    {
+      "delta": 3,
+      "delta_even": false,
+      "drifts": [],
+      "same_alphabets": true,
+      "system": "P=ABC;C=ABC;a=9"
+    },
+    {
+      "delta": 17,
+      "delta_even": false,
+      "drifts": [],
+      "same_alphabets": true,
+      "system": "P=ABC;C=ABC;a=11"
+    },
+    {
+      "delta": 19,
+      "delta_even": false,
+      "drifts": [],
+      "same_alphabets": true,
+      "system": "P=ABC;C=ABC;a=15"
+    },
+    {
+      "delta": 7,
+      "delta_even": false,
+      "drifts": [],
+      "same_alphabets": true,
+      "system": "P=ABC;C=ABC;a=17"
+    },
+    {
+      "delta": 21,
+      "delta_even": false,
+      "drifts": [],
+      "same_alphabets": true,
+      "system": "P=ABC;C=ABC;a=19"
+    },
+    {
+      "delta": 9,
+      "delta_even": false,
+      "drifts": [],
+      "same_alphabets": true,
+      "system": "P=ABC;C=ABC;a=21"
+    },
+    {
+      "delta": 23,
+      "delta_even": false,
+      "drifts": [],
+      "same_alphabets": true,
+      "system": "P=ABC;C=ABC;a=23"
+    },
+    {
+      "delta": 11,
+      "delta_even": false,
+      "drifts": [],
+      "same_alphabets": true,
+      "system": "P=ABC;C=ABC;a=25"
+    },
+    {
+      "delta": 8,
+      "delta_even": true,
+      "drifts": [
+        4,
+        17
+      ],
+      "same_alphabets": false,
+      "system": "P=ABC;C=KRYPTOS;a=1"
+    },
+    {
+      "delta": 22,
+      "delta_even": true,
+      "drifts": [
+        11,
+        24
+      ],
+      "same_alphabets": false,
+      "system": "P=ABC;C=KRYPTOS;a=3"
+    },
+    {
+      "delta": 10,
+      "delta_even": true,
+      "drifts": [
+        5,
+        18
+      ],
+      "same_alphabets": false,
+      "system": "P=ABC;C=KRYPTOS;a=5"
+    },
+    {
+      "delta": 24,
+      "delta_even": true,
+      "drifts": [
+        12,
+        25
+      ],
+      "same_alphabets": false,
+      "system": "P=ABC;C=KRYPTOS;a=7"
+    },
+    {
+      "delta": 12,
+      "delta_even": true,
+      "drifts": [
+        6,
+        19
+      ],
+      "same_alphabets": false,
+      "system": "P=ABC;C=KRYPTOS;a=9"
+    },
+    {
+      "delta": 0,
+      "delta_even": true,
+      "drifts": [
+        0,
+        13
+      ],
+      "same_alphabets": false,
+      "system": "P=ABC;C=KRYPTOS;a=11"
+    },
+    {
+      "delta": 2,
+      "delta_even": true,
+      "drifts": [
+        1,
+        14
+      ],
+      "same_alphabets": false,
+      "system": "P=ABC;C=KRYPTOS;a=15"
+    },
+    {
+      "delta": 16,
+      "delta_even": true,
+      "drifts": [
+        8,
+        21
+      ],
+      "same_alphabets": false,
+      "system": "P=ABC;C=KRYPTOS;a=17"
+    },
+    {
+      "delta": 4,
+      "delta_even": true,
+      "drifts": [
+        2,
+        15
+      ],
+      "same_alphabets": false,
+      "system": "P=ABC;C=KRYPTOS;a=19"
+    },
+    {
+      "delta": 18,
+      "delta_even": true,
+      "drifts": [
+        9,
+        22
+      ],
+      "same_alphabets": false,
+      "system": "P=ABC;C=KRYPTOS;a=21"
+    },
+    {
+      "delta": 6,
+      "delta_even": true,
+      "drifts": [
+        3,
+        16
+      ],
+      "same_alphabets": false,
+      "system": "P=ABC;C=KRYPTOS;a=23"
+    },
+    {
+      "delta": 20,
+      "delta_even": true,
+      "drifts": [
+        10,
+        23
+      ],
+      "same_alphabets": false,
+      "system": "P=ABC;C=KRYPTOS;a=25"
+    },
+    {
+      "delta": 16,
+      "delta_even": true,
+      "drifts": [
+        8,
+        21
+      ],
+      "same_alphabets": false,
+      "system": "P=KRYPTOS;C=ABC;a=1"
+    },
+    {
+      "delta": 12,
+      "delta_even": true,
+      "drifts": [
+        6,
+        19
+      ],
+      "same_alphabets": false,
+      "system": "P=KRYPTOS;C=ABC;a=3"
+    },
+    {
+      "delta": 8,
+      "delta_even": true,
+      "drifts": [
+        4,
+        17
+      ],
+      "same_alphabets": false,
+      "system": "P=KRYPTOS;C=ABC;a=5"
+    },
+    {
+      "delta": 4,
+      "delta_even": true,
+      "drifts": [
+        2,
+        15
+      ],
+      "same_alphabets": false,
+      "system": "P=KRYPTOS;C=ABC;a=7"
+    },
+    {
+      "delta": 0,
+      "delta_even": true,
+      "drifts": [
+        0,
+        13
+      ],
+      "same_alphabets": false,
+      "system": "P=KRYPTOS;C=ABC;a=9"
+    },
+    {
+      "delta": 22,
+      "delta_even": true,
+      "drifts": [
+        11,
+        24
+      ],
+      "same_alphabets": false,
+      "system": "P=KRYPTOS;C=ABC;a=11"
+    },
+    {
+      "delta": 14,
+      "delta_even": true,
+      "drifts": [
+        7,
+        20
+      ],
+      "same_alphabets": false,
+      "system": "P=KRYPTOS;C=ABC;a=15"
+    },
+    {
+      "delta": 10,
+      "delta_even": true,
+      "drifts": [
+        5,
+        18
+      ],
+      "same_alphabets": false,
+      "system": "P=KRYPTOS;C=ABC;a=17"
+    },
+    {
+      "delta": 6,
+      "delta_even": true,
+      "drifts": [
+        3,
+        16
+      ],
+      "same_alphabets": false,
+      "system": "P=KRYPTOS;C=ABC;a=19"
+    },
+    {
+      "delta": 2,
+      "delta_even": true,
+      "drifts": [
+        1,
+        14
+      ],
+      "same_alphabets": false,
+      "system": "P=KRYPTOS;C=ABC;a=21"
+    },
+    {
+      "delta": 24,
+      "delta_even": true,
+      "drifts": [
+        12,
+        25
+      ],
+      "same_alphabets": false,
+      "system": "P=KRYPTOS;C=ABC;a=23"
+    },
+    {
+      "delta": 20,
+      "delta_even": true,
+      "drifts": [
+        10,
+        23
+      ],
+      "same_alphabets": false,
+      "system": "P=KRYPTOS;C=ABC;a=25"
+    },
+    {
+      "delta": 25,
+      "delta_even": false,
+      "drifts": [],
+      "same_alphabets": true,
+      "system": "P=KRYPTOS;C=KRYPTOS;a=1"
+    },
+    {
+      "delta": 21,
+      "delta_even": false,
+      "drifts": [],
+      "same_alphabets": true,
+      "system": "P=KRYPTOS;C=KRYPTOS;a=3"
+    },
+    {
+      "delta": 17,
+      "delta_even": false,
+      "drifts": [],
+      "same_alphabets": true,
+      "system": "P=KRYPTOS;C=KRYPTOS;a=5"
+    },
+    {
+      "delta": 13,
+      "delta_even": false,
+      "drifts": [],
+      "same_alphabets": true,
+      "system": "P=KRYPTOS;C=KRYPTOS;a=7"
+    },
+    {
+      "delta": 9,
+      "delta_even": false,
+      "drifts": [],
+      "same_alphabets": true,
+      "system": "P=KRYPTOS;C=KRYPTOS;a=9"
+    },
+    {
+      "delta": 5,
+      "delta_even": false,
+      "drifts": [],
+      "same_alphabets": true,
+      "system": "P=KRYPTOS;C=KRYPTOS;a=11"
+    },
+    {
+      "delta": 23,
+      "delta_even": false,
+      "drifts": [],
+      "same_alphabets": true,
+      "system": "P=KRYPTOS;C=KRYPTOS;a=15"
+    },
+    {
+      "delta": 19,
+      "delta_even": false,
+      "drifts": [],
+      "same_alphabets": true,
+      "system": "P=KRYPTOS;C=KRYPTOS;a=17"
+    },
+    {
+      "delta": 15,
+      "delta_even": false,
+      "drifts": [],
+      "same_alphabets": true,
+      "system": "P=KRYPTOS;C=KRYPTOS;a=19"
+    },
+    {
+      "delta": 11,
+      "delta_even": false,
+      "drifts": [],
+      "same_alphabets": true,
+      "system": "P=KRYPTOS;C=KRYPTOS;a=21"
+    },
+    {
+      "delta": 7,
+      "delta_even": false,
+      "drifts": [],
+      "same_alphabets": true,
+      "system": "P=KRYPTOS;C=KRYPTOS;a=23"
+    },
+    {
+      "delta": 3,
+      "delta_even": false,
+      "drifts": [],
+      "same_alphabets": true,
+      "system": "P=KRYPTOS;C=KRYPTOS;a=25"
+    }
+  ],
+  "period26_observed": 1248,
+  "period26_predicted_tuples": 1248,
+  "period26_rule": "compatible iff K_74 - K_22 is even; then d = delta/2 or delta/2 + 13",
+  "systems_with_even_delta": 24,
+  "tested": 438048
+}

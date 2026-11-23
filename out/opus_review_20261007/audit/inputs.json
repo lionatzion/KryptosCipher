@@ -1,0 +1,30 @@
+{
+  "abc_beaufort_key_letters": [
+    "JLJODEGKUKKKL",
+    "OCGGBGOKTRU"
+  ],
+  "abc_vigenere_key_letters": [
+    "BLZCDCYYGCKAZ",
+    "MUYKLGKORNA"
+  ],
+  "ciphertext": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR",
+  "crib_ciphertext_1b": {
+    "22-34": "FLRVQQPRNGKSS",
+    "64-74": "NYPVTTMZFPK"
+  },
+  "index_of_coincidence": "7/194",
+  "index_of_coincidence_float": 0.03608,
+  "kryptos_vigenere_key_letters_KA": [
+    "RDUMRIYWOYNKY",
+    "ELYOIECBAQK"
+  ],
+  "letters_present": 26,
+  "matches_astra_cipher": true,
+  "matches_astra_cribs": true,
+  "note": "Self-encryption (C=P) at 33 and 74 is a fact about the cribs; under any tableau whose identity row is key 0 it implies key 0 there, nothing more.",
+  "self_encrypting_positions_1b": [
+    33,
+    74
+  ],
+  "sha256": "eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab"
+}

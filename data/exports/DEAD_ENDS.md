@@ -1,3 +1,5 @@
+> Historical material. Current conclusions and commands are in the [November 2026 research dossier](../../docs/RESEARCH_DOSSIER.md). Claims below may be superseded.
+
 # Kryptos K4 — Eliminated or De-prioritized Methods
 
 This file documents approaches that have been tested and ruled out, so future contributors do not repeat work.

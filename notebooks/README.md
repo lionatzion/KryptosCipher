@@ -1,3 +1,5 @@
+> Historical material. Current conclusions and commands are in the [November 2026 research dossier](../docs/RESEARCH_DOSSIER.md). Claims below may be superseded.
+
 # KryptosCipher — K4 period‑27 baseline workspace
 
 This repository tracks a **constraint‑driven** search for a period‑27 Vigenère‑style keystream on Kryptos K4, with reproducible scripts, notebooks, and exports.

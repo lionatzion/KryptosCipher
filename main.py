@@ -1,2 +1,5 @@
-# Orchestrator placeholder
-print('Run scripts/kryptos_k4_p27_sweep.py')
+"""Current workbench entry point; install with python -m pip install -e ."""
+from kryptos.cli import main
+
+if __name__ == "__main__":
+    main()

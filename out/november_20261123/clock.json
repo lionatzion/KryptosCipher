@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "id": "k4-clock",
+  "recorded_at": "2026-11-23T21:29:32.242225+00:00",
+  "command": "python -m kryptos clock --routes grids --output out/november_20261123/clock.json",
+  "code_sha256": "2deb9e489ec146c4756736ef2a9e6e116cda86bf6958366d1c4991f302183a0f",
+  "ciphertext_sha256": "eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab",
+  "parameters": {
+    "command": "clock",
+    "periods": [
+      24
+    ],
+    "alphabet": "both",
+    "mode": "all",
+    "order": "both",
+    "routes": "grids",
+    "max_column_width": 3,
+    "quadgrams": null,
+    "max_per_model": 100000,
+    "max_total": 500000,
+    "top": 10,
+    "controls": 0,
+    "seed": 20261123,
+    "evaluation_holdout": false
+  },
+  "result": {
+    "models": 846,
+    "distinct_schedules": 288,
+    "configurations": 243648,
+    "hits": [],
+    "scope": "Three numeric facet hypotheses, all phases/directions/signs; no city names or historical clock reconstruction"
+  },
+  "is_solution": false
+}

@@ -1,3 +1,5 @@
+Historical exports. See docs/RESEARCH_DOSSIER.md and docs/RETIRED_CLAIMS.md before use.
+
 Kryptos K4 — Period-27 sweep exports
 ====================================
 

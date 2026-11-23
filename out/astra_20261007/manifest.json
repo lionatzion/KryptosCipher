@@ -1,0 +1,101 @@
+{
+  "all_python_sources_parse": true,
+  "base_commit": "16a05937f4661ed30619dc8fbbd03e29991c1955",
+  "date_utc": "2026-10-07",
+  "files": {
+    "K4_ciphertext.txt": {
+      "bytes": 97,
+      "sha256": "eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab"
+    },
+    "README.md": {
+      "bytes": 3570,
+      "sha256": "f2b3337f7798707af6b01ac06b57b3a3e7b496a59a49157933b84e82a1a15b0d"
+    },
+    "docs/ASTRA_K4_REPORT_2026-10-07.md": {
+      "bytes": 14758,
+      "sha256": "7852b10833d2220bf881b9b8b8c90dc1935e6913ebd3ec023ec0b3aaaac28ff8"
+    },
+    "docs/NEXT_STEPS.md": {
+      "bytes": 6055,
+      "sha256": "fa721302d4b4aba184289f60b56f6b8d5c41f2523448f1c602e9e2a5e9fa6677"
+    },
+    "kryptos_k4_p27_sweep.py": {
+      "bytes": 12368,
+      "sha256": "31f72f477857bd82218371ebb5af8dc4ee9916e956f937a651bca60ab818d653"
+    },
+    "kryptos_k4_p27_sweep_phased.py": {
+      "bytes": 12809,
+      "sha256": "ca78ae348cb5a958004c4bc47693ebaadd156a7d07eb8627a706bef4e2fa56cd"
+    },
+    "out/astra_20261007/audit.json": {
+      "bytes": 106865,
+      "sha256": "157c833e0ab1c5c8003e268aec5472f4b1571a7c7badae4637dbffc67ddffe01"
+    },
+    "out/astra_20261007/baseline/README_K4_exports.txt": {
+      "bytes": 298,
+      "sha256": "77b3a079f2347732dc8a29eedd8731cac4b01d63f57e524169bbc220fe182fcf"
+    },
+    "out/astra_20261007/baseline/k4_top100_candidates_light.csv": {
+      "bytes": 639,
+      "sha256": "899be32b8a10d8436e3cc7a13875f625c4ea0822386956bdabadfb466e6183cf"
+    },
+    "out/astra_20261007/baseline/k4_top10_summary.json": {
+      "bytes": 2560,
+      "sha256": "f6db8f349120530cf96144a56f0a035ed9e789fd1d9566c23e00a55ede79e29c"
+    },
+    "out/astra_20261007/complete.json": {
+      "bytes": 48381,
+      "sha256": "24d4654eec62f346c3260b362195521e5d76d67a6fc60ddf317f8db13061ba24"
+    },
+    "out/astra_20261007/feedback.json": {
+      "bytes": 204247,
+      "sha256": "b98c9a29fc7aa55b1f88a798e972a3a16d6912e1969e27cfa99e473f5f2b178c"
+    },
+    "out/astra_20261007/phase_smoke/README_K4_exports.txt": {
+      "bytes": 307,
+      "sha256": "87e35f4c513f6cedcb95c7cc70b1baf59f18b038208f3c6310da3c89fafa91f1"
+    },
+    "out/astra_20261007/phase_smoke/k4_top100_candidates_light.csv": {
+      "bytes": 376,
+      "sha256": "fb17304c2f01254859647f9b26efb1cdb73eef59b434f44b8dc8e873b784c46f"
+    },
+    "out/astra_20261007/phase_smoke/k4_top10_summary.json": {
+      "bytes": 2321,
+      "sha256": "7e8cfbd8ae27165be48d79ce33abc2588a9d3678dcf2b7db5549a273636b001f"
+    },
+    "out/astra_20261007/progressive.json": {
+      "bytes": 32795,
+      "sha256": "3292707efb537dc6e25ba620be334e2a56a13f1e74b4ccbc11f87d04847de98e"
+    },
+    "out/astra_20261007/recurrence.json": {
+      "bytes": 96612,
+      "sha256": "0ea335e3c8cf372a0144b17b74249660087073f1002c1f652c1a980256a6d630"
+    },
+    "out/astra_20261007/running.json": {
+      "bytes": 3368,
+      "sha256": "0cd33f7ed8331323d6fb69e5499b3eaaddb6a399f55e4d10d44aaeb549c3b3d1"
+    },
+    "out/astra_20261007/tests.txt": {
+      "bytes": 1943,
+      "sha256": "ba5d8d83fee204b6e7321b6806449ff6366fdafabb0d088f0f3be367f5048470"
+    },
+    "research/__init__.py": {
+      "bytes": 49,
+      "sha256": "73448b6b1685482130b67d7bdd9dfb348181dd4376937cea7dd9a0755ba1b475"
+    },
+    "research/k4_core.py": {
+      "bytes": 7752,
+      "sha256": "69c1943ea22db03a4bba8e34bef9406e7eceed9d617ebd74459dfb8a5d3c0dcf"
+    },
+    "research/run_astra.py": {
+      "bytes": 18442,
+      "sha256": "83c002fb952d79ee09ec457c09e57c12667a81a60eade7ba8355c74903372151"
+    },
+    "tests/test_astra_research.py": {
+      "bytes": 7656,
+      "sha256": "cb57a318c6e6c8a7684d4be52714a47f96c9e4825829941f558dab47accace91"
+    }
+  },
+  "model": "gpt-6-astra",
+  "tests_passed": 13
+}

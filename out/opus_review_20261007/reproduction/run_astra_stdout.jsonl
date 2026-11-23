@@ -1,0 +1,6 @@
+{"experiment": "audit", "seconds": 0.091, "output": "out/opus_review_20261007/reproduction/audit.json", "summary": {}}
+{"experiment": "progressive", "seconds": 1.356, "output": "out/opus_review_20261007/reproduction/progressive.json", "summary": {"tested": 438048, "compatible": 1248}}
+{"experiment": "recurrence", "seconds": 0.046, "output": "out/opus_review_20261007/reproduction/recurrence.json", "summary": {"systems_and_orders": 384, "coefficient_vectors_checked": 1872, "unresolved_capped": 0, "surviving_coefficient_vectors": 0}}
+{"experiment": "feedback", "seconds": 1.041, "output": "out/opus_review_20261007/reproduction/feedback.json", "summary": {"tested": 19968, "compatible": 1298}}
+{"experiment": "running", "seconds": 3.238, "output": "out/opus_review_20261007/reproduction/running.json", "summary": {"tested_parameter_tuples": 11980800}}
+{"experiment": "complete", "seconds": 13.545, "output": "out/opus_review_20261007/reproduction/complete.json", "summary": {"tested_completions": 843648}}

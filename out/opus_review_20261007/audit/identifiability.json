@@ -1,0 +1,23 @@
+{
+  "any_alphabets_per_key_value": {
+    "bits": 1.25,
+    "fraction": 0.41996
+  },
+  "fixed_known_tableau": {
+    "bits": 112.8,
+    "fraction": "26^-24"
+  },
+  "gromark_base10_primer5_reproduced_count": "39/99999",
+  "gromark_bits": 11.32,
+  "interpretation": "With the tableau known, the cribs carry about 113 bits about the key schedule; with keyed alphabets unknown, about 11; with an arbitrary Latin square, about 6. Any schedule family larger than these budgets will have crib-compatible members by chance.",
+  "keyed_vigenere_unknown_alphabets": {
+    "bits": 11.15,
+    "conditional_on_cycle_conditions": 0.29797,
+    "fraction": 0.0004407840236686391
+  },
+  "latin_square_tableau": {
+    "bits": 5.87,
+    "fraction": 0.01708
+  },
+  "samples": 200000
+}

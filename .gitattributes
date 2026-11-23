@@ -1,0 +1,2 @@
+# Preserve byte-identical historical note uploads, including original spacing.
+docs/archive/*.txt -whitespace

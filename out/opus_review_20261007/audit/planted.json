@@ -1,0 +1,17 @@
+{
+  "interpretation": "Zero rejections means no counterexample to soundness was found for these families; it does not test the families' relevance.",
+  "planted_rejections": {
+    "feedback": 0,
+    "progressive": 0,
+    "recurrence": 0,
+    "running": 0
+  },
+  "runs": {
+    "feedback": 300,
+    "progressive": 300,
+    "recurrence": 300,
+    "recurrence_capped_left_open": 0,
+    "running": 4
+  },
+  "seed": 20261007
+}
